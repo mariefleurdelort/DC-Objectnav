@@ -1,0 +1,13 @@
+# Ignore embedded git repositories
+gsplat/
+habitat-lab/
+.vscode/
+.ckpt
+.pth
+.pt
+
+# Ignore output directories
+output/
+outputs/
+SAM_models/vlfm/traced_model.pt
+vlfm/traced_model.pt
