@@ -93,8 +93,8 @@ class HabitatMixin:
         self._dataset_type = dataset_type
 
     @classmethod
-    def from_config(cls, config: DictConfig, *args_unused: Any, **kwargs_unused: Any) -> "HabitatMixin":
-        policy_config: VLFMPolicyConfig = config.habitat_baselines.rl.policy
+    def from_config(cls, config: DictConfig, observation_space=None, action_space=None, *args_unused: Any, **kwargs_unused: Any) -> "HabitatMixin":
+        policy_config: VLFMPolicyConfig = config.habitat_baselines.rl.policy.main_agent
         kwargs = {k: policy_config[k] for k in VLFMPolicyConfig.kwaarg_names}  # type: ignore
 
         # In habitat, we need the height of the camera to generate the camera transform
@@ -117,7 +117,7 @@ class HabitatMixin:
         else:
             raise ValueError("Dataset type could not be inferred from habitat config")
 
-        return cls(**kwargs)
+        return cls(action_space=action_space, **kwargs)
 
     def act(
         self: Union["HabitatMixin", BaseObjectNavPolicy],
@@ -286,5 +286,5 @@ cs = ConfigStore.instance()
 cs.store(
     group="habitat_baselines/rl/policy",
     name="vlfm_policy",
-    node={"HabitatITMPolicy": VLFMPolicyConfig},
+    node={"main_agent": VLFMPolicyConfig},
 )

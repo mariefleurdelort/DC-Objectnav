@@ -21,6 +21,9 @@ habitat:
     success_reward: 2.5
     slack_reward: -1e-3
   simulator:
+    scene_dataset: data/scene_datasets/hm3d/val/hm3d_annotated_val_basis.scene_dataset_config.json
+    agents_order:
+      - main_agent
     agents:
       main_agent:
         max_climb: 0.2
@@ -28,7 +31,9 @@ habitat:
 habitat_baselines:
   evaluate: True
   num_environments: 1
-  trainer_name: "ver"
+  trainer_name: "vlfm"
   load_resume_state_config: False
+  test_episode_count: 5
   eval:
     should_load_ckpt: False
+    video_option: []

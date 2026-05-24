@@ -79,17 +79,35 @@ CHANGES TO FILES:
     - aabb.center → aabb.center()
     - center[1] → center.y
 
-#downloaded weights for and from:
-  mobile_sam.pt: https://github.com/ChaoningZhang/MobileSAM
-  groundingdino_swint_ogc.pth: https://github.com/IDEA-Research/GroundingDINO
-  yolov7-e6e.pt: https://github.com/WongKinYiu/yolov7
-  pointnav_weights.pth: included inside the data subdirectory
-
-#setting up Matterport
+#setting up Matterport and downloading the right files to the data folder
   MATTERPORT_TOKEN_ID=<FILL IN FROM YOUR ACCOUNT INFO IN MATTERPORT> --> id: 8ab9d07f0668d58e
   MATTERPORT_TOKEN_SECRET=<FILL IN FROM YOUR ACCOUNT INFO IN MATTERPORT> --> secret: 34d3ec82c4ba9e927664a29080844ece
   DATA_DIR=</path/to/vlfm/data>
   HM3D_OBJECTNAV=https://dl.fbaipublicfiles.com/habitat/data/datasets/objectnav/hm3d/v1/objectnav_hm3d_v1.zip
+
+  # Download HM3D 3D scans (scenes_dataset)
+python -m habitat_sim.utils.datasets_download \
+  --username $MATTERPORT_TOKEN_ID --password $MATTERPORT_TOKEN_SECRET \
+  --uids hm3d_train_v0.2 \
+  --data-path $DATA_DIR &&
+python -m habitat_sim.utils.datasets_download \
+  --username $MATTERPORT_TOKEN_ID --password $MATTERPORT_TOKEN_SECRET \
+  --uids hm3d_val_v0.2 \
+  --data-path $DATA_DIR &&
+
+# Download HM3D ObjectNav dataset episodes
+wget $HM3D_OBJECTNAV &&
+unzip objectnav_hm3d_v1.zip &&
+mkdir -p $DATA_DIR/datasets/objectnav/hm3d  &&
+mv objectnav_hm3d_v1 $DATA_DIR/datasets/objectnav/hm3d/v1 &&
+rm objectnav_hm3d_v1.zip
+
+#downloaded weights for and from:
+  wget https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt -O /workspace/vlfm/data/mobile_sam.pt
+  wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth -O /workspace/vlfm/data/groundingdino_swint_ogc.pth
+  wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt -O /workspace/vlfm/yolov7/yolov7-e6e.pt
+  wget https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth -O /workspace/vlfm/data/pointnav_weights.pth
+  wget https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth -O /workspace/vlfm/data/spot_pointnav_weights.pth
 
 #run from conda env DCON, workspace/vlfm
 
@@ -97,14 +115,24 @@ CHANGES TO FILES:
   ./scripts/launch_vlm_servers.sh
 --> got a tmux command that needed to be run. make sure to pass all individual downloads and more.
 
+#had to run this command to install the right hm3d_val_habitat_v0.2
+python -m habitat_sim.utils.datasets_download \
+  --username $MATTERPORT_TOKEN_ID \
+  --password $MATTERPORT_TOKEN_SECRET \
+  --uids hm3d_val_habitat_v0.2 \
+  --data-path /workspace/vlfm/data
+
 #to run HM3D dataset:
   python -m vlfm.run
-  --> OUTCOMES:
-    2026-05-19 22:06:21,332 Average episode success: 0.0000
-    2026-05-19 22:06:21,333 Average episode reward: -0.0122
-    2026-05-19 22:06:21,334 Average episode traveled_stairs: 0.0005
-    2026-05-19 22:06:21,334 Average episode spl: 0.0000
-    2026-05-19 22:06:21,335 Average episode distance_to_goal_reward: 0.0000
-    2026-05-19 22:06:21,335 Average episode distance_to_goal: 7.6120
-    2026-05-19 22:06:21,335 Average episode soft_spl: 0.0093
+  --> OUTCOME for 5 tests:
+    2026-05-22 23:28:19,486 Average episode reward: 3.2786
+    2026-05-22 23:28:19,487 Average episode distance_to_goal: 6.4403
+    2026-05-22 23:28:19,487 Average episode success: 0.4000
+    2026-05-22 23:28:19,487 Average episode spl: 0.1331
+    2026-05-22 23:28:19,487 Average episode soft_spl: 0.1654
+    2026-05-22 23:28:19,487 Average episode distance_to_goal_reward: 0.0000
+    2026-05-22 23:28:19,487 Average episode traveled_stairs: 0.0000
+    2026-05-22 23:28:19,487 Average episode yaw: 36.0000
+    2026-05-22 23:28:19,487 Average episode target_detected: 1.0000
+    2026-05-22 23:28:19,487 Average episode stop_called: 1.0000
 

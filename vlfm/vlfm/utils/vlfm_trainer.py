@@ -46,6 +46,29 @@ def extract_scalars_from_info(info: Dict[str, Any]) -> Dict[str, float]:
 class VLFMTrainer(PPOTrainer):
     envs: VectorEnv
 
+    def _pause_envs(self, envs_to_pause, envs, *args):
+        # Standard Habitat-Baselines pause logic for 0.3.3
+        if len(envs_to_pause) > 0:
+            state_index = list(range(envs.num_envs))
+            for idx in reversed(envs_to_pause):
+                state_index.pop(idx)
+                envs.pause_at(idx)
+
+            # Index into all provided tensors to keep only active envs
+            state_index = torch.tensor(state_index, device=self.device)
+            new_args = []
+            for arg in args:
+                if isinstance(arg, torch.Tensor):
+                    new_args.append(arg[state_index])
+                elif isinstance(arg, dict):
+                    new_args.append({k: v[state_index] if isinstance(v, torch.Tensor) else v for k, v in arg.items()})
+                else:
+                    new_args.append(arg)
+            return (envs, *new_args)
+
+        return (envs, *args)
+
+
     def _eval_checkpoint(
         self,
         checkpoint_path: str,
@@ -99,9 +122,9 @@ class VLFMTrainer(PPOTrainer):
         self._init_envs(config, is_eval=True)
 
         self._agent = self._create_agent(None)
-        action_shape, discrete_actions = get_action_space_info(self._agent.policy_action_space)
+        action_shape, discrete_actions = get_action_space_info(self._agent.actor_critic.policy_action_space)
 
-        if self._agent.actor_critic.should_load_agent_state:
+        if self._agent.actor_critic.should_load_agent_state and self.config.habitat_baselines.eval.should_load_ckpt:
             self._agent.load_state_dict(ckpt_dict)
 
         observations = self.envs.reset()
@@ -113,7 +136,7 @@ class VLFMTrainer(PPOTrainer):
         test_recurrent_hidden_states = torch.zeros(
             (
                 self.config.habitat_baselines.num_environments,
-                *self._agent.hidden_state_shape,
+                *self._agent.actor_critic.hidden_state_shape,
             ),
             device=self.device,
         )
@@ -161,7 +184,10 @@ class VLFMTrainer(PPOTrainer):
         num_successes = 0
         num_total = 0
         hab_vis = HabitatVis()
+        print(f"DEBUG: number_of_eval_episodes={number_of_eval_episodes}, evals_per_ep={evals_per_ep}")
+        print(f"DEBUG: stats_episodes len={len(stats_episodes)}, num_envs={self.envs.num_envs}")
         while len(stats_episodes) < (number_of_eval_episodes * evals_per_ep) and self.envs.num_envs > 0:
+            print(f"DEBUG: loop iteration, stats={len(stats_episodes)}, num_envs={self.envs.num_envs}")
             current_episodes_info = self.envs.current_episodes()
 
             with inference_mode():
@@ -220,6 +246,7 @@ class VLFMTrainer(PPOTrainer):
             )
             batch = apply_obs_transforms_batch(batch, self.obs_transforms)  # type: ignore
 
+            print(f"DEBUG dones={dones}, not_done={[not d for d in dones]}")
             not_done_masks = torch.tensor(
                 [[not done] for done in dones],
                 dtype=torch.bool,

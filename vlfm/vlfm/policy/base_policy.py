@@ -14,16 +14,32 @@ from habitat_baselines.rl.ppo.policy import PolicyActionData
 class BasePolicy(Policy):
     """The bare minimum needed to load a policy for evaluation using ppo_trainer.py"""
 
+    class _DummyCritic:
+        class fc:
+            weight = torch.zeros(1, 1)
+            bias = torch.zeros(1)
+
+    critic = _DummyCritic()
+
     def __init__(self, *args: Any, **kwargs: Any) -> None:
-        super().__init__()
+        action_space = kwargs.pop("action_space", args[1] if len(args) > 1 else None)
+        super().__init__(action_space)
 
     @property
     def should_load_agent_state(self) -> bool:
         return False
 
+    @property
+    def hidden_state_shape(self):
+        return (1, 1)
+
+    @property
+    def hidden_state_shape_lens(self):
+        return (1,)
+
     @classmethod
-    def from_config(cls, *args: Any, **kwargs: Any) -> Any:
-        return cls()
+    def from_config(cls, config, observation_space=None, action_space=None, *args, **kwargs) -> Any:
+        return cls(action_space=action_space)
 
     def act(
         self,

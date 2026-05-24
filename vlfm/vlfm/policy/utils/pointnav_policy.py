@@ -172,7 +172,17 @@ def load_pointnav_policy(file_path: str) -> PointNavResNetTensorOutputPolicy:
             state_dict = torch.load(file_path + ".state_dict", map_location="cpu")
         else:
             ckpt_dict = torch.load(file_path, map_location="cpu")
-            pointnav_policy = PointNavResNetTensorOutputPolicy.from_config(ckpt_dict["config"], obs_space, action_space)
+            # Construct PointNavResNetPolicy directly to avoid config compatibility issues
+            pointnav_policy = PointNavResNetTensorOutputPolicy(
+                observation_space=obs_space,
+                action_space=action_space,
+                hidden_size=512,
+                num_recurrent_layers=2,
+                rnn_type="LSTM",
+                resnet_baseplanes=32,
+                backbone="resnet18",
+                normalize_visual_inputs=False,
+            )
             state_dict = ckpt_dict["state_dict"]
         pointnav_policy.load_state_dict(state_dict)
         return pointnav_policy

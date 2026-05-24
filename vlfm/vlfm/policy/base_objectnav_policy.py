@@ -60,7 +60,7 @@ class BaseObjectNavPolicy(BasePolicy):
         *args: Any,
         **kwargs: Any,
     ) -> None:
-        super().__init__()
+        super().__init__(*args, **kwargs)
         self._object_detector = GroundingDINOClient(port=int(os.environ.get("GROUNDING_DINO_PORT", "12181")))
         self._coco_object_detector = YOLOv7Client(port=int(os.environ.get("YOLOV7_PORT", "12184")))
         self._mobile_sam = MobileSAMClient(port=int(os.environ.get("SAM_PORT", "12183")))

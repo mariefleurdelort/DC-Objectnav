@@ -12,7 +12,7 @@ from vlfm.vlm.detections import ObjectDetections
 
 from .server_wrapper import ServerMixin, host_model, send_request, str_to_image
 
-sys.path.insert(0, "yolov7/")
+sys.path.insert(0, "/workspace/vlfm/yolov7/")
 try:
     from models.experimental import attempt_load  # noqa: E402
     from utils.datasets import letterbox  # noqa: E402
