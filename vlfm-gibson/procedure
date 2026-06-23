@@ -1,6 +1,9 @@
 
 Code and procedure from: https://github.com/rai-opensource/vlfm
 
+source /opt/conda/etc/profile.d/conda.sh
+conda activate DCON
+
 Updated the dockerfile by adding these two lines at the end in order to make it work with vlfm:
   ENV PYTHONPATH="/workspace/vlfm:${PYTHONPATH:-}"
   WORKDIR /workspace/vlfm
@@ -136,3 +139,59 @@ python -m habitat_sim.utils.datasets_download \
     2026-05-22 23:28:19,487 Average episode target_detected: 1.0000
     2026-05-22 23:28:19,487 Average episode stop_called: 1.0000
 
+      "semantic_asset": "%%CONFIG_NAME_AS_ASSET_FILENAME%%_semantic.glb",
+"semantic_descriptor_filename": "%%CONFIG_NAME_AS_ASSET_FILENAME%%.glb",
+
+
+Adaptation to gibson: 
+data/
+  scene_datasets/gibson_semantic/     # GLB scene files
+  datasets/objectnav/gibson/          # custom episode JSONs you generated
+                                      # (with PathFinder, fixed quaternions,
+                                      #  iou field, goal_object_id, category map)
+
+config/
+  benchmark/nav/objectnav/objectnav_gibson.yaml   # task config
+  experiments/vlfm_objectnav_gibson.yaml          # full experiment config
+  habitat/dataset/objectnav/gibson.yaml           # dataset split paths
+
+vlfm/utils/  (custom files you wrote, not original)
+  trajectory_logger.py                # (now unused, replaced by wrapper)
+  episode_stats_logger.py
+
+  # On icon.ist.berkeley.edu (SSH in first):
+docker cp [docker id]:/workspace/vlfm/data/trajectories/episode_192.png /tmp/
+
+# Then on your LOCAL machine:
+scp marie@icon.ist.berkeley.edu:/tmp/episode_192.png ~/Desktop/
+
+Results 5 episodes:
+[traj] value map: max=0.2316, nonzero=23127
+[traj] saved episode 130 (41 steps, success)
+[traj] episode 954 — unknown
+100%|█████████████████████████████████████████████| 5/5 [09:20<00:00, 84.80s/it]Success rate: 20.00% (1 out of 5)
+100%|████████████████████████████████████████████| 5/5 [09:20<00:00, 112.13s/it]
+2026-06-15 19:47:02,993 Average episode reward: 0.4116
+2026-06-15 19:47:02,993 Average episode distance_to_goal: 12.4943
+2026-06-15 19:47:02,993 Average episode success: 0.2000
+2026-06-15 19:47:02,993 Average episode spl: 0.1340
+2026-06-15 19:47:02,993 Average episode soft_spl: 0.1284
+2026-06-15 19:47:02,994 Average episode distance_to_goal_reward: 0.0000
+2026-06-15 19:47:02,994 Average episode traveled_stairs: 0.0000
+2026-06-15 19:47:02,994 Average episode yaw: -42.0000
+2026-06-15 19:47:02,994 Average episode target_detected: 0.4000
+2026-06-15 19:47:02,994 Average episode stop_called: 0.4000
+2026-06-15 19:47:02,994 Average episode start_yaw: 1.5449
+
+
+RUN: python eval_with_trajectory.py habitat_baselines.test_episode_count=5
+python visualize_trajectory.py data/trajectories/
+
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cache/
+        config/benchmark/
+        config/docker-compose.yml
+        config/experiments/vlfm_objectnav_gibson.yaml
+        config/habitat/

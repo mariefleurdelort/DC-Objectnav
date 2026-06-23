@@ -7,7 +7,7 @@ from vlfm.run import get_config
 
 def save_dummy_policy(filename: str) -> None:
     # Save a dummy state_dict using torch.save
-    config = get_config("config/experiments/vlfm_objectnav_hm3d.yaml")
+    config = get_config("config/experiments/vlfm_objectnav_gibson.yaml")
     dummy_dict = {
         "config": config,
         "extra_state": {"step": 0},

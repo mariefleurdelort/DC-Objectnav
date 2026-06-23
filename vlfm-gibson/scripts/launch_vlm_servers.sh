@@ -5,7 +5,8 @@
 # <PATH_TO_PYTHON> is the path to the python executable for your conda env
 # (e.g., PATH_TO_PYTHON=`conda activate <env_name> && which python`)
 
-export VLFM_PYTHON=${VLFM_PYTHON:-`which python`}
+export VLFM_PYTHON="/opt/conda/envs/DCON/bin/python"
+#${VLFM_PYTHON:-`which python`}
 export MOBILE_SAM_CHECKPOINT=${MOBILE_SAM_CHECKPOINT:-data/mobile_sam.pt}
 export GROUNDING_DINO_CONFIG=${GROUNDING_DINO_CONFIG:-GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py}
 export GROUNDING_DINO_WEIGHTS=${GROUNDING_DINO_WEIGHTS:-data/groundingdino_swint_ogc.pth}

@@ -111,6 +111,8 @@ class HabitatMixin:
 
         if "hm3d" in config.habitat.dataset.data_path:
             kwargs["dataset_type"] = "hm3d"
+        elif "gibson" in config.habitat.dataset.data_path:
+            kwargs["dataset_type"] = "gibson"
         elif "mp3d" in config.habitat.dataset.data_path:
             kwargs["dataset_type"] = "mp3d"
         else:
@@ -129,7 +131,7 @@ class HabitatMixin:
         """Converts object ID to string name, returns action as PolicyActionData"""
         object_id: int = observations[ObjectGoalSensor.cls_uuid][0].item()
         obs_dict = observations.to_tree()
-        if self._dataset_type == "hm3d":
+        if self._dataset_type in ("hm3d", "gibson"):
             obs_dict[ObjectGoalSensor.cls_uuid] = HM3D_ID_TO_NAME[object_id]
         elif self._dataset_type == "mp3d":
             obs_dict[ObjectGoalSensor.cls_uuid] = MP3D_ID_TO_NAME[object_id]
@@ -279,12 +281,7 @@ class HabitatITMPolicyV3(HabitatMixin, ITMPolicyV3):
 @dataclass
 class VLFMPolicyConfig(VLFMConfig, PolicyConfig):
     name: str = "HabitatITMPolicy"
-    cs = ConfigStore.instance()
-    cs.store(
-        group="habitat_baselines/rl/policy",
-        name="vlfm_policy",
-        node={"HabitatITMPolicy": VLFMPolicyConfig},
-    )
+
 
 
 cs = ConfigStore.instance()
