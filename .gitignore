@@ -11,3 +11,4 @@ output/
 outputs/
 SAM_models/vlfm/traced_model.pt
 vlfm/traced_model.pt
+vlfm/
