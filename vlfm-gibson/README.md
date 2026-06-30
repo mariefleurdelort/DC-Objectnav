@@ -20,7 +20,7 @@ Run docker:
 ```yaml
   docker run --gpus all -it \
   -v $(pwd)/data:/workspace/vlfm/data \
-  -v $(pwd)/vlfm:/workspace/vlfm \ 
+  -v $(pwd)/vlfm:/workspace/vlfm \
   -v $(pwd)/visualize_trajectory.py:/workspace/vlfm/visualize_trajectory.py \
   -v $(pwd)/eval_with_trajectory.py:/workspace/vlfm/eval_with_trajectory.py \
   vlfm_gibson:latest
@@ -108,13 +108,6 @@ wget [https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt]
 wget [https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth) -O /workspace/vlfm/data/pointnav_weights.pth
 wget [https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth) -O /workspace/vlfm/data/spot_pointnav_weights.pth
 ```
-
-Downloaded the 3DSceneGraph_tiny.zip file from: [Redvis 3DSceneGraph](https://sdss.redivis.com/datasets/1kf9-cfjvtqc7q/files) to get the .glb and .navmesh
-In the evaluation we are mostly running on the scenes: ***Collierville, Corozal, Darden, Markleeville, Wiconisco*** because they have semantic annotations for each scene   
-
-A scene like Cantwell did not work since there are missing npz files for that scene from the 3DSceneGraph_tiny.zip dataset  
-
-All .glb and .navmesh scenes are placed in data/scene_datasets/gibson_semantic unlike HM3D  
   
 Downloaded the 3DSceneGraph_tiny.zip file from: [Redvis 3DSceneGraph](https://sdss.redivis.com/datasets/1kf9-cfjvtqc7q/files) to get the .glb and .navmesh
 In the evaluation we are mostly running on the scenes: Collierville, Corozal, Darden, Markleeville, Wiconisco because they have semantic annotations for each scene  
