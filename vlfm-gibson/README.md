@@ -15,10 +15,12 @@ Project adapted from:
 Updated the docker file from original repo and added the DCON docker habitat components to stay consistent with our habitat version (See Docker)
 Build the docker image \
 Run docker: \
-`docker run --gpus all -it \ 
--v $(pwd)/data:/workspace/vlfm/data \ 
--v $(pwd)/vlfm:/workspace/vlfm \ -v $(pwd)/visualize_trajectory.py:/workspace/vlfm/visualize_trajectory.py \ -v $(pwd)/eval_with_trajectory.py:/workspace/vlfm/eval_with_trajectory.py \
-vlfm_gibson:latest` \
+`docker run --gpus all -it 
+-v $(pwd)/data:/workspace/vlfm/data \
+-v $(pwd)/vlfm:/workspace/vlfm \ 
+-v $(pwd)/visualize_trajectory.py:/workspace/vlfm/visualize_trajectory.py \
+-v $(pwd)/eval_with_trajectory.py:/workspace/vlfm/eval_with_trajectory.py \
+vlfm_gibson:latest`
 Run docker commit to keep track of pip changes
 
 ## Installations:
@@ -39,17 +41,18 @@ pip install -e .`
 
 1. Needed update to make the config registration compatible with our habitat version:
 /workspace/vlfm/vlfm/policy/habitat_policy.py --> updated to: \
-    `@dataclass \
-    class VLFMPolicyConfig(VLFMConfig, PolicyConfig): \
-        name: str = "HabitatITMPolicy" \
-    cs = ConfigStore.instance() \
-    cs.store( \
-        group="habitat_baselines/rl/policy", \
-        name="vlfm_policy", \
-        node={"HabitatITMPolicy": VLFMPolicyConfig}, \
-    )` \
+   ```yaml
+   @dataclass
+    class VLFMPolicyConfig(VLFMConfig, PolicyConfig):
+        name: str = "HabitatITMPolicy"
+    cs = ConfigStore.instance()
+    cs.store(
+        group="habitat_baselines/rl/policy",
+        name="vlfm_policy",
+        node={"HabitatITMPolicy": VLFMPolicyConfig}, 
+    )`
 
-2. /workspace/vlfm/config/experiments/vlfm_objectnav_hm3d.yaml --> added max_climb and max_slope to fix habitat version mismatch and set \
+3. /workspace/vlfm/config/experiments/vlfm_objectnav_hm3d.yaml --> added max_climb and max_slope to fix habitat version mismatch and set \
    ```yaml
     habitat:
       environment:
@@ -73,7 +76,7 @@ pip install -e .`
 
 4. /workspace/vlfm/data/scene_datasets/hm3d --> Created symlink so the simulator \
     `rm -rf /workspace/vlfm/data/scene_datasets/hm3d` \
-    `ln -s /workspace/vlfm/data/versioned_data/hm3d-0.2/hm3d /workspace/vlfm/data/scene_datasets/hm3d` \
+    `ln -s /workspace/vlfm/data/versioned_data/hm3d-0.2/hm3d /workspace/vlfm/data/scene_datasets/hm3d`
 
 5. IN frontier_exploration package: /opt/conda/envs/DCON/lib/python3.9/site-packages/frontier_exploration/base_explorer.py --> newer habitat-sim requires magnum.Vector3
     - Added import magnum as mn
@@ -93,11 +96,18 @@ pip install -e .`
 ## Data folder: 
 
 Followed the instructions from [the original repository](https://github.com/rai-opensource/vlfm/tree/main) to download all weights \
-  `wget https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt -O /workspace/vlfm/data/mobile_sam.pt
-  wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth -O /workspace/vlfm/data/groundingdino_swint_ogc.pth
-  wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt -O /workspace/vlfm/yolov7/yolov7-e6e.pt
-  wget https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth -O /workspace/vlfm/data/pointnav_weights.pth
-  wget https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth -O /workspace/vlfm/data/spot_pointnav_weights.pth`
+    ```bash
+    wget [https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt](https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt) -O /workspace/vlfm/data/mobile_sam.pt
+    wget [https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth) -O /workspace/vlfm/data/groundingdino_swint_ogc.pth
+    wget [https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt) -O /workspace/vlfm/yolov7/yolov7-e6e.pt
+    wget [https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth) -O /workspace/vlfm/data/pointnav_weights.pth
+    wget [https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth) -O /workspace/vlfm/data/spot_pointnav_weights.pth
+  
+Downloaded the 3DSceneGraph_tiny.zip file from: [Redvis 3DSceneGraph](https://sdss.redivis.com/datasets/1kf9-cfjvtqc7q/files) to get the .glb and .navmesh
+In the evaluation we are mostly running on the scenes: Collierville, Corozal, Darden, Markleeville, Wiconisco because they have semantic annotations for each scene \
+A scene like Cantwell did not work since there are missing npz files for that scene from the 3DSceneGraph_tiny.zip dataset
+All .glb and .navmesh scenes are placed in data/scene_datasets/gibson_semantic
+Unlike HM3D 
   
 Downloaded the 3DSceneGraph_tiny.zip file from: [Redvis 3DSceneGraph](https://sdss.redivis.com/datasets/1kf9-cfjvtqc7q/files) to get the .glb and .navmesh
 In the evaluation we are mostly running on the scenes: Collierville, Corozal, Darden, Markleeville, Wiconisco because they have semantic annotations for each scene \
