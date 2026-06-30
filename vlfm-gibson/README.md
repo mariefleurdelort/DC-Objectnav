@@ -49,44 +49,45 @@ pip install -e .`
         node={"HabitatITMPolicy": VLFMPolicyConfig}, \
     )` \
 
-2. /workspace/vlfm/config/experiments/vlfm_objectnav_hm3d.yaml --> added max_climb and max_slope to fix habitat version mismatch and set \ `load_resume_state_config and should_load_ckpt to False: \
-    habitat: \
-      environment: \
-        iterator_options: \
-          max_scene_repeat_steps: 50000 \
-      task: \
-        success_reward: 2.5 \
-        slack_reward: -1e-3 \
-      simulator: \
-        agents: \
-          main_agent: \
-            max_climb: 0.2 \
-            max_slope: 45.0 \
-    habitat_baselines: \
-    evaluate: True \
-    num_environments: 1 \
-    trainer_name: "ver" \
-    load_resume_state_config: False \
-    eval: \
-      should_load_ckpt: False` \
+2. /workspace/vlfm/config/experiments/vlfm_objectnav_hm3d.yaml --> added max_climb and max_slope to fix habitat version mismatch and set \
+   ```yaml
+    habitat:
+      environment:
+        iterator_options:
+          max_scene_repeat_steps: 50000
+      task:
+        success_reward: 2.5
+        slack_reward: -1e-3
+      simulator:
+        agents:
+          main_agent:
+            max_climb: 0.2
+            max_slope: 45.0
+    habitat_baselines:
+      evaluate: True
+      num_environments: 1
+      trainer_name: "ver"
+      load_resume_state_config: False
+      eval:
+        should_load_ckpt: False
 
-3. /workspace/vlfm/data/scene_datasets/hm3d --> Created symlink so the simulator \
+4. /workspace/vlfm/data/scene_datasets/hm3d --> Created symlink so the simulator \
     `rm -rf /workspace/vlfm/data/scene_datasets/hm3d` \
     `ln -s /workspace/vlfm/data/versioned_data/hm3d-0.2/hm3d /workspace/vlfm/data/scene_datasets/hm3d` \
 
-4. IN frontier_exploration package: /opt/conda/envs/DCON/lib/python3.9/site-packages/frontier_exploration/base_explorer.py --> newer habitat-sim requires magnum.Vector3
+5. IN frontier_exploration package: /opt/conda/envs/DCON/lib/python3.9/site-packages/frontier_exploration/base_explorer.py --> newer habitat-sim requires magnum.Vector3
     - Added import magnum as mn
     - snap_point([realworld_y, ...]) → snap_point(mn.Vector3(realworld_y, ...))
     - snap_point([y, ...]) → snap_point(mn.Vector3(y, ...))
 
-5. IN frontier_exploration package: /opt/conda/envs/DCON/lib/python3.9/site-packages/frontier_exploration/measurements.py --> habitat-sim API changes in newer versions
+6. IN frontier_exploration package: /opt/conda/envs/DCON/lib/python3.9/site-packages/frontier_exploration/measurements.py --> habitat-sim API changes in newer versions
     - aabb.sizes → aabb.size()
     - aabb.center → aabb.center()
     - center[1] → center.y
 
-6. Updated vlfm_trainer for habitat API version mismatches
+7. Updated vlfm_trainer for habitat API version mismatches
 
-7. Updated run.py to make the path work for gibson data
+8. Updated run.py to make the path work for gibson data
 
 
 ## Data folder: 
