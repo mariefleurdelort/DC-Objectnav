@@ -96,13 +96,12 @@ pip install -e .`
 ## Data folder: 
 
 Followed the instructions from [the original repository](https://github.com/rai-opensource/vlfm/tree/main) to download all weights \
-    ```bash
-    wget [https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt](https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt) -O /workspace/vlfm/data/mobile_sam.pt
-    wget [https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth) -O /workspace/vlfm/data/groundingdino_swint_ogc.pth
-    wget [https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt) -O /workspace/vlfm/yolov7/yolov7-e6e.pt
-    wget [https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth) -O /workspace/vlfm/data/pointnav_weights.pth
-    wget [https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth) -O /workspace/vlfm/data/spot_pointnav_weights.pth
-  
+  `wget [https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt](https://github.com/ChaoningZhang/MobileSAM/raw/master/weights/mobile_sam.pt) -O /workspace/vlfm/data/mobile_sam.pt `
+  `wget [https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth) -O /workspace/vlfm/data/groundingdino_swint_ogc.pth`
+  `wget [https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt) -O /workspace/vlfm/yolov7/yolov7-e6e.pt`
+  `wget [https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/pointnav_weights.pth) -O /workspace/vlfm/data/pointnav_weights.pth`
+  `wget [https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth](https://github.com/rai-opensource/vlfm/raw/main/data/spot_pointnav_weights.pth) -O /workspace/vlfm/data/spot_pointnav_weights.pth`
+
 Downloaded the 3DSceneGraph_tiny.zip file from: [Redvis 3DSceneGraph](https://sdss.redivis.com/datasets/1kf9-cfjvtqc7q/files) to get the .glb and .navmesh
 In the evaluation we are mostly running on the scenes: Collierville, Corozal, Darden, Markleeville, Wiconisco because they have semantic annotations for each scene \
 A scene like Cantwell did not work since there are missing npz files for that scene from the 3DSceneGraph_tiny.zip dataset
