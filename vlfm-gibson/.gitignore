@@ -1,0 +1,23 @@
+# Pip and dependency caches
+cache/
+rescued_cache/
+
+# Large data and models
+*.zip
+*.pt
+tb/
+data/versioned_data/
+data/
+rescued_workspace/
+vlfm/vlm/GroundingDINO/
+vlfm/vlm/groundingdino/
+vlfm/vlm/yolov7/
+vlfm/__pycache__/
+vlfm/**/__pycache__/
+**/__pycache__/
+*.pyc
+vlfm/vlfm.egg-info/
+data/
+vlfm/data/
+GroundingDINO/
+vlfm/GroundingDINO/
