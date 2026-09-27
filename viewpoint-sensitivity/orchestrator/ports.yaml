@@ -1,0 +1,20 @@
+# Fixed env-name/port map for the 4 isolated model servers.
+# The orchestrator (step 3/4) reads this to know where to send /detect calls;
+# launch_servers.sh reads it to know what to start.
+servers:
+  yoloworld:
+    conda_env: vps-yoloworld
+    dir: model_servers/yoloworld
+    port: 8001
+  groundingdino:
+    conda_env: vps-groundingdino
+    dir: model_servers/groundingdino
+    port: 8002
+  owlv2:
+    conda_env: vps-owlv2
+    dir: model_servers/owlv2
+    port: 8003
+  sam3:
+    conda_env: vps-sam3
+    dir: model_servers/sam3
+    port: 8004

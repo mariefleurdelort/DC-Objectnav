@@ -1,0 +1,6512 @@
+[
+  {
+    "view_id": "bathtub/0849e24b30184cd78220783b8c185a8f/elev+0_az240",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "0849e24b30184cd78220783b8c185a8f",
+    "prompt": "a bathtub",
+    "elevation_deg": 0,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bathtub/0849e24b30184cd78220783b8c185a8f/elev+0_az240_rgb.png",
+    "depth_path": "data/renders/bathtub/0849e24b30184cd78220783b8c185a8f/elev+0_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 891177,
+    "gt_visible_fraction_of_best_view": 0.8498926162719727,
+    "camera_position": [
+      -1.5000000000000013,
+      0.0,
+      -2.598076211353315
+    ],
+    "camera_rotation_wxyz": [
+      0.258819045102521,
+      -0.0,
+      -0.9659258262890682,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8856664896011353,
+    "false_category": "bed",
+    "instance_key": "bathtub/0849e24b30184cd78220783b8c185a8f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/1751e91968704b43a0dda2eb53a5fb75/elev+60_az090",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "1751e91968704b43a0dda2eb53a5fb75",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/bathtub/1751e91968704b43a0dda2eb53a5fb75/elev+60_az090_rgb.png",
+    "depth_path": "data/renders/bathtub/1751e91968704b43a0dda2eb53a5fb75/elev+60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      311,
+      580,
+      712,
+      1010
+    ],
+    "gt_pixel_count": 136870,
+    "gt_visible_fraction_of_best_view": 0.9604507880369949,
+    "camera_position": [
+      9.184850993605152e-17,
+      2.598076211353316,
+      1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      -0.5,
+      -0.0,
+      1.5308084989341912e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9133478999137878,
+    "false_category": "bed",
+    "instance_key": "bathtub/1751e91968704b43a0dda2eb53a5fb75",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/2f1706233a3248cf9a74586fc2e7120c/elev-30_az330",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "2f1706233a3248cf9a74586fc2e7120c",
+    "prompt": "a bathtub",
+    "elevation_deg": -30,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bathtub/2f1706233a3248cf9a74586fc2e7120c/elev-30_az330_rgb.png",
+    "depth_path": "data/renders/bathtub/2f1706233a3248cf9a74586fc2e7120c/elev-30_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      337,
+      670,
+      694,
+      845
+    ],
+    "gt_pixel_count": 33887,
+    "gt_visible_fraction_of_best_view": 0.41004573945451467,
+    "camera_position": [
+      2.2499999999999996,
+      -1.4999999999999998,
+      -1.2990381056766591
+    ],
+    "camera_rotation_wxyz": [
+      0.482962913144534,
+      0.12940952255126034,
+      0.8365163037378082,
+      -0.2241438680420134
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9345641136169434,
+    "false_category": "bed",
+    "instance_key": "bathtub/2f1706233a3248cf9a74586fc2e7120c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/385c09d2ebb2483d96a78918c665db51/elev+60_az120",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "385c09d2ebb2483d96a78918c665db51",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/bathtub/385c09d2ebb2483d96a78918c665db51/elev+60_az120_rgb.png",
+    "depth_path": "data/renders/bathtub/385c09d2ebb2483d96a78918c665db51/elev+60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -0.7499999999999999,
+      2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      0.48296291314453427,
+      0.2241438680420131,
+      0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6905445456504822,
+    "false_category": "bed",
+    "instance_key": "bathtub/385c09d2ebb2483d96a78918c665db51",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/50ad43bae77448149a89d7f547ee958d/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "50ad43bae77448149a89d7f547ee958d",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/bathtub/50ad43bae77448149a89d7f547ee958d/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/bathtub/50ad43bae77448149a89d7f547ee958d/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8733216524124146,
+    "false_category": "bed",
+    "instance_key": "bathtub/50ad43bae77448149a89d7f547ee958d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/6441ba6422b74be0ba70003107ecacd7/elev+0_az000",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "6441ba6422b74be0ba70003107ecacd7",
+    "prompt": "a bathtub",
+    "elevation_deg": 0,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bathtub/6441ba6422b74be0ba70003107ecacd7/elev+0_az000_rgb.png",
+    "depth_path": "data/renders/bathtub/6441ba6422b74be0ba70003107ecacd7/elev+0_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      346,
+      707,
+      677,
+      870
+    ],
+    "gt_pixel_count": 48470,
+    "gt_visible_fraction_of_best_view": 0.9425193481896317,
+    "camera_position": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.7071067811865475,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.938031017780304,
+    "false_category": "bed",
+    "instance_key": "bathtub/6441ba6422b74be0ba70003107ecacd7",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/674b6c07743e4f569d4b745949d1a0f1/elev+60_az090",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "674b6c07743e4f569d4b745949d1a0f1",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/bathtub/674b6c07743e4f569d4b745949d1a0f1/elev+60_az090_rgb.png",
+    "depth_path": "data/renders/bathtub/674b6c07743e4f569d4b745949d1a0f1/elev+60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      9.184850993605152e-17,
+      2.598076211353316,
+      1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      -0.5,
+      -0.0,
+      1.5308084989341912e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8845426440238953,
+    "false_category": "bed",
+    "instance_key": "bathtub/674b6c07743e4f569d4b745949d1a0f1",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/6c6a1f5757b34f7485133a91bb85cabe/elev+60_az150",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "6c6a1f5757b34f7485133a91bb85cabe",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/bathtub/6c6a1f5757b34f7485133a91bb85cabe/elev+60_az150_rgb.png",
+    "depth_path": "data/renders/bathtub/6c6a1f5757b34f7485133a91bb85cabe/elev+60_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -1.2990381056766584,
+      2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      -0.7499999999999999,
+      0.4330127018922194,
+      0.4330127018922192,
+      0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8627822995185852,
+    "false_category": "bed",
+    "instance_key": "bathtub/6c6a1f5757b34f7485133a91bb85cabe",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/75f663417e874f24b864348a5c9c3e68/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "75f663417e874f24b864348a5c9c3e68",
+    "prompt": "a bathtub",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bathtub/75f663417e874f24b864348a5c9c3e68/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/bathtub/75f663417e874f24b864348a5c9c3e68/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      385,
+      706,
+      638,
+      863
+    ],
+    "gt_pixel_count": 35156,
+    "gt_visible_fraction_of_best_view": 0.9281622092562769,
+    "camera_position": [
+      -2.3446246816266996,
+      1.3536696910858153,
+      2.8713371115560196e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 2.707339382171631,
+    "best_score": 0.8682711124420166,
+    "false_category": "bed",
+    "instance_key": "bathtub/75f663417e874f24b864348a5c9c3e68",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/800d3c5569b94abfa2da7976504d589d/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "800d3c5569b94abfa2da7976504d589d",
+    "prompt": "a bathtub",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bathtub/800d3c5569b94abfa2da7976504d589d/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/bathtub/800d3c5569b94abfa2da7976504d589d/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      342,
+      693,
+      682,
+      868
+    ],
+    "gt_pixel_count": 55611,
+    "gt_visible_fraction_of_best_view": 0.9457331383286283,
+    "camera_position": [
+      -2.598076211353316,
+      1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9316657185554504,
+    "false_category": "bed",
+    "instance_key": "bathtub/800d3c5569b94abfa2da7976504d589d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/804fa46335874949938b6dfb55d17820/elev-60_az030",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "804fa46335874949938b6dfb55d17820",
+    "prompt": "a bathtub",
+    "elevation_deg": -60,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/bathtub/804fa46335874949938b6dfb55d17820/elev-60_az030_rgb.png",
+    "depth_path": "data/renders/bathtub/804fa46335874949938b6dfb55d17820/elev-60_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      66,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 767809,
+    "gt_visible_fraction_of_best_view": 0.7322397232055664,
+    "camera_position": [
+      1.2990381056766584,
+      -2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      0.7499999999999999,
+      0.4330127018922194,
+      0.4330127018922192,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.913392961025238,
+    "false_category": "bed",
+    "instance_key": "bathtub/804fa46335874949938b6dfb55d17820",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/84d5cdc68a674e12958f41500e988502/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "84d5cdc68a674e12958f41500e988502",
+    "prompt": "a bathtub",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bathtub/84d5cdc68a674e12958f41500e988502/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/bathtub/84d5cdc68a674e12958f41500e988502/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      429,
+      960,
+      592,
+      1023
+    ],
+    "gt_pixel_count": 9915,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -1.1146271504500969,
+      0.6435302853584288,
+      1.3650245720414465e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922193,
+      0.18301270189221927,
+      0.6830127018922194,
+      0.1830127018922193
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 1.2870605707168579,
+    "best_score": 0.7111791372299194,
+    "false_category": "bed",
+    "instance_key": "bathtub/84d5cdc68a674e12958f41500e988502",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/948411a1c6d0453e96faa3dfe32936a0/elev+30_az030",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "948411a1c6d0453e96faa3dfe32936a0",
+    "prompt": "a bathtub",
+    "elevation_deg": 30,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/bathtub/948411a1c6d0453e96faa3dfe32936a0/elev+30_az030_rgb.png",
+    "depth_path": "data/renders/bathtub/948411a1c6d0453e96faa3dfe32936a0/elev+30_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      249,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 711664,
+    "gt_visible_fraction_of_best_view": 0.6786956787109375,
+    "camera_position": [
+      2.25,
+      1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378079,
+      -0.2241438680420133,
+      0.48296291314453427,
+      0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8302480578422546,
+    "false_category": "bed",
+    "instance_key": "bathtub/948411a1c6d0453e96faa3dfe32936a0",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/a0f2a58ef4484ea1bbd6d2ddad0a0979/elev-60_az150",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "a0f2a58ef4484ea1bbd6d2ddad0a0979",
+    "prompt": "a bathtub",
+    "elevation_deg": -60,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/bathtub/a0f2a58ef4484ea1bbd6d2ddad0a0979/elev-60_az150_rgb.png",
+    "depth_path": "data/renders/bathtub/a0f2a58ef4484ea1bbd6d2ddad0a0979/elev-60_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      93,
+      503,
+      860,
+      1023
+    ],
+    "gt_pixel_count": 249068,
+    "gt_visible_fraction_of_best_view": 0.9142525731569442,
+    "camera_position": [
+      -1.2990381056766584,
+      -2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      -0.7499999999999999,
+      -0.4330127018922194,
+      0.4330127018922192,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8721975684165955,
+    "false_category": "bed",
+    "instance_key": "bathtub/a0f2a58ef4484ea1bbd6d2ddad0a0979",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/cf373495a56049f6be1692ca6463aa2a/elev+60_az330",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "cf373495a56049f6be1692ca6463aa2a",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bathtub/cf373495a56049f6be1692ca6463aa2a/elev+60_az330_rgb.png",
+    "depth_path": "data/renders/bathtub/cf373495a56049f6be1692ca6463aa2a/elev+60_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.299038105676658,
+      2.598076211353316,
+      -0.7500000000000009
+    ],
+    "camera_rotation_wxyz": [
+      0.4330127018922191,
+      -0.24999999999999967,
+      0.7500000000000004,
+      0.43301270189221935
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8980154991149902,
+    "false_category": "bed",
+    "instance_key": "bathtub/cf373495a56049f6be1692ca6463aa2a",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/dcd691724f6b4d29a6d16def24d14e6e/elev+0_az240",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "dcd691724f6b4d29a6d16def24d14e6e",
+    "prompt": "a bathtub",
+    "elevation_deg": 0,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bathtub/dcd691724f6b4d29a6d16def24d14e6e/elev+0_az240_rgb.png",
+    "depth_path": "data/renders/bathtub/dcd691724f6b4d29a6d16def24d14e6e/elev+0_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      367,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 627119,
+    "gt_visible_fraction_of_best_view": 0.5980672836303711,
+    "camera_position": [
+      -1.5000000000000013,
+      0.0,
+      -2.598076211353315
+    ],
+    "camera_rotation_wxyz": [
+      0.258819045102521,
+      -0.0,
+      -0.9659258262890682,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7441388964653015,
+    "false_category": "bed",
+    "instance_key": "bathtub/dcd691724f6b4d29a6d16def24d14e6e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/f05a25da4b2c4e8d889db888cd3b2efe/elev+60_az180",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "f05a25da4b2c4e8d889db888cd3b2efe",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bathtub/f05a25da4b2c4e8d889db888cd3b2efe/elev+60_az180_rgb.png",
+    "depth_path": "data/renders/bathtub/f05a25da4b2c4e8d889db888cd3b2efe/elev+60_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -1.5000000000000004,
+      2.598076211353316,
+      1.8369701987210304e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6123724356957946,
+      0.3535533905932736,
+      0.6123724356957945,
+      0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8832948803901672,
+    "false_category": "bed",
+    "instance_key": "bathtub/f05a25da4b2c4e8d889db888cd3b2efe",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/f1b05ddf1b634481903e353d41b6a654/elev+30_az330",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "f1b05ddf1b634481903e353d41b6a654",
+    "prompt": "a bathtub",
+    "elevation_deg": 30,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bathtub/f1b05ddf1b634481903e353d41b6a654/elev+30_az330_rgb.png",
+    "depth_path": "data/renders/bathtub/f1b05ddf1b634481903e353d41b6a654/elev+30_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 865823,
+    "gt_visible_fraction_of_best_view": 0.8257131576538086,
+    "camera_position": [
+      2.2499999999999996,
+      1.4999999999999998,
+      -1.2990381056766591
+    ],
+    "camera_rotation_wxyz": [
+      0.482962913144534,
+      -0.12940952255126034,
+      0.8365163037378082,
+      0.2241438680420134
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8678797483444214,
+    "false_category": "bed",
+    "instance_key": "bathtub/f1b05ddf1b634481903e353d41b6a654",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/fd612e2ea8e94d80ac3b8097eb2e5bbe/elev+0_az270",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "fd612e2ea8e94d80ac3b8097eb2e5bbe",
+    "prompt": "a bathtub",
+    "elevation_deg": 0,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/bathtub/fd612e2ea8e94d80ac3b8097eb2e5bbe/elev+0_az270_rgb.png",
+    "depth_path": "data/renders/bathtub/fd612e2ea8e94d80ac3b8097eb2e5bbe/elev+0_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      106,
+      532,
+      961,
+      1023
+    ],
+    "gt_pixel_count": 274927,
+    "gt_visible_fraction_of_best_view": 0.34902589571130055,
+    "camera_position": [
+      -5.51091059616309e-16,
+      0.0,
+      -3.0
+    ],
+    "camera_rotation_wxyz": [
+      0.0,
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.926667332649231,
+    "false_category": "bed",
+    "instance_key": "bathtub/fd612e2ea8e94d80ac3b8097eb2e5bbe",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bathtub/ikcAlbZ2YXxyKWW3r4iOMRW9qR2/elev+0_az330",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "ikcAlbZ2YXxyKWW3r4iOMRW9qR2",
+    "prompt": "a bathtub",
+    "elevation_deg": 0,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bathtub/ikcAlbZ2YXxyKWW3r4iOMRW9qR2/elev+0_az330_rgb.png",
+    "depth_path": "data/renders/bathtub/ikcAlbZ2YXxyKWW3r4iOMRW9qR2/elev+0_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      359,
+      680,
+      616,
+      852
+    ],
+    "gt_pixel_count": 23391,
+    "gt_visible_fraction_of_best_view": 0.5100300902708125,
+    "camera_position": [
+      2.598076211353315,
+      0.0,
+      -1.5000000000000013
+    ],
+    "camera_rotation_wxyz": [
+      -0.4999999999999998,
+      -0.0,
+      -0.8660254037844387,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9216940999031067,
+    "false_category": "bed",
+    "instance_key": "bathtub/ikcAlbZ2YXxyKWW3r4iOMRW9qR2",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/0034c300f743460c8c84bce3d81ff604/elev+30_az330",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "0034c300f743460c8c84bce3d81ff604",
+    "prompt": "a bed",
+    "elevation_deg": 30,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bed/0034c300f743460c8c84bce3d81ff604/elev+30_az330_rgb.png",
+    "depth_path": "data/renders/bed/0034c300f743460c8c84bce3d81ff604/elev+30_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      130,
+      606,
+      745,
+      1023
+    ],
+    "gt_pixel_count": 96126,
+    "gt_visible_fraction_of_best_view": 0.49020867755951286,
+    "camera_position": [
+      2.2499999999999996,
+      1.4999999999999998,
+      -1.2990381056766591
+    ],
+    "camera_rotation_wxyz": [
+      0.482962913144534,
+      -0.12940952255126034,
+      0.8365163037378082,
+      0.2241438680420134
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9439835548400879,
+    "false_category": "sofa",
+    "instance_key": "bed/0034c300f743460c8c84bce3d81ff604",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/0776052b361b4002aba142e6ec6bd01e/elev+0_az210",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "0776052b361b4002aba142e6ec6bd01e",
+    "prompt": "a bed",
+    "elevation_deg": 0,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/bed/0776052b361b4002aba142e6ec6bd01e/elev+0_az210_rgb.png",
+    "depth_path": "data/renders/bed/0776052b361b4002aba142e6ec6bd01e/elev+0_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      278,
+      629,
+      748,
+      1023
+    ],
+    "gt_pixel_count": 121588,
+    "gt_visible_fraction_of_best_view": 0.6582179804355711,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.5,
+      -0.0,
+      -0.8660254037844386,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9524686932563782,
+    "false_category": "sofa",
+    "instance_key": "bed/0776052b361b4002aba142e6ec6bd01e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/0972c48a7e4548bca80975a47a823bab/elev-30_az180",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "0972c48a7e4548bca80975a47a823bab",
+    "prompt": "a bed",
+    "elevation_deg": -30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bed/0972c48a7e4548bca80975a47a823bab/elev-30_az180_rgb.png",
+    "depth_path": "data/renders/bed/0972c48a7e4548bca80975a47a823bab/elev-30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      275,
+      647,
+      748,
+      913
+    ],
+    "gt_pixel_count": 72860,
+    "gt_visible_fraction_of_best_view": 0.7088238155462594,
+    "camera_position": [
+      -2.598076211353316,
+      -1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      -0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9673982262611389,
+    "false_category": "sofa",
+    "instance_key": "bed/0972c48a7e4548bca80975a47a823bab",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/0a5652c16e1a4575903dfc1696382502/elev+60_az330",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "0a5652c16e1a4575903dfc1696382502",
+    "prompt": "a bed",
+    "elevation_deg": 60,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bed/0a5652c16e1a4575903dfc1696382502/elev+60_az330_rgb.png",
+    "depth_path": "data/renders/bed/0a5652c16e1a4575903dfc1696382502/elev+60_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.299038105676658,
+      2.598076211353316,
+      -0.7500000000000009
+    ],
+    "camera_rotation_wxyz": [
+      0.4330127018922191,
+      -0.24999999999999967,
+      0.7500000000000004,
+      0.43301270189221935
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.836035430431366,
+    "false_category": "sofa",
+    "instance_key": "bed/0a5652c16e1a4575903dfc1696382502",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/0cb0a6704c8a4fbd967039998a9d76ac/elev+60_az240",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "0cb0a6704c8a4fbd967039998a9d76ac",
+    "prompt": "a bed",
+    "elevation_deg": 60,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bed/0cb0a6704c8a4fbd967039998a9d76ac/elev+60_az240_rgb.png",
+    "depth_path": "data/renders/bed/0cb0a6704c8a4fbd967039998a9d76ac/elev+60_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -0.7500000000000009,
+      2.598076211353316,
+      -1.299038105676658
+    ],
+    "camera_rotation_wxyz": [
+      -0.22414386804201358,
+      0.1294095225512605,
+      0.8365163037378078,
+      0.4829629131445339
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9205849766731262,
+    "false_category": "sofa",
+    "instance_key": "bed/0cb0a6704c8a4fbd967039998a9d76ac",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/2c23a943c53048a3a7991d68ed3cf069/elev-30_az030",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "2c23a943c53048a3a7991d68ed3cf069",
+    "prompt": "a bed",
+    "elevation_deg": -30,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/bed/2c23a943c53048a3a7991d68ed3cf069/elev-30_az030_rgb.png",
+    "depth_path": "data/renders/bed/2c23a943c53048a3a7991d68ed3cf069/elev-30_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      317,
+      648,
+      853,
+      909
+    ],
+    "gt_pixel_count": 54576,
+    "gt_visible_fraction_of_best_view": 0.35036946208118536,
+    "camera_position": [
+      2.25,
+      -1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378079,
+      0.2241438680420133,
+      0.48296291314453427,
+      -0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.963936448097229,
+    "false_category": "sofa",
+    "instance_key": "bed/2c23a943c53048a3a7991d68ed3cf069",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/3ed408980a9b4f9396a7f7c48ec50aa4/elev+60_az120",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "3ed408980a9b4f9396a7f7c48ec50aa4",
+    "prompt": "a bed",
+    "elevation_deg": 60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/bed/3ed408980a9b4f9396a7f7c48ec50aa4/elev+60_az120_rgb.png",
+    "depth_path": "data/renders/bed/3ed408980a9b4f9396a7f7c48ec50aa4/elev+60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1021717,
+    "gt_visible_fraction_of_best_view": 0.9743852615356445,
+    "camera_position": [
+      -0.7499999999999999,
+      2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      0.48296291314453427,
+      0.2241438680420131,
+      0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9153255224227905,
+    "false_category": "sofa",
+    "instance_key": "bed/3ed408980a9b4f9396a7f7c48ec50aa4",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/5d3a99865ac84d8a8bf06b263aa5bb55/elev+60_az240",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "5d3a99865ac84d8a8bf06b263aa5bb55",
+    "prompt": "a bed",
+    "elevation_deg": 60,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bed/5d3a99865ac84d8a8bf06b263aa5bb55/elev+60_az240_rgb.png",
+    "depth_path": "data/renders/bed/5d3a99865ac84d8a8bf06b263aa5bb55/elev+60_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -0.7500000000000009,
+      2.598076211353316,
+      -1.299038105676658
+    ],
+    "camera_rotation_wxyz": [
+      -0.22414386804201358,
+      0.1294095225512605,
+      0.8365163037378078,
+      0.4829629131445339
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7688142657279968,
+    "false_category": "sofa",
+    "instance_key": "bed/5d3a99865ac84d8a8bf06b263aa5bb55",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/7f1392ba478242d7a2093930b213e954/elev-30_az090",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "7f1392ba478242d7a2093930b213e954",
+    "prompt": "a bed",
+    "elevation_deg": -30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/bed/7f1392ba478242d7a2093930b213e954/elev-30_az090_rgb.png",
+    "depth_path": "data/renders/bed/7f1392ba478242d7a2093930b213e954/elev-30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      217,
+      688,
+      819,
+      959
+    ],
+    "gt_pixel_count": 118745,
+    "gt_visible_fraction_of_best_view": 0.5937606256375383,
+    "camera_position": [
+      1.5908628580873605e-16,
+      -1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      0.25881904510252074,
+      -0.0,
+      -7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9449371695518494,
+    "false_category": "sofa",
+    "instance_key": "bed/7f1392ba478242d7a2093930b213e954",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/7f4b851ded5645e3b3c381769752a4c0/elev-30_az180",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "7f4b851ded5645e3b3c381769752a4c0",
+    "prompt": "a bed",
+    "elevation_deg": -30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bed/7f4b851ded5645e3b3c381769752a4c0/elev-30_az180_rgb.png",
+    "depth_path": "data/renders/bed/7f4b851ded5645e3b3c381769752a4c0/elev-30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      306,
+      639,
+      715,
+      999
+    ],
+    "gt_pixel_count": 87975,
+    "gt_visible_fraction_of_best_view": 0.7226406880180054,
+    "camera_position": [
+      -2.598076211353316,
+      -1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      -0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9361281394958496,
+    "false_category": "sofa",
+    "instance_key": "bed/7f4b851ded5645e3b3c381769752a4c0",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/9eefcf9a6fed458990b59f63a2870d9e/elev-60_az150",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "9eefcf9a6fed458990b59f63a2870d9e",
+    "prompt": "a bed",
+    "elevation_deg": -60,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/bed/9eefcf9a6fed458990b59f63a2870d9e/elev-60_az150_rgb.png",
+    "depth_path": "data/renders/bed/9eefcf9a6fed458990b59f63a2870d9e/elev-60_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      301,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 444857,
+    "gt_visible_fraction_of_best_view": 0.5928004232223263,
+    "camera_position": [
+      -1.2990381056766584,
+      -2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      -0.7499999999999999,
+      -0.4330127018922194,
+      0.4330127018922192,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9041064381599426,
+    "false_category": "sofa",
+    "instance_key": "bed/9eefcf9a6fed458990b59f63a2870d9e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/b547d81073b64d3e97200fd3ae9a74af/elev+60_az330",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "b547d81073b64d3e97200fd3ae9a74af",
+    "prompt": "a bed",
+    "elevation_deg": 60,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/bed/b547d81073b64d3e97200fd3ae9a74af/elev+60_az330_rgb.png",
+    "depth_path": "data/renders/bed/b547d81073b64d3e97200fd3ae9a74af/elev+60_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.299038105676658,
+      2.598076211353316,
+      -0.7500000000000009
+    ],
+    "camera_rotation_wxyz": [
+      0.4330127018922191,
+      -0.24999999999999967,
+      0.7500000000000004,
+      0.43301270189221935
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8363933563232422,
+    "false_category": "sofa",
+    "instance_key": "bed/b547d81073b64d3e97200fd3ae9a74af",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/c017f22cb89f449995d054ba1d1ddd25/elev+60_az150",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "c017f22cb89f449995d054ba1d1ddd25",
+    "prompt": "a bed",
+    "elevation_deg": 60,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/bed/c017f22cb89f449995d054ba1d1ddd25/elev+60_az150_rgb.png",
+    "depth_path": "data/renders/bed/c017f22cb89f449995d054ba1d1ddd25/elev+60_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      151,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 652421,
+    "gt_visible_fraction_of_best_view": 0.622197151184082,
+    "camera_position": [
+      -1.2990381056766584,
+      2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      -0.7499999999999999,
+      0.4330127018922194,
+      0.4330127018922192,
+      0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9298690557479858,
+    "false_category": "sofa",
+    "instance_key": "bed/c017f22cb89f449995d054ba1d1ddd25",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/d7fcaa3e8c844418a38b721c325bb2af/elev+0_az300",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "d7fcaa3e8c844418a38b721c325bb2af",
+    "prompt": "a bed",
+    "elevation_deg": 0,
+    "azimuth_deg": 300,
+    "rgb_path": "data/renders/bed/d7fcaa3e8c844418a38b721c325bb2af/elev+0_az300_rgb.png",
+    "depth_path": "data/renders/bed/d7fcaa3e8c844418a38b721c325bb2af/elev+0_az300_depth.npy",
+    "gt_bbox_xyxy": [
+      380,
+      844,
+      642,
+      1023
+    ],
+    "gt_pixel_count": 29237,
+    "gt_visible_fraction_of_best_view": 0.8711340206185567,
+    "camera_position": [
+      0.8416381895542148,
+      0.0,
+      -1.457760105898185
+    ],
+    "camera_rotation_wxyz": [
+      -0.2588190451025208,
+      -0.0,
+      -0.9659258262890683,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 1.683276379108429,
+    "best_score": 0.9282662272453308,
+    "false_category": "sofa",
+    "instance_key": "bed/d7fcaa3e8c844418a38b721c325bb2af",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/dc3024aa5e234f4299641f072558b9a8/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "dc3024aa5e234f4299641f072558b9a8",
+    "prompt": "a bed",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bed/dc3024aa5e234f4299641f072558b9a8/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/bed/dc3024aa5e234f4299641f072558b9a8/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      158,
+      1023,
+      504
+    ],
+    "gt_pixel_count": 133383,
+    "gt_visible_fraction_of_best_view": 0.42223572873436593,
+    "camera_position": [
+      -2.598076211353316,
+      1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6406009793281555,
+    "false_category": "sofa",
+    "instance_key": "bed/dc3024aa5e234f4299641f072558b9a8",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/dda2613eb5c04527a325a3b0bce9f79c/elev+0_az000",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "dda2613eb5c04527a325a3b0bce9f79c",
+    "prompt": "a bed",
+    "elevation_deg": 0,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bed/dda2613eb5c04527a325a3b0bce9f79c/elev+0_az000_rgb.png",
+    "depth_path": "data/renders/bed/dda2613eb5c04527a325a3b0bce9f79c/elev+0_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      579,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 455680,
+    "gt_visible_fraction_of_best_view": 0.8003597122302158,
+    "camera_position": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.7071067811865475,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8654440641403198,
+    "false_category": "sofa",
+    "instance_key": "bed/dda2613eb5c04527a325a3b0bce9f79c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/ef4fef24c990461986a96f5462c5248d/elev-60_az270",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "ef4fef24c990461986a96f5462c5248d",
+    "prompt": "a bed",
+    "elevation_deg": -60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/bed/ef4fef24c990461986a96f5462c5248d/elev-60_az270_rgb.png",
+    "depth_path": "data/renders/bed/ef4fef24c990461986a96f5462c5248d/elev-60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      293,
+      645,
+      730,
+      900
+    ],
+    "gt_pixel_count": 76973,
+    "gt_visible_fraction_of_best_view": 0.8059493644378364,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      -2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      -0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9542348384857178,
+    "false_category": "sofa",
+    "instance_key": "bed/ef4fef24c990461986a96f5462c5248d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bed/ef7e34822e60420ca3a3a6d4a4509a95/elev+0_az210",
+    "dataset": "objaverse",
+    "category": "bed",
+    "source_id": "bed",
+    "model_id": "ef7e34822e60420ca3a3a6d4a4509a95",
+    "prompt": "a bed",
+    "elevation_deg": 0,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/bed/ef7e34822e60420ca3a3a6d4a4509a95/elev+0_az210_rgb.png",
+    "depth_path": "data/renders/bed/ef7e34822e60420ca3a3a6d4a4509a95/elev+0_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      271,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 612095,
+    "gt_visible_fraction_of_best_view": 0.5837392807006836,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.5,
+      -0.0,
+      -0.8660254037844386,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7056171298027039,
+    "false_category": "sofa",
+    "instance_key": "bed/ef7e34822e60420ca3a3a6d4a4509a95",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/018add783a674cf7ac92a4c52291477a/elev+60_az210",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "018add783a674cf7ac92a4c52291477a",
+    "prompt": "a bookshelf",
+    "elevation_deg": 60,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/bookshelf/018add783a674cf7ac92a4c52291477a/elev+60_az210_rgb.png",
+    "depth_path": "data/renders/bookshelf/018add783a674cf7ac92a4c52291477a/elev+60_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 497091,
+    "gt_visible_fraction_of_best_view": 0.4889985627844797,
+    "camera_position": [
+      -1.2990381056766582,
+      2.598076211353316,
+      -0.7500000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -0.4330127018922192,
+      0.25000000000000006,
+      0.7499999999999998,
+      0.43301270189221924
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7633603811264038,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/018add783a674cf7ac92a4c52291477a",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/22f7121cab3a4d1eba0dd05db5ad9642/elev+30_az300",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "22f7121cab3a4d1eba0dd05db5ad9642",
+    "prompt": "a bookshelf",
+    "elevation_deg": 30,
+    "azimuth_deg": 300,
+    "rgb_path": "data/renders/bookshelf/22f7121cab3a4d1eba0dd05db5ad9642/elev+30_az300_rgb.png",
+    "depth_path": "data/renders/bookshelf/22f7121cab3a4d1eba0dd05db5ad9642/elev+30_az300_depth.npy",
+    "gt_bbox_xyxy": [
+      470,
+      669,
+      570,
+      899
+    ],
+    "gt_pixel_count": 16594,
+    "gt_visible_fraction_of_best_view": 0.6941353635070694,
+    "camera_position": [
+      1.2655869230115593,
+      1.4613739013671874,
+      -2.192060852050781
+    ],
+    "camera_rotation_wxyz": [
+      0.25000000000000006,
+      -0.06698729810778072,
+      0.933012701892219,
+      0.25000000000000006
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 2.922747802734375,
+    "best_score": 0.8449947834014893,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/22f7121cab3a4d1eba0dd05db5ad9642",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/244a639e6ece4777b1ca836e40ffe3be/elev+0_az180",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "244a639e6ece4777b1ca836e40ffe3be",
+    "prompt": "a bookshelf",
+    "elevation_deg": 0,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bookshelf/244a639e6ece4777b1ca836e40ffe3be/elev+0_az180_rgb.png",
+    "depth_path": "data/renders/bookshelf/244a639e6ece4777b1ca836e40ffe3be/elev+0_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      369,
+      586,
+      654,
+      981
+    ],
+    "gt_pixel_count": 84055,
+    "gt_visible_fraction_of_best_view": 0.8193772908055837,
+    "camera_position": [
+      -3.0,
+      0.0,
+      3.6739403974420594e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.7071067811865476,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9165599942207336,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/244a639e6ece4777b1ca836e40ffe3be",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/26643059f5fa453f94ab4f4badb6b704/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "26643059f5fa453f94ab4f4badb6b704",
+    "prompt": "a bookshelf",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bookshelf/26643059f5fa453f94ab4f4badb6b704/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/bookshelf/26643059f5fa453f94ab4f4badb6b704/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      413,
+      689,
+      610,
+      922
+    ],
+    "gt_pixel_count": 38496,
+    "gt_visible_fraction_of_best_view": 0.6787263302655242,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9184668064117432,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/26643059f5fa453f94ab4f4badb6b704",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/2acda3ed2f9046129897f0f1e36092bd/elev+60_az090",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "2acda3ed2f9046129897f0f1e36092bd",
+    "prompt": "a bookshelf",
+    "elevation_deg": 60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/bookshelf/2acda3ed2f9046129897f0f1e36092bd/elev+60_az090_rgb.png",
+    "depth_path": "data/renders/bookshelf/2acda3ed2f9046129897f0f1e36092bd/elev+60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      9.184850993605152e-17,
+      2.598076211353316,
+      1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      -0.5,
+      -0.0,
+      1.5308084989341912e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8396514058113098,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/2acda3ed2f9046129897f0f1e36092bd",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/2b808687faa541dcb5a1987cea250c73/elev-30_az240",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "2b808687faa541dcb5a1987cea250c73",
+    "prompt": "a bookshelf",
+    "elevation_deg": -30,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bookshelf/2b808687faa541dcb5a1987cea250c73/elev-30_az240_rgb.png",
+    "depth_path": "data/renders/bookshelf/2b808687faa541dcb5a1987cea250c73/elev-30_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 949312,
+    "gt_visible_fraction_of_best_view": 0.90533447265625,
+    "camera_position": [
+      -1.2990381056766591,
+      -1.4999999999999998,
+      -2.2499999999999996
+    ],
+    "camera_rotation_wxyz": [
+      -0.25000000000000017,
+      -0.06698729810778073,
+      0.9330127018922193,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8959677219390869,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/2b808687faa541dcb5a1987cea250c73",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/3d42390fa27748f6818a85182595a69c/elev-30_az240",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "3d42390fa27748f6818a85182595a69c",
+    "prompt": "a bookshelf",
+    "elevation_deg": -30,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bookshelf/3d42390fa27748f6818a85182595a69c/elev-30_az240_rgb.png",
+    "depth_path": "data/renders/bookshelf/3d42390fa27748f6818a85182595a69c/elev-30_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      109,
+      139,
+      1010,
+      1023
+    ],
+    "gt_pixel_count": 509843,
+    "gt_visible_fraction_of_best_view": 0.4862241744995117,
+    "camera_position": [
+      -1.2990381056766591,
+      -1.4999999999999998,
+      -2.2499999999999996
+    ],
+    "camera_rotation_wxyz": [
+      -0.25000000000000017,
+      -0.06698729810778073,
+      0.9330127018922193,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8330717086791992,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/3d42390fa27748f6818a85182595a69c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/51ac88b15a2548638b9490f78cd9b30e/elev+30_az240",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "51ac88b15a2548638b9490f78cd9b30e",
+    "prompt": "a bookshelf",
+    "elevation_deg": 30,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/bookshelf/51ac88b15a2548638b9490f78cd9b30e/elev+30_az240_rgb.png",
+    "depth_path": "data/renders/bookshelf/51ac88b15a2548638b9490f78cd9b30e/elev+30_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      439,
+      736,
+      574,
+      988
+    ],
+    "gt_pixel_count": 23567,
+    "gt_visible_fraction_of_best_view": 0.6516701692290676,
+    "camera_position": [
+      -0.9496152758482338,
+      1.0965212702751157,
+      -1.6447819054126736
+    ],
+    "camera_rotation_wxyz": [
+      -0.25000000000000006,
+      0.0669872981077807,
+      0.9330127018922192,
+      0.24999999999999997
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 2.193042540550232,
+    "best_score": 0.8317198157310486,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/51ac88b15a2548638b9490f78cd9b30e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/51d928b33e5549898cc86cbdaf966d83/elev+0_az090",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "51d928b33e5549898cc86cbdaf966d83",
+    "prompt": "a bookshelf",
+    "elevation_deg": 0,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/bookshelf/51d928b33e5549898cc86cbdaf966d83/elev+0_az090_rgb.png",
+    "depth_path": "data/renders/bookshelf/51d928b33e5549898cc86cbdaf966d83/elev+0_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      403,
+      592,
+      620,
+      966
+    ],
+    "gt_pixel_count": 81586,
+    "gt_visible_fraction_of_best_view": 0.8747855549837021,
+    "camera_position": [
+      1.8369701987210297e-16,
+      0.0,
+      3.0
+    ],
+    "camera_rotation_wxyz": [
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9199087023735046,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/51d928b33e5549898cc86cbdaf966d83",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/636b75352a134e07b26992c44383014e/elev+60_az210",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "636b75352a134e07b26992c44383014e",
+    "prompt": "a bookshelf",
+    "elevation_deg": 60,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/bookshelf/636b75352a134e07b26992c44383014e/elev+60_az210_rgb.png",
+    "depth_path": "data/renders/bookshelf/636b75352a134e07b26992c44383014e/elev+60_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -1.2990381056766582,
+      2.598076211353316,
+      -0.7500000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -0.4330127018922192,
+      0.25000000000000006,
+      0.7499999999999998,
+      0.43301270189221924
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7157429456710815,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/636b75352a134e07b26992c44383014e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/76cd51452a734f209d52c259ff39d1e4/elev+0_az000",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "76cd51452a734f209d52c259ff39d1e4",
+    "prompt": "a bookshelf",
+    "elevation_deg": 0,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bookshelf/76cd51452a734f209d52c259ff39d1e4/elev+0_az000_rgb.png",
+    "depth_path": "data/renders/bookshelf/76cd51452a734f209d52c259ff39d1e4/elev+0_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      352,
+      598,
+      671,
+      961
+    ],
+    "gt_pixel_count": 114790,
+    "gt_visible_fraction_of_best_view": 0.8764201075006108,
+    "camera_position": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.7071067811865475,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8988308906555176,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/76cd51452a734f209d52c259ff39d1e4",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/7a545709aa98429a9b30f812f70193f7/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "7a545709aa98429a9b30f812f70193f7",
+    "prompt": "a bookshelf",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bookshelf/7a545709aa98429a9b30f812f70193f7/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/bookshelf/7a545709aa98429a9b30f812f70193f7/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      356,
+      676,
+      667,
+      963
+    ],
+    "gt_pixel_count": 76730,
+    "gt_visible_fraction_of_best_view": 0.8030854894080214,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.927912175655365,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/7a545709aa98429a9b30f812f70193f7",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/9c8a9e27bac14685a3c177056bf420b9/elev+0_az060",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "9c8a9e27bac14685a3c177056bf420b9",
+    "prompt": "a bookshelf",
+    "elevation_deg": 0,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/bookshelf/9c8a9e27bac14685a3c177056bf420b9/elev+0_az060_rgb.png",
+    "depth_path": "data/renders/bookshelf/9c8a9e27bac14685a3c177056bf420b9/elev+0_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      442,
+      622,
+      593,
+      943
+    ],
+    "gt_pixel_count": 43349,
+    "gt_visible_fraction_of_best_view": 0.8460322416956165,
+    "camera_position": [
+      1.5000000000000004,
+      0.0,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.0,
+      0.25881904510252085,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9232318997383118,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/9c8a9e27bac14685a3c177056bf420b9",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/9f6ec1995c3f4b0bbd3a990033890f3c/elev-60_az030",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "9f6ec1995c3f4b0bbd3a990033890f3c",
+    "prompt": "a bookshelf",
+    "elevation_deg": -60,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/bookshelf/9f6ec1995c3f4b0bbd3a990033890f3c/elev-60_az030_rgb.png",
+    "depth_path": "data/renders/bookshelf/9f6ec1995c3f4b0bbd3a990033890f3c/elev-60_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.2990381056766584,
+      -2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      0.7499999999999999,
+      0.4330127018922194,
+      0.4330127018922192,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8910814523696899,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/9f6ec1995c3f4b0bbd3a990033890f3c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/aa9a7f23471a4bb6b461d5240c2bf1a7/elev-60_az180",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "aa9a7f23471a4bb6b461d5240c2bf1a7",
+    "prompt": "a bookshelf",
+    "elevation_deg": -60,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/bookshelf/aa9a7f23471a4bb6b461d5240c2bf1a7/elev-60_az180_rgb.png",
+    "depth_path": "data/renders/bookshelf/aa9a7f23471a4bb6b461d5240c2bf1a7/elev-60_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 898500,
+    "gt_visible_fraction_of_best_view": 0.8568763732910156,
+    "camera_position": [
+      -1.5000000000000004,
+      -2.598076211353316,
+      1.8369701987210304e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6123724356957946,
+      -0.3535533905932736,
+      0.6123724356957945,
+      -0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.796717643737793,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/aa9a7f23471a4bb6b461d5240c2bf1a7",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/b3a5f407f6aa4aaaabdf1e84380c95da/elev-60_az060",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "b3a5f407f6aa4aaaabdf1e84380c95da",
+    "prompt": "a bookshelf",
+    "elevation_deg": -60,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/bookshelf/b3a5f407f6aa4aaaabdf1e84380c95da/elev-60_az060_rgb.png",
+    "depth_path": "data/renders/bookshelf/b3a5f407f6aa4aaaabdf1e84380c95da/elev-60_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      116,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 711252,
+    "gt_visible_fraction_of_best_view": 0.6783027648925781,
+    "camera_position": [
+      0.7500000000000004,
+      -2.598076211353316,
+      1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378078,
+      0.4829629131445342,
+      0.22414386804201328,
+      -0.12940952255126037
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8749390840530396,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/b3a5f407f6aa4aaaabdf1e84380c95da",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/ce421f10e46d415198d5d19c5bd265f2/elev+0_az060",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "ce421f10e46d415198d5d19c5bd265f2",
+    "prompt": "a bookshelf",
+    "elevation_deg": 0,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/bookshelf/ce421f10e46d415198d5d19c5bd265f2/elev+0_az060_rgb.png",
+    "depth_path": "data/renders/bookshelf/ce421f10e46d415198d5d19c5bd265f2/elev+0_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      346,
+      489,
+      711,
+      1023
+    ],
+    "gt_pixel_count": 166083,
+    "gt_visible_fraction_of_best_view": 0.8815305488766102,
+    "camera_position": [
+      1.5000000000000004,
+      0.0,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.0,
+      0.25881904510252085,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8968355655670166,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/ce421f10e46d415198d5d19c5bd265f2",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/cf1c9dcafe0846329c10dc26a0182145/elev+60_az000",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "cf1c9dcafe0846329c10dc26a0182145",
+    "prompt": "a bookshelf",
+    "elevation_deg": 60,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bookshelf/cf1c9dcafe0846329c10dc26a0182145/elev+60_az000_rgb.png",
+    "depth_path": "data/renders/bookshelf/cf1c9dcafe0846329c10dc26a0182145/elev+60_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      99,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 819502,
+    "gt_visible_fraction_of_best_view": 0.7815380096435547,
+    "camera_position": [
+      1.5000000000000004,
+      2.598076211353316,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6123724356957945,
+      -0.3535533905932737,
+      0.6123724356957945,
+      0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6040524244308472,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/cf1c9dcafe0846329c10dc26a0182145",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "bookshelf/d8dc05000c26495793203d0323bca8cb/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "bookshelf",
+    "source_id": "bookcase",
+    "model_id": "d8dc05000c26495793203d0323bca8cb",
+    "prompt": "a bookshelf",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/bookshelf/d8dc05000c26495793203d0323bca8cb/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/bookshelf/d8dc05000c26495793203d0323bca8cb/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7767886519432068,
+    "false_category": "cabinet",
+    "instance_key": "bookshelf/d8dc05000c26495793203d0323bca8cb",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/0fc4281624ec4fdfa8cb8476b6b939bb/elev-30_az060",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "0fc4281624ec4fdfa8cb8476b6b939bb",
+    "prompt": "a cabinet",
+    "elevation_deg": -30,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/cabinet/0fc4281624ec4fdfa8cb8476b6b939bb/elev-30_az060_rgb.png",
+    "depth_path": "data/renders/cabinet/0fc4281624ec4fdfa8cb8476b6b939bb/elev-30_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      570,
+      686,
+      1023
+    ],
+    "gt_pixel_count": 204117,
+    "gt_visible_fraction_of_best_view": 0.3015975507767596,
+    "camera_position": [
+      1.2990381056766582,
+      -1.4999999999999998,
+      2.25
+    ],
+    "camera_rotation_wxyz": [
+      0.9330127018922192,
+      0.24999999999999994,
+      0.24999999999999983,
+      -0.0669872981077807
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7875324487686157,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/0fc4281624ec4fdfa8cb8476b6b939bb",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/18c9781b883846fc9eaab6b2cfa8a654/elev+0_az210",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "18c9781b883846fc9eaab6b2cfa8a654",
+    "prompt": "a cabinet",
+    "elevation_deg": 0,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/cabinet/18c9781b883846fc9eaab6b2cfa8a654/elev+0_az210_rgb.png",
+    "depth_path": "data/renders/cabinet/18c9781b883846fc9eaab6b2cfa8a654/elev+0_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      379,
+      548,
+      938,
+      1023
+    ],
+    "gt_pixel_count": 230543,
+    "gt_visible_fraction_of_best_view": 0.6791622968784983,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.5,
+      -0.0,
+      -0.8660254037844386,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8054441809654236,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/18c9781b883846fc9eaab6b2cfa8a654",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/1bf163160fa34a2bac8c9c6218675478/elev+0_az270",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "1bf163160fa34a2bac8c9c6218675478",
+    "prompt": "a cabinet",
+    "elevation_deg": 0,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/cabinet/1bf163160fa34a2bac8c9c6218675478/elev+0_az270_rgb.png",
+    "depth_path": "data/renders/cabinet/1bf163160fa34a2bac8c9c6218675478/elev+0_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      262,
+      659,
+      761,
+      916
+    ],
+    "gt_pixel_count": 126840,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -5.51091059616309e-16,
+      0.0,
+      -3.0
+    ],
+    "camera_rotation_wxyz": [
+      0.0,
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8508256077766418,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/1bf163160fa34a2bac8c9c6218675478",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/2554c38364d0432dba69bf721fb14e5e/elev+60_az030",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "2554c38364d0432dba69bf721fb14e5e",
+    "prompt": "a cabinet",
+    "elevation_deg": 60,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/cabinet/2554c38364d0432dba69bf721fb14e5e/elev+60_az030_rgb.png",
+    "depth_path": "data/renders/cabinet/2554c38364d0432dba69bf721fb14e5e/elev+60_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 716438,
+    "gt_visible_fraction_of_best_view": 0.68977077217687,
+    "camera_position": [
+      1.2990381056766584,
+      2.598076211353316,
+      0.7500000000000001
+    ],
+    "camera_rotation_wxyz": [
+      0.7499999999999999,
+      -0.4330127018922194,
+      0.4330127018922192,
+      0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8020768165588379,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/2554c38364d0432dba69bf721fb14e5e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/4b1eeac388e641b9a6b975c32cf41439/elev-30_az330",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "4b1eeac388e641b9a6b975c32cf41439",
+    "prompt": "a cabinet",
+    "elevation_deg": -30,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/cabinet/4b1eeac388e641b9a6b975c32cf41439/elev-30_az330_rgb.png",
+    "depth_path": "data/renders/cabinet/4b1eeac388e641b9a6b975c32cf41439/elev-30_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 781464,
+    "gt_visible_fraction_of_best_view": 0.7452621459960938,
+    "camera_position": [
+      2.2499999999999996,
+      -1.4999999999999998,
+      -1.2990381056766591
+    ],
+    "camera_rotation_wxyz": [
+      0.482962913144534,
+      0.12940952255126034,
+      0.8365163037378082,
+      -0.2241438680420134
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7910685539245605,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/4b1eeac388e641b9a6b975c32cf41439",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/64edd65e1ec7492ebb7c1a8b0cb1f5eb/elev-60_az330",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "64edd65e1ec7492ebb7c1a8b0cb1f5eb",
+    "prompt": "a cabinet",
+    "elevation_deg": -60,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/cabinet/64edd65e1ec7492ebb7c1a8b0cb1f5eb/elev-60_az330_rgb.png",
+    "depth_path": "data/renders/cabinet/64edd65e1ec7492ebb7c1a8b0cb1f5eb/elev-60_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.299038105676658,
+      -2.598076211353316,
+      -0.7500000000000009
+    ],
+    "camera_rotation_wxyz": [
+      0.4330127018922191,
+      0.24999999999999967,
+      0.7500000000000004,
+      -0.43301270189221935
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6630544066429138,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/64edd65e1ec7492ebb7c1a8b0cb1f5eb",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/79a619a8e522469d9aed2f426cda3d86/elev+30_az270",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "79a619a8e522469d9aed2f426cda3d86",
+    "prompt": "a cabinet",
+    "elevation_deg": 30,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/cabinet/79a619a8e522469d9aed2f426cda3d86/elev+30_az270_rgb.png",
+    "depth_path": "data/renders/cabinet/79a619a8e522469d9aed2f426cda3d86/elev+30_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      558,
+      1023,
+      1018
+    ],
+    "gt_pixel_count": 387470,
+    "gt_visible_fraction_of_best_view": 0.3695201873779297,
+    "camera_position": [
+      -4.772588574262081e-16,
+      1.4999999999999998,
+      -2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      -8.871884785340023e-17,
+      -0.0,
+      0.9659258262890682,
+      0.25881904510252074
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8021230101585388,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/79a619a8e522469d9aed2f426cda3d86",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/79dab0ecc4dc49d9b41d86c62871c5ca/elev+0_az030",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "79dab0ecc4dc49d9b41d86c62871c5ca",
+    "prompt": "a cabinet",
+    "elevation_deg": 0,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/cabinet/79dab0ecc4dc49d9b41d86c62871c5ca/elev+0_az030_rgb.png",
+    "depth_path": "data/renders/cabinet/79dab0ecc4dc49d9b41d86c62871c5ca/elev+0_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      424,
+      581,
+      630,
+      1022
+    ],
+    "gt_pixel_count": 60509,
+    "gt_visible_fraction_of_best_view": 0.7315448412602461,
+    "camera_position": [
+      2.598076211353316,
+      0.0,
+      1.4999999999999998
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844386,
+      -0.0,
+      0.49999999999999994,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8677359223365784,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/79dab0ecc4dc49d9b41d86c62871c5ca",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/82e38b32baed40d080454474595e82f3/elev+30_az060",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "82e38b32baed40d080454474595e82f3",
+    "prompt": "a cabinet",
+    "elevation_deg": 30,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/cabinet/82e38b32baed40d080454474595e82f3/elev+30_az060_rgb.png",
+    "depth_path": "data/renders/cabinet/82e38b32baed40d080454474595e82f3/elev+30_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 917046,
+    "gt_visible_fraction_of_best_view": 0.8745632171630859,
+    "camera_position": [
+      1.2990381056766582,
+      1.4999999999999998,
+      2.25
+    ],
+    "camera_rotation_wxyz": [
+      0.9330127018922192,
+      -0.24999999999999994,
+      0.24999999999999983,
+      0.0669872981077807
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6764752864837646,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/82e38b32baed40d080454474595e82f3",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/98dc3a40ca4743f29ca31acf6da5d31f/elev+30_az060",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "98dc3a40ca4743f29ca31acf6da5d31f",
+    "prompt": "a cabinet",
+    "elevation_deg": 30,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/cabinet/98dc3a40ca4743f29ca31acf6da5d31f/elev+30_az060_rgb.png",
+    "depth_path": "data/renders/cabinet/98dc3a40ca4743f29ca31acf6da5d31f/elev+30_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      265,
+      572,
+      810,
+      1023
+    ],
+    "gt_pixel_count": 165846,
+    "gt_visible_fraction_of_best_view": 0.8361449184757949,
+    "camera_position": [
+      1.2990381056766582,
+      1.4999999999999998,
+      2.25
+    ],
+    "camera_rotation_wxyz": [
+      0.9330127018922192,
+      -0.24999999999999994,
+      0.24999999999999983,
+      0.0669872981077807
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7710949778556824,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/98dc3a40ca4743f29ca31acf6da5d31f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/9df575f5d85945129e4c73248b2cbbcf/elev-60_az090",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "9df575f5d85945129e4c73248b2cbbcf",
+    "prompt": "a cabinet",
+    "elevation_deg": -60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/cabinet/9df575f5d85945129e4c73248b2cbbcf/elev-60_az090_rgb.png",
+    "depth_path": "data/renders/cabinet/9df575f5d85945129e4c73248b2cbbcf/elev-60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      395,
+      669,
+      628,
+      895
+    ],
+    "gt_pixel_count": 40294,
+    "gt_visible_fraction_of_best_view": 0.9545626835970814,
+    "camera_position": [
+      9.184850993605152e-17,
+      -2.598076211353316,
+      1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      0.5,
+      -0.0,
+      -1.5308084989341912e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8628717660903931,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/9df575f5d85945129e4c73248b2cbbcf",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/a9ed7b1e55824b37b7e5eabdba6545ff/elev-60_az090",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "a9ed7b1e55824b37b7e5eabdba6545ff",
+    "prompt": "a cabinet",
+    "elevation_deg": -60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/cabinet/a9ed7b1e55824b37b7e5eabdba6545ff/elev-60_az090_rgb.png",
+    "depth_path": "data/renders/cabinet/a9ed7b1e55824b37b7e5eabdba6545ff/elev-60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      395,
+      669,
+      628,
+      895
+    ],
+    "gt_pixel_count": 40294,
+    "gt_visible_fraction_of_best_view": 0.9545626835970814,
+    "camera_position": [
+      9.184850993605152e-17,
+      -2.598076211353316,
+      1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      0.5,
+      -0.0,
+      -1.5308084989341912e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8619013428688049,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/a9ed7b1e55824b37b7e5eabdba6545ff",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/ade4d25315af4126b34b472817c9d079/elev-30_az090",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "ade4d25315af4126b34b472817c9d079",
+    "prompt": "a cabinet",
+    "elevation_deg": -30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/cabinet/ade4d25315af4126b34b472817c9d079/elev-30_az090_rgb.png",
+    "depth_path": "data/renders/cabinet/ade4d25315af4126b34b472817c9d079/elev-30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      50,
+      540,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 255850,
+    "gt_visible_fraction_of_best_view": 0.8773373659647282,
+    "camera_position": [
+      1.5908628580873605e-16,
+      -1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      0.25881904510252074,
+      -0.0,
+      -7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7821982502937317,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/ade4d25315af4126b34b472817c9d079",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/b1a6eed00f1246d9b8f8f08003c59362/elev+0_az090",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "b1a6eed00f1246d9b8f8f08003c59362",
+    "prompt": "a cabinet",
+    "elevation_deg": 0,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/cabinet/b1a6eed00f1246d9b8f8f08003c59362/elev+0_az090_rgb.png",
+    "depth_path": "data/renders/cabinet/b1a6eed00f1246d9b8f8f08003c59362/elev+0_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      434,
+      612,
+      589,
+      940
+    ],
+    "gt_pixel_count": 41648,
+    "gt_visible_fraction_of_best_view": 0.8922213415026029,
+    "camera_position": [
+      1.8369701987210297e-16,
+      0.0,
+      3.0
+    ],
+    "camera_rotation_wxyz": [
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.871751070022583,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/b1a6eed00f1246d9b8f8f08003c59362",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/b7e25d2b684747c08e90b8cf446bdb43/elev+0_az180",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "b7e25d2b684747c08e90b8cf446bdb43",
+    "prompt": "a cabinet",
+    "elevation_deg": 0,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/cabinet/b7e25d2b684747c08e90b8cf446bdb43/elev+0_az180_rgb.png",
+    "depth_path": "data/renders/cabinet/b7e25d2b684747c08e90b8cf446bdb43/elev+0_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      426,
+      609,
+      597,
+      947
+    ],
+    "gt_pixel_count": 54160,
+    "gt_visible_fraction_of_best_view": 0.895843326661925,
+    "camera_position": [
+      -3.0,
+      0.0,
+      3.6739403974420594e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.7071067811865476,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8771416544914246,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/b7e25d2b684747c08e90b8cf446bdb43",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/c20c815f51f24e2e8b7a3213c1b73051/elev-30_az300",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "c20c815f51f24e2e8b7a3213c1b73051",
+    "prompt": "a cabinet",
+    "elevation_deg": -30,
+    "azimuth_deg": 300,
+    "rgb_path": "data/renders/cabinet/c20c815f51f24e2e8b7a3213c1b73051/elev-30_az300_rgb.png",
+    "depth_path": "data/renders/cabinet/c20c815f51f24e2e8b7a3213c1b73051/elev-30_az300_depth.npy",
+    "gt_bbox_xyxy": [
+      297,
+      544,
+      703,
+      1023
+    ],
+    "gt_pixel_count": 135136,
+    "gt_visible_fraction_of_best_view": 0.835586114786738,
+    "camera_position": [
+      1.2990381056766582,
+      -1.4999999999999998,
+      -2.25
+    ],
+    "camera_rotation_wxyz": [
+      0.25000000000000006,
+      0.0669872981077807,
+      0.9330127018922189,
+      -0.25000000000000006
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8085408210754395,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/c20c815f51f24e2e8b7a3213c1b73051",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev+30_az090",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "cfbcb02c981e4a6c92b6c86fb5ced91d",
+    "prompt": "a cabinet",
+    "elevation_deg": 30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev+30_az090_rgb.png",
+    "depth_path": "data/renders/cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev+30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.5908628580873605e-16,
+      1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.25881904510252074,
+      -0.0,
+      7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6626793742179871,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/dc1615bd22ea472ea732bdfdbfa2cae4/elev+30_az030",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "dc1615bd22ea472ea732bdfdbfa2cae4",
+    "prompt": "a cabinet",
+    "elevation_deg": 30,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/cabinet/dc1615bd22ea472ea732bdfdbfa2cae4/elev+30_az030_rgb.png",
+    "depth_path": "data/renders/cabinet/dc1615bd22ea472ea732bdfdbfa2cae4/elev+30_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      334,
+      367,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 335736,
+    "gt_visible_fraction_of_best_view": 0.7322278757636097,
+    "camera_position": [
+      2.25,
+      1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378079,
+      -0.2241438680420133,
+      0.48296291314453427,
+      0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.799871563911438,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/dc1615bd22ea472ea732bdfdbfa2cae4",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/de9d6291c2a145c79485f2ac0cdaf43d/elev+30_az060",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "de9d6291c2a145c79485f2ac0cdaf43d",
+    "prompt": "a cabinet",
+    "elevation_deg": 30,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/cabinet/de9d6291c2a145c79485f2ac0cdaf43d/elev+30_az060_rgb.png",
+    "depth_path": "data/renders/cabinet/de9d6291c2a145c79485f2ac0cdaf43d/elev+30_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      265,
+      572,
+      810,
+      1023
+    ],
+    "gt_pixel_count": 165846,
+    "gt_visible_fraction_of_best_view": 0.8361449184757949,
+    "camera_position": [
+      1.2990381056766582,
+      1.4999999999999998,
+      2.25
+    ],
+    "camera_rotation_wxyz": [
+      0.9330127018922192,
+      -0.24999999999999994,
+      0.24999999999999983,
+      0.0669872981077807
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7710949778556824,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/de9d6291c2a145c79485f2ac0cdaf43d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "cabinet/f0ba5dbf90134d39bb1839770f4e88c9/elev+0_az120",
+    "dataset": "objaverse",
+    "category": "cabinet",
+    "source_id": "cabinet",
+    "model_id": "f0ba5dbf90134d39bb1839770f4e88c9",
+    "prompt": "a cabinet",
+    "elevation_deg": 0,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/cabinet/f0ba5dbf90134d39bb1839770f4e88c9/elev+0_az120_rgb.png",
+    "depth_path": "data/renders/cabinet/f0ba5dbf90134d39bb1839770f4e88c9/elev+0_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      404,
+      653,
+      616,
+      932
+    ],
+    "gt_pixel_count": 45020,
+    "gt_visible_fraction_of_best_view": 0.970405017998405,
+    "camera_position": [
+      -1.4819903254508966,
+      0.0,
+      2.56688254000649
+    ],
+    "camera_rotation_wxyz": [
+      -0.9659258262890683,
+      -0.0,
+      0.2588190451025207,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 2.9639806509017945,
+    "best_score": 0.8323802351951599,
+    "false_category": "bookshelf",
+    "instance_key": "cabinet/f0ba5dbf90134d39bb1839770f4e88c9",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/19b2c1893f084653ab226cc3faf27c96/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "19b2c1893f084653ab226cc3faf27c96",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/chair/19b2c1893f084653ab226cc3faf27c96/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/chair/19b2c1893f084653ab226cc3faf27c96/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      342,
+      690,
+      681,
+      944
+    ],
+    "gt_pixel_count": 50294,
+    "gt_visible_fraction_of_best_view": 0.6533130691191562,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9605209827423096,
+    "false_category": "sofa",
+    "instance_key": "chair/19b2c1893f084653ab226cc3faf27c96",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/1d7a66437c954638b69bbeefa774c4b2/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "1d7a66437c954638b69bbeefa774c4b2",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/chair/1d7a66437c954638b69bbeefa774c4b2/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/chair/1d7a66437c954638b69bbeefa774c4b2/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      345,
+      688,
+      677,
+      939
+    ],
+    "gt_pixel_count": 49344,
+    "gt_visible_fraction_of_best_view": 0.6482907218120189,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9633418917655945,
+    "false_category": "sofa",
+    "instance_key": "chair/1d7a66437c954638b69bbeefa774c4b2",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/304253851afd493d958fc8e256c189df/elev-30_az210",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "304253851afd493d958fc8e256c189df",
+    "prompt": "a chair",
+    "elevation_deg": -30,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/chair/304253851afd493d958fc8e256c189df/elev-30_az210_rgb.png",
+    "depth_path": "data/renders/chair/304253851afd493d958fc8e256c189df/elev-30_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 901861,
+    "gt_visible_fraction_of_best_view": 0.860081672668457,
+    "camera_position": [
+      -2.25,
+      -1.4999999999999998,
+      -1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      -0.48296291314453416,
+      -0.12940952255126037,
+      0.8365163037378077,
+      -0.22414386804201333
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9321571588516235,
+    "false_category": "sofa",
+    "instance_key": "chair/304253851afd493d958fc8e256c189df",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/3df6e89550b747a79458f197889607ce/elev+30_az270",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "3df6e89550b747a79458f197889607ce",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/chair/3df6e89550b747a79458f197889607ce/elev+30_az270_rgb.png",
+    "depth_path": "data/renders/chair/3df6e89550b747a79458f197889607ce/elev+30_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      400,
+      702,
+      622,
+      924
+    ],
+    "gt_pixel_count": 32399,
+    "gt_visible_fraction_of_best_view": 0.5133084064767578,
+    "camera_position": [
+      -4.772588574262081e-16,
+      1.4999999999999998,
+      -2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      -8.871884785340023e-17,
+      -0.0,
+      0.9659258262890682,
+      0.25881904510252074
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9566602110862732,
+    "false_category": "sofa",
+    "instance_key": "chair/3df6e89550b747a79458f197889607ce",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/63f071b5c74341fcb4106c8975725f12/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "63f071b5c74341fcb4106c8975725f12",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/chair/63f071b5c74341fcb4106c8975725f12/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/chair/63f071b5c74341fcb4106c8975725f12/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      368,
+      669,
+      655,
+      901
+    ],
+    "gt_pixel_count": 42412,
+    "gt_visible_fraction_of_best_view": 0.6343309253525972,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9581722021102905,
+    "false_category": "sofa",
+    "instance_key": "chair/63f071b5c74341fcb4106c8975725f12",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/8084e9dae0614831bb9724c61e94741a/elev+30_az000",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "8084e9dae0614831bb9724c61e94741a",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/chair/8084e9dae0614831bb9724c61e94741a/elev+30_az000_rgb.png",
+    "depth_path": "data/renders/chair/8084e9dae0614831bb9724c61e94741a/elev+30_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      418,
+      617,
+      627,
+      939
+    ],
+    "gt_pixel_count": 44168,
+    "gt_visible_fraction_of_best_view": 0.6760649615037272,
+    "camera_position": [
+      2.598076211353316,
+      1.4999999999999998,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.959102213382721,
+    "false_category": "sofa",
+    "instance_key": "chair/8084e9dae0614831bb9724c61e94741a",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/82822706425d40f89d4bbdc63a8ec821/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "82822706425d40f89d4bbdc63a8ec821",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/chair/82822706425d40f89d4bbdc63a8ec821/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/chair/82822706425d40f89d4bbdc63a8ec821/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      365,
+      674,
+      658,
+      905
+    ],
+    "gt_pixel_count": 42070,
+    "gt_visible_fraction_of_best_view": 0.556304876758701,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9597579836845398,
+    "false_category": "sofa",
+    "instance_key": "chair/82822706425d40f89d4bbdc63a8ec821",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/83c7586454d24b82ab7fa697efd4b9af/elev+30_az000",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "83c7586454d24b82ab7fa697efd4b9af",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/chair/83c7586454d24b82ab7fa697efd4b9af/elev+30_az000_rgb.png",
+    "depth_path": "data/renders/chair/83c7586454d24b82ab7fa697efd4b9af/elev+30_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      70,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 910316,
+    "gt_visible_fraction_of_best_view": 0.8681449890136719,
+    "camera_position": [
+      2.598076211353316,
+      1.4999999999999998,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6008415818214417,
+    "false_category": "sofa",
+    "instance_key": "chair/83c7586454d24b82ab7fa697efd4b9af",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/8a4a3a90bc104f11b82cedd9b4e5ab6b/elev+30_az150",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "8a4a3a90bc104f11b82cedd9b4e5ab6b",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/chair/8a4a3a90bc104f11b82cedd9b4e5ab6b/elev+30_az150_rgb.png",
+    "depth_path": "data/renders/chair/8a4a3a90bc104f11b82cedd9b4e5ab6b/elev+30_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      388,
+      604,
+      625,
+      925
+    ],
+    "gt_pixel_count": 52581,
+    "gt_visible_fraction_of_best_view": 0.9303407763898227,
+    "camera_position": [
+      -2.25,
+      1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378079,
+      0.2241438680420133,
+      0.48296291314453427,
+      0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9562228918075562,
+    "false_category": "sofa",
+    "instance_key": "chair/8a4a3a90bc104f11b82cedd9b4e5ab6b",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/909e1134b61c442ba60d7d2747fe2209/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "909e1134b61c442ba60d7d2747fe2209",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/chair/909e1134b61c442ba60d7d2747fe2209/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/chair/909e1134b61c442ba60d7d2747fe2209/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      354,
+      685,
+      669,
+      934
+    ],
+    "gt_pixel_count": 48033,
+    "gt_visible_fraction_of_best_view": 0.6404058450215988,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9596918821334839,
+    "false_category": "sofa",
+    "instance_key": "chair/909e1134b61c442ba60d7d2747fe2209",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/99ef536b8f174b9496516bed69368f46/elev-30_az000",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "99ef536b8f174b9496516bed69368f46",
+    "prompt": "a chair",
+    "elevation_deg": -30,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/chair/99ef536b8f174b9496516bed69368f46/elev-30_az000_rgb.png",
+    "depth_path": "data/renders/chair/99ef536b8f174b9496516bed69368f46/elev-30_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      44,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 802155,
+    "gt_visible_fraction_of_best_view": 0.7649946212768555,
+    "camera_position": [
+      2.598076211353316,
+      -1.4999999999999998,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      -0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9230095744132996,
+    "false_category": "sofa",
+    "instance_key": "chair/99ef536b8f174b9496516bed69368f46",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/99fc178ecc0943ae81454a3735e2eb5f/elev+60_az120",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "99fc178ecc0943ae81454a3735e2eb5f",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/chair/99fc178ecc0943ae81454a3735e2eb5f/elev+60_az120_rgb.png",
+    "depth_path": "data/renders/chair/99fc178ecc0943ae81454a3735e2eb5f/elev+60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 959850,
+    "gt_visible_fraction_of_best_view": 0.9153842926025391,
+    "camera_position": [
+      -0.7499999999999999,
+      2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      0.48296291314453427,
+      0.2241438680420131,
+      0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9480834007263184,
+    "false_category": "sofa",
+    "instance_key": "chair/99fc178ecc0943ae81454a3735e2eb5f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/9a07e1a9a4bb4d268926a8111bda8c26/elev+30_az150",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "9a07e1a9a4bb4d268926a8111bda8c26",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/chair/9a07e1a9a4bb4d268926a8111bda8c26/elev+30_az150_rgb.png",
+    "depth_path": "data/renders/chair/9a07e1a9a4bb4d268926a8111bda8c26/elev+30_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      360,
+      554,
+      614,
+      962
+    ],
+    "gt_pixel_count": 54907,
+    "gt_visible_fraction_of_best_view": 0.8104952395010702,
+    "camera_position": [
+      -2.25,
+      1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378079,
+      0.2241438680420133,
+      0.48296291314453427,
+      0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9533863067626953,
+    "false_category": "sofa",
+    "instance_key": "chair/9a07e1a9a4bb4d268926a8111bda8c26",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/ad0b974411d94ec2bd2bd62b701018bc/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "ad0b974411d94ec2bd2bd62b701018bc",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/chair/ad0b974411d94ec2bd2bd62b701018bc/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/chair/ad0b974411d94ec2bd2bd62b701018bc/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      414,
+      619,
+      611,
+      924
+    ],
+    "gt_pixel_count": 38949,
+    "gt_visible_fraction_of_best_view": 0.8105256586340367,
+    "camera_position": [
+      -2.598076211353316,
+      1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9548565745353699,
+    "false_category": "sofa",
+    "instance_key": "chair/ad0b974411d94ec2bd2bd62b701018bc",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/c5d80712ee2c4741a5f059530e523a7c/elev-30_az090",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "c5d80712ee2c4741a5f059530e523a7c",
+    "prompt": "a chair",
+    "elevation_deg": -30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/chair/c5d80712ee2c4741a5f059530e523a7c/elev-30_az090_rgb.png",
+    "depth_path": "data/renders/chair/c5d80712ee2c4741a5f059530e523a7c/elev-30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      148,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 466658,
+    "gt_visible_fraction_of_best_view": 0.4450397491455078,
+    "camera_position": [
+      1.5908628580873605e-16,
+      -1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      0.25881904510252074,
+      -0.0,
+      -7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.927604615688324,
+    "false_category": "sofa",
+    "instance_key": "chair/c5d80712ee2c4741a5f059530e523a7c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/c5f031081be8441d8ad4a070af67602d/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "c5f031081be8441d8ad4a070af67602d",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/chair/c5f031081be8441d8ad4a070af67602d/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/chair/c5f031081be8441d8ad4a070af67602d/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      414,
+      618,
+      615,
+      912
+    ],
+    "gt_pixel_count": 47107,
+    "gt_visible_fraction_of_best_view": 0.8416473110594962,
+    "camera_position": [
+      -2.598076211353316,
+      1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9596434235572815,
+    "false_category": "sofa",
+    "instance_key": "chair/c5f031081be8441d8ad4a070af67602d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/c5f49f97856c461a8192fb950ce23540/elev+60_az240",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "c5f49f97856c461a8192fb950ce23540",
+    "prompt": "a chair",
+    "elevation_deg": 60,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/chair/c5f49f97856c461a8192fb950ce23540/elev+60_az240_rgb.png",
+    "depth_path": "data/renders/chair/c5f49f97856c461a8192fb950ce23540/elev+60_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1031358,
+    "gt_visible_fraction_of_best_view": 0.9835796356201172,
+    "camera_position": [
+      -0.7500000000000009,
+      2.598076211353316,
+      -1.299038105676658
+    ],
+    "camera_rotation_wxyz": [
+      -0.22414386804201358,
+      0.1294095225512605,
+      0.8365163037378078,
+      0.4829629131445339
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9428457617759705,
+    "false_category": "sofa",
+    "instance_key": "chair/c5f49f97856c461a8192fb950ce23540",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/d9a81a38147440c8a2ac92a26d62d895/elev+30_az210",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "d9a81a38147440c8a2ac92a26d62d895",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/chair/d9a81a38147440c8a2ac92a26d62d895/elev+30_az210_rgb.png",
+    "depth_path": "data/renders/chair/d9a81a38147440c8a2ac92a26d62d895/elev+30_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      389,
+      621,
+      629,
+      956
+    ],
+    "gt_pixel_count": 42412,
+    "gt_visible_fraction_of_best_view": 0.7049398311282494,
+    "camera_position": [
+      -2.25,
+      1.4999999999999998,
+      -1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      -0.48296291314453416,
+      0.12940952255126037,
+      0.8365163037378077,
+      0.22414386804201333
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9572718739509583,
+    "false_category": "sofa",
+    "instance_key": "chair/d9a81a38147440c8a2ac92a26d62d895",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/f341308cee4a42668fc7433a64b95a5f/elev+30_az000",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "f341308cee4a42668fc7433a64b95a5f",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/chair/f341308cee4a42668fc7433a64b95a5f/elev+30_az000_rgb.png",
+    "depth_path": "data/renders/chair/f341308cee4a42668fc7433a64b95a5f/elev+30_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      421,
+      588,
+      632,
+      954
+    ],
+    "gt_pixel_count": 45085,
+    "gt_visible_fraction_of_best_view": 0.7263924468719287,
+    "camera_position": [
+      2.598076211353316,
+      1.4999999999999998,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9543930292129517,
+    "false_category": "sofa",
+    "instance_key": "chair/f341308cee4a42668fc7433a64b95a5f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "chair/fab9443d48e24fbfa309187df78d58e6/elev+30_az090",
+    "dataset": "objaverse",
+    "category": "chair",
+    "source_id": "chair",
+    "model_id": "fab9443d48e24fbfa309187df78d58e6",
+    "prompt": "a chair",
+    "elevation_deg": 30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/chair/fab9443d48e24fbfa309187df78d58e6/elev+30_az090_rgb.png",
+    "depth_path": "data/renders/chair/fab9443d48e24fbfa309187df78d58e6/elev+30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      419,
+      619,
+      604,
+      922
+    ],
+    "gt_pixel_count": 40202,
+    "gt_visible_fraction_of_best_view": 0.8573683088078482,
+    "camera_position": [
+      1.5908628580873605e-16,
+      1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.25881904510252074,
+      -0.0,
+      7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9595502614974976,
+    "false_category": "sofa",
+    "instance_key": "chair/fab9443d48e24fbfa309187df78d58e6",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/03e706cd42504955b08379f45633c9ef/elev+0_az330",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "03e706cd42504955b08379f45633c9ef",
+    "prompt": "a lamp",
+    "elevation_deg": 0,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/lamp/03e706cd42504955b08379f45633c9ef/elev+0_az330_rgb.png",
+    "depth_path": "data/renders/lamp/03e706cd42504955b08379f45633c9ef/elev+0_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      2.598076211353315,
+      0.0,
+      -1.5000000000000013
+    ],
+    "camera_rotation_wxyz": [
+      -0.4999999999999998,
+      -0.0,
+      -0.8660254037844387,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7091512680053711,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/03e706cd42504955b08379f45633c9ef",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/0f26f15559b5421cba32468fb1b84878/elev+30_az090",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "0f26f15559b5421cba32468fb1b84878",
+    "prompt": "a lamp",
+    "elevation_deg": 30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/lamp/0f26f15559b5421cba32468fb1b84878/elev+30_az090_rgb.png",
+    "depth_path": "data/renders/lamp/0f26f15559b5421cba32468fb1b84878/elev+30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.5908628580873605e-16,
+      1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.25881904510252074,
+      -0.0,
+      7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6845700740814209,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/0f26f15559b5421cba32468fb1b84878",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/1829bc2edec44901a2f7032fe2c5090f/elev-30_az240",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "1829bc2edec44901a2f7032fe2c5090f",
+    "prompt": "a lamp",
+    "elevation_deg": -30,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/lamp/1829bc2edec44901a2f7032fe2c5090f/elev-30_az240_rgb.png",
+    "depth_path": "data/renders/lamp/1829bc2edec44901a2f7032fe2c5090f/elev-30_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -1.2990381056766591,
+      -1.4999999999999998,
+      -2.2499999999999996
+    ],
+    "camera_rotation_wxyz": [
+      -0.25000000000000017,
+      -0.06698729810778073,
+      0.9330127018922193,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6077955365180969,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/1829bc2edec44901a2f7032fe2c5090f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/2919081a8ffe42dc8f21b552d7a24546/elev+0_az150",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "2919081a8ffe42dc8f21b552d7a24546",
+    "prompt": "a lamp",
+    "elevation_deg": 0,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/lamp/2919081a8ffe42dc8f21b552d7a24546/elev+0_az150_rgb.png",
+    "depth_path": "data/renders/lamp/2919081a8ffe42dc8f21b552d7a24546/elev+0_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      4,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 982223,
+    "gt_visible_fraction_of_best_view": 0.9367208480834961,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      1.4999999999999998
+    ],
+    "camera_rotation_wxyz": [
+      -0.8660254037844386,
+      -0.0,
+      0.49999999999999994,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7967378497123718,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/2919081a8ffe42dc8f21b552d7a24546",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/2e0bc4dfa796479f8766a252ca11cffe/elev-30_az150",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "2e0bc4dfa796479f8766a252ca11cffe",
+    "prompt": "a lamp",
+    "elevation_deg": -30,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/lamp/2e0bc4dfa796479f8766a252ca11cffe/elev-30_az150_rgb.png",
+    "depth_path": "data/renders/lamp/2e0bc4dfa796479f8766a252ca11cffe/elev-30_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      432,
+      643,
+      592,
+      936
+    ],
+    "gt_pixel_count": 21082,
+    "gt_visible_fraction_of_best_view": 0.9263148644492288,
+    "camera_position": [
+      -2.25,
+      -1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378079,
+      -0.2241438680420133,
+      0.48296291314453427,
+      -0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.5387894511222839,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/2e0bc4dfa796479f8766a252ca11cffe",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/317dac94ec404bdbaa6d41a85e04f51c/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "317dac94ec404bdbaa6d41a85e04f51c",
+    "prompt": "a lamp",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/lamp/317dac94ec404bdbaa6d41a85e04f51c/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/lamp/317dac94ec404bdbaa6d41a85e04f51c/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 318855,
+    "gt_visible_fraction_of_best_view": 0.30408382415771484,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6572623252868652,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/317dac94ec404bdbaa6d41a85e04f51c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "3f4c5e992fef4eb1bad58e576ce197a6",
+    "prompt": "a lamp",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      406,
+      956,
+      609,
+      1023
+    ],
+    "gt_pixel_count": 9031,
+    "gt_visible_fraction_of_best_view": 0.7743954724747042,
+    "camera_position": [
+      -1.3042069053253786,
+      0.752984207868576,
+      1.5971928120326e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 1.5059684157371522,
+    "best_score": 0.6625149250030518,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/3f4c5e992fef4eb1bad58e576ce197a6",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/46b4b4f592c54f04ae524d656f1e1d2d/elev-60_az120",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "46b4b4f592c54f04ae524d656f1e1d2d",
+    "prompt": "a lamp",
+    "elevation_deg": -60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/lamp/46b4b4f592c54f04ae524d656f1e1d2d/elev-60_az120_rgb.png",
+    "depth_path": "data/renders/lamp/46b4b4f592c54f04ae524d656f1e1d2d/elev-60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      988
+    ],
+    "gt_pixel_count": 252378,
+    "gt_visible_fraction_of_best_view": 0.6036422605550932,
+    "camera_position": [
+      -0.7499999999999999,
+      -2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      -0.48296291314453427,
+      0.2241438680420131,
+      -0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6302158236503601,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/46b4b4f592c54f04ae524d656f1e1d2d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/4a0f306ba95144fda533b329818d0680/elev-60_az000",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "4a0f306ba95144fda533b329818d0680",
+    "prompt": "a lamp",
+    "elevation_deg": -60,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/lamp/4a0f306ba95144fda533b329818d0680/elev-60_az000_rgb.png",
+    "depth_path": "data/renders/lamp/4a0f306ba95144fda533b329818d0680/elev-60_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      455,
+      666,
+      568,
+      983
+    ],
+    "gt_pixel_count": 18554,
+    "gt_visible_fraction_of_best_view": 0.9170167548065042,
+    "camera_position": [
+      1.5000000000000004,
+      -2.598076211353316,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6123724356957945,
+      0.3535533905932737,
+      0.6123724356957945,
+      -0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.635961651802063,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/4a0f306ba95144fda533b329818d0680",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/4d18ba843ae24b94a5ffc77717256c8c/elev-30_az270",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "4d18ba843ae24b94a5ffc77717256c8c",
+    "prompt": "a lamp",
+    "elevation_deg": -30,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/lamp/4d18ba843ae24b94a5ffc77717256c8c/elev-30_az270_rgb.png",
+    "depth_path": "data/renders/lamp/4d18ba843ae24b94a5ffc77717256c8c/elev-30_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      284,
+      479,
+      739,
+      1023
+    ],
+    "gt_pixel_count": 169902,
+    "gt_visible_fraction_of_best_view": 0.9541625482972415,
+    "camera_position": [
+      -4.772588574262081e-16,
+      -1.4999999999999998,
+      -2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      -8.871884785340023e-17,
+      -0.0,
+      0.9659258262890682,
+      -0.25881904510252074
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7103694081306458,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/4d18ba843ae24b94a5ffc77717256c8c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/4dff23e7a6d04f53a3dff42fd319e181/elev+60_az090",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "4dff23e7a6d04f53a3dff42fd319e181",
+    "prompt": "a lamp",
+    "elevation_deg": 60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/lamp/4dff23e7a6d04f53a3dff42fd319e181/elev+60_az090_rgb.png",
+    "depth_path": "data/renders/lamp/4dff23e7a6d04f53a3dff42fd319e181/elev+60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      444,
+      983,
+      576,
+      1023
+    ],
+    "gt_pixel_count": 5170,
+    "gt_visible_fraction_of_best_view": 0.5205920853891853,
+    "camera_position": [
+      4.297459641511416e-17,
+      1.2156024819167293,
+      0.701828420162201
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      -0.5,
+      -0.0,
+      1.5308084989341915e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 1.4036568403244019,
+    "best_score": 0.6927416920661926,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/4dff23e7a6d04f53a3dff42fd319e181",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/70aed3dc12274120809c97ee26e78fdb/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "70aed3dc12274120809c97ee26e78fdb",
+    "prompt": "a lamp",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/lamp/70aed3dc12274120809c97ee26e78fdb/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/lamp/70aed3dc12274120809c97ee26e78fdb/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6786999106407166,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/70aed3dc12274120809c97ee26e78fdb",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/77774d22076940aa8484e053bb14947a/elev+60_az000",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "77774d22076940aa8484e053bb14947a",
+    "prompt": "a lamp",
+    "elevation_deg": 60,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/lamp/77774d22076940aa8484e053bb14947a/elev+60_az000_rgb.png",
+    "depth_path": "data/renders/lamp/77774d22076940aa8484e053bb14947a/elev+60_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      435,
+      679,
+      588,
+      836
+    ],
+    "gt_pixel_count": 22234,
+    "gt_visible_fraction_of_best_view": 0.8151488488048101,
+    "camera_position": [
+      1.5000000000000004,
+      2.598076211353316,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6123724356957945,
+      -0.3535533905932737,
+      0.6123724356957945,
+      0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6978711485862732,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/77774d22076940aa8484e053bb14947a",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/8b51a94040254d5d923a32b203d94a47/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "8b51a94040254d5d923a32b203d94a47",
+    "prompt": "a lamp",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/lamp/8b51a94040254d5d923a32b203d94a47/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/lamp/8b51a94040254d5d923a32b203d94a47/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7080383896827698,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/8b51a94040254d5d923a32b203d94a47",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/cfd477d07e5443f28bcf6b72a5370a52/elev+30_az180",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "cfd477d07e5443f28bcf6b72a5370a52",
+    "prompt": "a lamp",
+    "elevation_deg": 30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/lamp/cfd477d07e5443f28bcf6b72a5370a52/elev+30_az180_rgb.png",
+    "depth_path": "data/renders/lamp/cfd477d07e5443f28bcf6b72a5370a52/elev+30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      439,
+      813,
+      584,
+      988
+    ],
+    "gt_pixel_count": 16894,
+    "gt_visible_fraction_of_best_view": 0.8133846894559461,
+    "camera_position": [
+      -1.6688450950842182,
+      0.9635081648826598,
+      2.043745803967648e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922194,
+      0.1830127018922193
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 1.9270163297653198,
+    "best_score": 0.6990764141082764,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/cfd477d07e5443f28bcf6b72a5370a52",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/d7169cb8a6014252abf05c8a6576ec4f/elev+0_az180",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "d7169cb8a6014252abf05c8a6576ec4f",
+    "prompt": "a lamp",
+    "elevation_deg": 0,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/lamp/d7169cb8a6014252abf05c8a6576ec4f/elev+0_az180_rgb.png",
+    "depth_path": "data/renders/lamp/d7169cb8a6014252abf05c8a6576ec4f/elev+0_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 649148,
+    "gt_visible_fraction_of_best_view": 0.8625863718507495,
+    "camera_position": [
+      -3.0,
+      0.0,
+      3.6739403974420594e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.7071067811865476,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.614181637763977,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/d7169cb8a6014252abf05c8a6576ec4f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/f93be18847144f1fbd87930d2070cb71/elev-60_az300",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "f93be18847144f1fbd87930d2070cb71",
+    "prompt": "a lamp",
+    "elevation_deg": -60,
+    "azimuth_deg": 300,
+    "rgb_path": "data/renders/lamp/f93be18847144f1fbd87930d2070cb71/elev-60_az300_rgb.png",
+    "depth_path": "data/renders/lamp/f93be18847144f1fbd87930d2070cb71/elev-60_az300_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 119584,
+    "gt_visible_fraction_of_best_view": 0.5353868194842407,
+    "camera_position": [
+      0.7500000000000004,
+      -2.598076211353316,
+      -1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      0.22414386804201342,
+      0.12940952255126043,
+      0.8365163037378078,
+      -0.4829629131445339
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8006554245948792,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/f93be18847144f1fbd87930d2070cb71",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "lamp/fae0a272f36846f2b2e80b8c318ebc0b/elev+0_az180",
+    "dataset": "objaverse",
+    "category": "lamp",
+    "source_id": "lamp",
+    "model_id": "fae0a272f36846f2b2e80b8c318ebc0b",
+    "prompt": "a lamp",
+    "elevation_deg": 0,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/lamp/fae0a272f36846f2b2e80b8c318ebc0b/elev+0_az180_rgb.png",
+    "depth_path": "data/renders/lamp/fae0a272f36846f2b2e80b8c318ebc0b/elev+0_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 649148,
+    "gt_visible_fraction_of_best_view": 0.8625863718507495,
+    "camera_position": [
+      -3.0,
+      0.0,
+      3.6739403974420594e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.7071067811865476,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.614181637763977,
+    "false_category": "bookshelf",
+    "instance_key": "lamp/fae0a272f36846f2b2e80b8c318ebc0b",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/06024979a503424f99b23e00bba766d1/elev+60_az210",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "06024979a503424f99b23e00bba766d1",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/sofa/06024979a503424f99b23e00bba766d1/elev+60_az210_rgb.png",
+    "depth_path": "data/renders/sofa/06024979a503424f99b23e00bba766d1/elev+60_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      571,
+      645,
+      765,
+      902
+    ],
+    "gt_pixel_count": 20133,
+    "gt_visible_fraction_of_best_view": 0.6420780711825488,
+    "camera_position": [
+      -1.2990381056766582,
+      2.598076211353316,
+      -0.7500000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -0.4330127018922192,
+      0.25000000000000006,
+      0.7499999999999998,
+      0.43301270189221924
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.963912308216095,
+    "false_category": "chair",
+    "instance_key": "sofa/06024979a503424f99b23e00bba766d1",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/1582bd8176654bb98871b8c20ae94a72/elev+60_az270",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "1582bd8176654bb98871b8c20ae94a72",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/sofa/1582bd8176654bb98871b8c20ae94a72/elev+60_az270_rgb.png",
+    "depth_path": "data/renders/sofa/1582bd8176654bb98871b8c20ae94a72/elev+60_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -2.7554552980815453e-16,
+      2.598076211353316,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      -7.954314290436802e-17,
+      -0.0,
+      0.8660254037844386,
+      0.5
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8708200454711914,
+    "false_category": "chair",
+    "instance_key": "sofa/1582bd8176654bb98871b8c20ae94a72",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/18d738a49a2c474281a2675eb35de9b9/elev-30_az150",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "18d738a49a2c474281a2675eb35de9b9",
+    "prompt": "a sofa",
+    "elevation_deg": -30,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/sofa/18d738a49a2c474281a2675eb35de9b9/elev-30_az150_rgb.png",
+    "depth_path": "data/renders/sofa/18d738a49a2c474281a2675eb35de9b9/elev-30_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      182,
+      647,
+      773,
+      884
+    ],
+    "gt_pixel_count": 53950,
+    "gt_visible_fraction_of_best_view": 0.3245054224585421,
+    "camera_position": [
+      -2.25,
+      -1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378079,
+      -0.2241438680420133,
+      0.48296291314453427,
+      -0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9667543768882751,
+    "false_category": "chair",
+    "instance_key": "sofa/18d738a49a2c474281a2675eb35de9b9",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/1a6a02daf9a84b108e437f75fdcab2f7/elev+30_az030",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "1a6a02daf9a84b108e437f75fdcab2f7",
+    "prompt": "a sofa",
+    "elevation_deg": 30,
+    "azimuth_deg": 30,
+    "rgb_path": "data/renders/sofa/1a6a02daf9a84b108e437f75fdcab2f7/elev+30_az030_rgb.png",
+    "depth_path": "data/renders/sofa/1a6a02daf9a84b108e437f75fdcab2f7/elev+30_az030_depth.npy",
+    "gt_bbox_xyxy": [
+      380,
+      303,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 322168,
+    "gt_visible_fraction_of_best_view": 0.34641608682982744,
+    "camera_position": [
+      2.25,
+      1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378079,
+      -0.2241438680420133,
+      0.48296291314453427,
+      0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8935718536376953,
+    "false_category": "chair",
+    "instance_key": "sofa/1a6a02daf9a84b108e437f75fdcab2f7",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/2aef33f2add148a7af1cadfeea487dd0/elev+30_az270",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "2aef33f2add148a7af1cadfeea487dd0",
+    "prompt": "a sofa",
+    "elevation_deg": 30,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/sofa/2aef33f2add148a7af1cadfeea487dd0/elev+30_az270_rgb.png",
+    "depth_path": "data/renders/sofa/2aef33f2add148a7af1cadfeea487dd0/elev+30_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      294,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 732228,
+    "gt_visible_fraction_of_best_view": 0.6983070373535156,
+    "camera_position": [
+      -4.772588574262081e-16,
+      1.4999999999999998,
+      -2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      -8.871884785340023e-17,
+      -0.0,
+      0.9659258262890682,
+      0.25881904510252074
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7098063230514526,
+    "false_category": "chair",
+    "instance_key": "sofa/2aef33f2add148a7af1cadfeea487dd0",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/42da0122f2134a189767d0911b401c1c/elev+0_az210",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "42da0122f2134a189767d0911b401c1c",
+    "prompt": "a sofa",
+    "elevation_deg": 0,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/sofa/42da0122f2134a189767d0911b401c1c/elev+0_az210_rgb.png",
+    "depth_path": "data/renders/sofa/42da0122f2134a189767d0911b401c1c/elev+0_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      384,
+      665,
+      718,
+      1021
+    ],
+    "gt_pixel_count": 62134,
+    "gt_visible_fraction_of_best_view": 0.7727628878801069,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.5,
+      -0.0,
+      -0.8660254037844386,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9572340846061707,
+    "false_category": "chair",
+    "instance_key": "sofa/42da0122f2134a189767d0911b401c1c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/46e87a7edb4f4c3ea685ff3a88a325c5/elev+60_az330",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "46e87a7edb4f4c3ea685ff3a88a325c5",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/sofa/46e87a7edb4f4c3ea685ff3a88a325c5/elev+60_az330_rgb.png",
+    "depth_path": "data/renders/sofa/46e87a7edb4f4c3ea685ff3a88a325c5/elev+60_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1016932,
+    "gt_visible_fraction_of_best_view": 0.9698219299316406,
+    "camera_position": [
+      1.299038105676658,
+      2.598076211353316,
+      -0.7500000000000009
+    ],
+    "camera_rotation_wxyz": [
+      0.4330127018922191,
+      -0.24999999999999967,
+      0.7500000000000004,
+      0.43301270189221935
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9200533032417297,
+    "false_category": "chair",
+    "instance_key": "sofa/46e87a7edb4f4c3ea685ff3a88a325c5",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/4c9549644f6b477d991f16a26e442935/elev-60_az120",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "4c9549644f6b477d991f16a26e442935",
+    "prompt": "a sofa",
+    "elevation_deg": -60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/sofa/4c9549644f6b477d991f16a26e442935/elev-60_az120_rgb.png",
+    "depth_path": "data/renders/sofa/4c9549644f6b477d991f16a26e442935/elev-60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      138,
+      558,
+      840,
+      1013
+    ],
+    "gt_pixel_count": 145051,
+    "gt_visible_fraction_of_best_view": 0.7599744319223737,
+    "camera_position": [
+      -0.7499999999999999,
+      -2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      -0.48296291314453427,
+      0.2241438680420131,
+      -0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9458195567131042,
+    "false_category": "chair",
+    "instance_key": "sofa/4c9549644f6b477d991f16a26e442935",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/5979a6cd55854243abbd5554d309f073/elev+60_az120",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "5979a6cd55854243abbd5554d309f073",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/sofa/5979a6cd55854243abbd5554d309f073/elev+60_az120_rgb.png",
+    "depth_path": "data/renders/sofa/5979a6cd55854243abbd5554d309f073/elev+60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1048576,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -0.7499999999999999,
+      2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      0.48296291314453427,
+      0.2241438680420131,
+      0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8419906497001648,
+    "false_category": "chair",
+    "instance_key": "sofa/5979a6cd55854243abbd5554d309f073",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/736e3ea67480426da4013dbca5fb8d20/elev-30_az000",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "736e3ea67480426da4013dbca5fb8d20",
+    "prompt": "a sofa",
+    "elevation_deg": -30,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/sofa/736e3ea67480426da4013dbca5fb8d20/elev-30_az000_rgb.png",
+    "depth_path": "data/renders/sofa/736e3ea67480426da4013dbca5fb8d20/elev-30_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      386,
+      644,
+      642,
+      875
+    ],
+    "gt_pixel_count": 37377,
+    "gt_visible_fraction_of_best_view": 0.39517672308977303,
+    "camera_position": [
+      2.598076211353316,
+      -1.4999999999999998,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6830127018922194,
+      0.18301270189221935,
+      0.6830127018922193,
+      -0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9719680547714233,
+    "false_category": "chair",
+    "instance_key": "sofa/736e3ea67480426da4013dbca5fb8d20",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/a0d66f10a850469c9cb04c3cecc62a05/elev+60_az240",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "a0d66f10a850469c9cb04c3cecc62a05",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/sofa/a0d66f10a850469c9cb04c3cecc62a05/elev+60_az240_rgb.png",
+    "depth_path": "data/renders/sofa/a0d66f10a850469c9cb04c3cecc62a05/elev+60_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1024667,
+    "gt_visible_fraction_of_best_view": 0.977198600769043,
+    "camera_position": [
+      -0.7500000000000009,
+      2.598076211353316,
+      -1.299038105676658
+    ],
+    "camera_rotation_wxyz": [
+      -0.22414386804201358,
+      0.1294095225512605,
+      0.8365163037378078,
+      0.4829629131445339
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9139627814292908,
+    "false_category": "chair",
+    "instance_key": "sofa/a0d66f10a850469c9cb04c3cecc62a05",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/b7f5c725a61b4bd6a28d80e3c453d373/elev+30_az330",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "b7f5c725a61b4bd6a28d80e3c453d373",
+    "prompt": "a sofa",
+    "elevation_deg": 30,
+    "azimuth_deg": 330,
+    "rgb_path": "data/renders/sofa/b7f5c725a61b4bd6a28d80e3c453d373/elev+30_az330_rgb.png",
+    "depth_path": "data/renders/sofa/b7f5c725a61b4bd6a28d80e3c453d373/elev+30_az330_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 985688,
+    "gt_visible_fraction_of_best_view": 0.9400253295898438,
+    "camera_position": [
+      2.2499999999999996,
+      1.4999999999999998,
+      -1.2990381056766591
+    ],
+    "camera_rotation_wxyz": [
+      0.482962913144534,
+      -0.12940952255126034,
+      0.8365163037378082,
+      0.2241438680420134
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9062882661819458,
+    "false_category": "chair",
+    "instance_key": "sofa/b7f5c725a61b4bd6a28d80e3c453d373",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/ca63db1db205476fa6f54e1603b7d15d/elev-30_az090",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "ca63db1db205476fa6f54e1603b7d15d",
+    "prompt": "a sofa",
+    "elevation_deg": -30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/sofa/ca63db1db205476fa6f54e1603b7d15d/elev-30_az090_rgb.png",
+    "depth_path": "data/renders/sofa/ca63db1db205476fa6f54e1603b7d15d/elev-30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      358,
+      648,
+      667,
+      877
+    ],
+    "gt_pixel_count": 45399,
+    "gt_visible_fraction_of_best_view": 0.4474130284813245,
+    "camera_position": [
+      1.5908628580873605e-16,
+      -1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      0.25881904510252074,
+      -0.0,
+      -7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9639197587966919,
+    "false_category": "chair",
+    "instance_key": "sofa/ca63db1db205476fa6f54e1603b7d15d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/d210ff8277ae4fbfb3334ede70614b06/elev+60_az180",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "d210ff8277ae4fbfb3334ede70614b06",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/sofa/d210ff8277ae4fbfb3334ede70614b06/elev+60_az180_rgb.png",
+    "depth_path": "data/renders/sofa/d210ff8277ae4fbfb3334ede70614b06/elev+60_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      453,
+      1023
+    ],
+    "gt_pixel_count": 406054,
+    "gt_visible_fraction_of_best_view": 0.38724327087402344,
+    "camera_position": [
+      -1.5000000000000004,
+      2.598076211353316,
+      1.8369701987210304e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6123724356957946,
+      0.3535533905932736,
+      0.6123724356957945,
+      0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7265742421150208,
+    "false_category": "chair",
+    "instance_key": "sofa/d210ff8277ae4fbfb3334ede70614b06",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/d90e4353ae7047e0b4f37abc8bc58468/elev-30_az090",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "d90e4353ae7047e0b4f37abc8bc58468",
+    "prompt": "a sofa",
+    "elevation_deg": -30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/sofa/d90e4353ae7047e0b4f37abc8bc58468/elev-30_az090_rgb.png",
+    "depth_path": "data/renders/sofa/d90e4353ae7047e0b4f37abc8bc58468/elev-30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      65,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 965860,
+    "gt_visible_fraction_of_best_view": 0.9211158752441406,
+    "camera_position": [
+      1.5908628580873605e-16,
+      -1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      0.25881904510252074,
+      -0.0,
+      -7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8130277991294861,
+    "false_category": "chair",
+    "instance_key": "sofa/d90e4353ae7047e0b4f37abc8bc58468",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/e868e007bacf425cb0b3df2b44397bf6/elev+60_az000",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "e868e007bacf425cb0b3df2b44397bf6",
+    "prompt": "a sofa",
+    "elevation_deg": 60,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/sofa/e868e007bacf425cb0b3df2b44397bf6/elev+60_az000_rgb.png",
+    "depth_path": "data/renders/sofa/e868e007bacf425cb0b3df2b44397bf6/elev+60_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      282,
+      652,
+      742,
+      895
+    ],
+    "gt_pixel_count": 100209,
+    "gt_visible_fraction_of_best_view": 0.8665525202998936,
+    "camera_position": [
+      1.5000000000000004,
+      2.598076211353316,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.6123724356957945,
+      -0.3535533905932737,
+      0.6123724356957945,
+      0.3535533905932737
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9557440876960754,
+    "false_category": "chair",
+    "instance_key": "sofa/e868e007bacf425cb0b3df2b44397bf6",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/e8a03b14310c40239365f166d325d671/elev-30_az240",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "e8a03b14310c40239365f166d325d671",
+    "prompt": "a sofa",
+    "elevation_deg": -30,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/sofa/e8a03b14310c40239365f166d325d671/elev-30_az240_rgb.png",
+    "depth_path": "data/renders/sofa/e8a03b14310c40239365f166d325d671/elev-30_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      381,
+      805,
+      614,
+      1007
+    ],
+    "gt_pixel_count": 35668,
+    "gt_visible_fraction_of_best_view": 0.7533636075615165,
+    "camera_position": [
+      -0.9084094845076259,
+      -1.0489409208297729,
+      -1.573411381244659
+    ],
+    "camera_rotation_wxyz": [
+      -0.2500000000000003,
+      -0.06698729810778077,
+      0.9330127018922192,
+      -0.25
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 2.097881841659546,
+    "best_score": 0.9648755788803101,
+    "false_category": "chair",
+    "instance_key": "sofa/e8a03b14310c40239365f166d325d671",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/ef3630e58a3e432db2745cc4207a425b/elev-30_az210",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "ef3630e58a3e432db2745cc4207a425b",
+    "prompt": "a sofa",
+    "elevation_deg": -30,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/sofa/ef3630e58a3e432db2745cc4207a425b/elev-30_az210_rgb.png",
+    "depth_path": "data/renders/sofa/ef3630e58a3e432db2745cc4207a425b/elev-30_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      611,
+      869,
+      1023
+    ],
+    "gt_pixel_count": 290286,
+    "gt_visible_fraction_of_best_view": 0.45089608852466145,
+    "camera_position": [
+      -2.25,
+      -1.4999999999999998,
+      -1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      -0.48296291314453416,
+      -0.12940952255126037,
+      0.8365163037378077,
+      -0.22414386804201333
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8827189803123474,
+    "false_category": "chair",
+    "instance_key": "sofa/ef3630e58a3e432db2745cc4207a425b",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/ef3832963ab24d129ec88fd4cac4818f/elev-60_az120",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "ef3832963ab24d129ec88fd4cac4818f",
+    "prompt": "a sofa",
+    "elevation_deg": -60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/sofa/ef3832963ab24d129ec88fd4cac4818f/elev-60_az120_rgb.png",
+    "depth_path": "data/renders/sofa/ef3832963ab24d129ec88fd4cac4818f/elev-60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      335,
+      655,
+      695,
+      889
+    ],
+    "gt_pixel_count": 49560,
+    "gt_visible_fraction_of_best_view": 0.7366778149386844,
+    "camera_position": [
+      -0.7499999999999999,
+      -2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      -0.48296291314453427,
+      0.2241438680420131,
+      -0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9678127765655518,
+    "false_category": "chair",
+    "instance_key": "sofa/ef3832963ab24d129ec88fd4cac4818f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "sofa/f8def3c5f656454c935fe3d626ed9fab/elev+0_az210",
+    "dataset": "objaverse",
+    "category": "sofa",
+    "source_id": "sofa",
+    "model_id": "f8def3c5f656454c935fe3d626ed9fab",
+    "prompt": "a sofa",
+    "elevation_deg": 0,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/sofa/f8def3c5f656454c935fe3d626ed9fab/elev+0_az210_rgb.png",
+    "depth_path": "data/renders/sofa/f8def3c5f656454c935fe3d626ed9fab/elev+0_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      350,
+      624,
+      873,
+      1023
+    ],
+    "gt_pixel_count": 113423,
+    "gt_visible_fraction_of_best_view": 0.7086545790795606,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.5,
+      -0.0,
+      -0.8660254037844386,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9501242637634277,
+    "false_category": "chair",
+    "instance_key": "sofa/f8def3c5f656454c935fe3d626ed9fab",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/0061cdbbceef476a98025f10e19f5d13/elev-30_az180",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "0061cdbbceef476a98025f10e19f5d13",
+    "prompt": "a table",
+    "elevation_deg": -30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/table/0061cdbbceef476a98025f10e19f5d13/elev-30_az180_rgb.png",
+    "depth_path": "data/renders/table/0061cdbbceef476a98025f10e19f5d13/elev-30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 644104,
+    "gt_visible_fraction_of_best_view": 0.6248025981383113,
+    "camera_position": [
+      -2.598076211353316,
+      -1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      -0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.610868513584137,
+    "false_category": "cabinet",
+    "instance_key": "table/0061cdbbceef476a98025f10e19f5d13",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/0fd1d0546f8e422b97a4fd5cfe959d2e/elev-60_az090",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "0fd1d0546f8e422b97a4fd5cfe959d2e",
+    "prompt": "a table",
+    "elevation_deg": -60,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/table/0fd1d0546f8e422b97a4fd5cfe959d2e/elev-60_az090_rgb.png",
+    "depth_path": "data/renders/table/0fd1d0546f8e422b97a4fd5cfe959d2e/elev-60_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      765
+    ],
+    "gt_pixel_count": 741200,
+    "gt_visible_fraction_of_best_view": 0.8719805086709826,
+    "camera_position": [
+      9.184850993605152e-17,
+      -2.598076211353316,
+      1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.8660254037844387,
+      0.5,
+      -0.0,
+      -1.5308084989341912e-17
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7882885932922363,
+    "false_category": "cabinet",
+    "instance_key": "table/0fd1d0546f8e422b97a4fd5cfe959d2e",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/2568b63db4c9410a863efe11467e6851/elev+0_az300",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "2568b63db4c9410a863efe11467e6851",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 300,
+    "rgb_path": "data/renders/table/2568b63db4c9410a863efe11467e6851/elev+0_az300_rgb.png",
+    "depth_path": "data/renders/table/2568b63db4c9410a863efe11467e6851/elev+0_az300_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      867
+    ],
+    "gt_pixel_count": 359581,
+    "gt_visible_fraction_of_best_view": 0.3678133995077832,
+    "camera_position": [
+      1.5000000000000004,
+      0.0,
+      -2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      -0.2588190451025208,
+      -0.0,
+      -0.9659258262890683,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6608171463012695,
+    "false_category": "cabinet",
+    "instance_key": "table/2568b63db4c9410a863efe11467e6851",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/3623d7ff740e4b969539008999eebcf3/elev+0_az000",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "3623d7ff740e4b969539008999eebcf3",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/table/3623d7ff740e4b969539008999eebcf3/elev+0_az000_rgb.png",
+    "depth_path": "data/renders/table/3623d7ff740e4b969539008999eebcf3/elev+0_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 344836,
+    "gt_visible_fraction_of_best_view": 0.40541420706179454,
+    "camera_position": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      0.7071067811865475,
+      -0.0,
+      0.7071067811865475,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8385016918182373,
+    "false_category": "cabinet",
+    "instance_key": "table/3623d7ff740e4b969539008999eebcf3",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/40fe46cdc4ea4c20a436f6e508d6819f/elev-30_az240",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "40fe46cdc4ea4c20a436f6e508d6819f",
+    "prompt": "a table",
+    "elevation_deg": -30,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/table/40fe46cdc4ea4c20a436f6e508d6819f/elev-30_az240_rgb.png",
+    "depth_path": "data/renders/table/40fe46cdc4ea4c20a436f6e508d6819f/elev-30_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 600364,
+    "gt_visible_fraction_of_best_view": 0.6940840927982723,
+    "camera_position": [
+      -1.2990381056766591,
+      -1.4999999999999998,
+      -2.2499999999999996
+    ],
+    "camera_rotation_wxyz": [
+      -0.25000000000000017,
+      -0.06698729810778073,
+      0.9330127018922193,
+      -0.24999999999999994
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6842730045318604,
+    "false_category": "cabinet",
+    "instance_key": "table/40fe46cdc4ea4c20a436f6e508d6819f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/4d7f3c58a09c4a899e68ad837edd2b6b/elev+0_az240",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "4d7f3c58a09c4a899e68ad837edd2b6b",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 240,
+    "rgb_path": "data/renders/table/4d7f3c58a09c4a899e68ad837edd2b6b/elev+0_az240_rgb.png",
+    "depth_path": "data/renders/table/4d7f3c58a09c4a899e68ad837edd2b6b/elev+0_az240_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      296
+    ],
+    "gt_pixel_count": 201914,
+    "gt_visible_fraction_of_best_view": 0.6567312727473793,
+    "camera_position": [
+      -1.5000000000000013,
+      0.0,
+      -2.598076211353315
+    ],
+    "camera_rotation_wxyz": [
+      0.258819045102521,
+      -0.0,
+      -0.9659258262890682,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7294267416000366,
+    "false_category": "cabinet",
+    "instance_key": "table/4d7f3c58a09c4a899e68ad837edd2b6b",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/53bf56e597114c22bafed8c41c1fdc4a/elev-30_az150",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "53bf56e597114c22bafed8c41c1fdc4a",
+    "prompt": "a table",
+    "elevation_deg": -30,
+    "azimuth_deg": 150,
+    "rgb_path": "data/renders/table/53bf56e597114c22bafed8c41c1fdc4a/elev-30_az150_rgb.png",
+    "depth_path": "data/renders/table/53bf56e597114c22bafed8c41c1fdc4a/elev-30_az150_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 620481,
+    "gt_visible_fraction_of_best_view": 0.6076105924311239,
+    "camera_position": [
+      -2.25,
+      -1.4999999999999998,
+      1.2990381056766578
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378079,
+      -0.2241438680420133,
+      0.48296291314453427,
+      -0.12940952255126034
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.6251737475395203,
+    "false_category": "cabinet",
+    "instance_key": "table/53bf56e597114c22bafed8c41c1fdc4a",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/5a9c7c1899c84a8e87fb3930132cf478/elev+0_az210",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "5a9c7c1899c84a8e87fb3930132cf478",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 210,
+    "rgb_path": "data/renders/table/5a9c7c1899c84a8e87fb3930132cf478/elev+0_az210_rgb.png",
+    "depth_path": "data/renders/table/5a9c7c1899c84a8e87fb3930132cf478/elev+0_az210_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 1032293,
+    "gt_visible_fraction_of_best_view": 0.984471321105957,
+    "camera_position": [
+      -2.598076211353316,
+      0.0,
+      -1.5000000000000004
+    ],
+    "camera_rotation_wxyz": [
+      0.5,
+      -0.0,
+      -0.8660254037844386,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8745911717414856,
+    "false_category": "cabinet",
+    "instance_key": "table/5a9c7c1899c84a8e87fb3930132cf478",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/6d459af223cb46c8a78923a19538c5c0/elev-60_az060",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "6d459af223cb46c8a78923a19538c5c0",
+    "prompt": "a table",
+    "elevation_deg": -60,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/table/6d459af223cb46c8a78923a19538c5c0/elev-60_az060_rgb.png",
+    "depth_path": "data/renders/table/6d459af223cb46c8a78923a19538c5c0/elev-60_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 830191,
+    "gt_visible_fraction_of_best_view": 0.90995691304019,
+    "camera_position": [
+      0.7500000000000004,
+      -2.598076211353316,
+      1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378078,
+      0.4829629131445342,
+      0.22414386804201328,
+      -0.12940952255126037
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7179527878761292,
+    "false_category": "cabinet",
+    "instance_key": "table/6d459af223cb46c8a78923a19538c5c0",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/72ea9b9996e147ef8400a213e9346c5d/elev+0_az090",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "72ea9b9996e147ef8400a213e9346c5d",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/table/72ea9b9996e147ef8400a213e9346c5d/elev+0_az090_rgb.png",
+    "depth_path": "data/renders/table/72ea9b9996e147ef8400a213e9346c5d/elev+0_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 284973,
+    "gt_visible_fraction_of_best_view": 0.35400064844156637,
+    "camera_position": [
+      1.8369701987210297e-16,
+      0.0,
+      3.0
+    ],
+    "camera_rotation_wxyz": [
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7262992262840271,
+    "false_category": "cabinet",
+    "instance_key": "table/72ea9b9996e147ef8400a213e9346c5d",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/77ec465b45574d12bf527a26ece473e8/elev+0_az120",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "77ec465b45574d12bf527a26ece473e8",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/table/77ec465b45574d12bf527a26ece473e8/elev+0_az120_rgb.png",
+    "depth_path": "data/renders/table/77ec465b45574d12bf527a26ece473e8/elev+0_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      400,
+      840,
+      638,
+      1023
+    ],
+    "gt_pixel_count": 31877,
+    "gt_visible_fraction_of_best_view": 0.9647126471567352,
+    "camera_position": [
+      -0.8087489962577816,
+      0.0,
+      1.4007943520888102
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890683,
+      -0.0,
+      -0.25881904510252063,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 1.617497992515564,
+    "best_score": 0.8651214838027954,
+    "false_category": "cabinet",
+    "instance_key": "table/77ec465b45574d12bf527a26ece473e8",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/908d57cd384c4f7986741724bac5a005/elev-30_az090",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "908d57cd384c4f7986741724bac5a005",
+    "prompt": "a table",
+    "elevation_deg": -30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/table/908d57cd384c4f7986741724bac5a005/elev-30_az090_rgb.png",
+    "depth_path": "data/renders/table/908d57cd384c4f7986741724bac5a005/elev-30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1022
+    ],
+    "gt_pixel_count": 610472,
+    "gt_visible_fraction_of_best_view": 0.7376378074538064,
+    "camera_position": [
+      1.5908628580873605e-16,
+      -1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      0.25881904510252074,
+      -0.0,
+      -7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7799627780914307,
+    "false_category": "cabinet",
+    "instance_key": "table/908d57cd384c4f7986741724bac5a005",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/a0d133b0871e46bbb454d0dd58e3ac7c/elev+30_az090",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "a0d133b0871e46bbb454d0dd58e3ac7c",
+    "prompt": "a table",
+    "elevation_deg": 30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/table/a0d133b0871e46bbb454d0dd58e3ac7c/elev+30_az090_rgb.png",
+    "depth_path": "data/renders/table/a0d133b0871e46bbb454d0dd58e3ac7c/elev+30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      382,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 585572,
+    "gt_visible_fraction_of_best_view": 0.5584449768066406,
+    "camera_position": [
+      1.5908628580873605e-16,
+      1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.25881904510252074,
+      -0.0,
+      7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7523602843284607,
+    "false_category": "cabinet",
+    "instance_key": "table/a0d133b0871e46bbb454d0dd58e3ac7c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/a6ca57363110496cae1826dc7f97992f/elev-30_az270",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "a6ca57363110496cae1826dc7f97992f",
+    "prompt": "a table",
+    "elevation_deg": -30,
+    "azimuth_deg": 270,
+    "rgb_path": "data/renders/table/a6ca57363110496cae1826dc7f97992f/elev-30_az270_rgb.png",
+    "depth_path": "data/renders/table/a6ca57363110496cae1826dc7f97992f/elev-30_az270_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 738398,
+    "gt_visible_fraction_of_best_view": 0.7041912078857422,
+    "camera_position": [
+      -4.772588574262081e-16,
+      -1.4999999999999998,
+      -2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      -8.871884785340023e-17,
+      -0.0,
+      0.9659258262890682,
+      -0.25881904510252074
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7505588531494141,
+    "false_category": "cabinet",
+    "instance_key": "table/a6ca57363110496cae1826dc7f97992f",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/ac5b149431eb46b593fc9e9601379b2c/elev+90_az000",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "ac5b149431eb46b593fc9e9601379b2c",
+    "prompt": "a table",
+    "elevation_deg": 90,
+    "azimuth_deg": 0,
+    "rgb_path": "data/renders/table/ac5b149431eb46b593fc9e9601379b2c/elev+90_az000_rgb.png",
+    "depth_path": "data/renders/table/ac5b149431eb46b593fc9e9601379b2c/elev+90_az000_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1016,
+      1023
+    ],
+    "gt_pixel_count": 477056,
+    "gt_visible_fraction_of_best_view": 0.5871219999680013,
+    "camera_position": [
+      1.8369701987210297e-16,
+      3.0,
+      0.0
+    ],
+    "camera_rotation_wxyz": [
+      2.164890140588733e-17,
+      -0.0,
+      0.7071067811865472,
+      0.7071067811865476
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.9029520750045776,
+    "false_category": "cabinet",
+    "instance_key": "table/ac5b149431eb46b593fc9e9601379b2c",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/cee1570d79fb4114a8709fc1d08a05ac/elev+60_az060",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "cee1570d79fb4114a8709fc1d08a05ac",
+    "prompt": "a table",
+    "elevation_deg": 60,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/table/cee1570d79fb4114a8709fc1d08a05ac/elev+60_az060_rgb.png",
+    "depth_path": "data/renders/table/cee1570d79fb4114a8709fc1d08a05ac/elev+60_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      236,
+      527,
+      702,
+      945
+    ],
+    "gt_pixel_count": 104195,
+    "gt_visible_fraction_of_best_view": 0.8881870567375887,
+    "camera_position": [
+      0.7500000000000004,
+      2.598076211353316,
+      1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378078,
+      -0.4829629131445342,
+      0.22414386804201328,
+      0.12940952255126037
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8525256514549255,
+    "false_category": "cabinet",
+    "instance_key": "table/cee1570d79fb4114a8709fc1d08a05ac",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/d1a772d68cef4db0ac72958c86ed99e7/elev+30_az090",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "d1a772d68cef4db0ac72958c86ed99e7",
+    "prompt": "a table",
+    "elevation_deg": 30,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/table/d1a772d68cef4db0ac72958c86ed99e7/elev+30_az090_rgb.png",
+    "depth_path": "data/renders/table/d1a772d68cef4db0ac72958c86ed99e7/elev+30_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      192,
+      634,
+      831,
+      917
+    ],
+    "gt_pixel_count": 126513,
+    "gt_visible_fraction_of_best_view": 0.7821514683153014,
+    "camera_position": [
+      1.5908628580873605e-16,
+      1.4999999999999998,
+      2.598076211353316
+    ],
+    "camera_rotation_wxyz": [
+      0.9659258262890682,
+      -0.25881904510252074,
+      -0.0,
+      7.924047878579405e-18
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8903709053993225,
+    "false_category": "cabinet",
+    "instance_key": "table/d1a772d68cef4db0ac72958c86ed99e7",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/d42f2c22796d45e0aa2ded45b8e89b41/elev-60_az120",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "d42f2c22796d45e0aa2ded45b8e89b41",
+    "prompt": "a table",
+    "elevation_deg": -60,
+    "azimuth_deg": 120,
+    "rgb_path": "data/renders/table/d42f2c22796d45e0aa2ded45b8e89b41/elev-60_az120_rgb.png",
+    "depth_path": "data/renders/table/d42f2c22796d45e0aa2ded45b8e89b41/elev-60_az120_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      229,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 474610,
+    "gt_visible_fraction_of_best_view": 0.5699959767250542,
+    "camera_position": [
+      -0.7499999999999999,
+      -2.598076211353316,
+      1.2990381056766584
+    ],
+    "camera_rotation_wxyz": [
+      -0.8365163037378077,
+      -0.48296291314453427,
+      0.2241438680420131,
+      -0.1294095225512603
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.829983651638031,
+    "false_category": "cabinet",
+    "instance_key": "table/d42f2c22796d45e0aa2ded45b8e89b41",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/db9344bf45ca434fbdf4dcefab54e5c2/elev+0_az090",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "db9344bf45ca434fbdf4dcefab54e5c2",
+    "prompt": "a table",
+    "elevation_deg": 0,
+    "azimuth_deg": 90,
+    "rgb_path": "data/renders/table/db9344bf45ca434fbdf4dcefab54e5c2/elev+0_az090_rgb.png",
+    "depth_path": "data/renders/table/db9344bf45ca434fbdf4dcefab54e5c2/elev+0_az090_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      997
+    ],
+    "gt_pixel_count": 501300,
+    "gt_visible_fraction_of_best_view": 0.6187651358617166,
+    "camera_position": [
+      1.8369701987210297e-16,
+      0.0,
+      3.0
+    ],
+    "camera_rotation_wxyz": [
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7825960516929626,
+    "false_category": "cabinet",
+    "instance_key": "table/db9344bf45ca434fbdf4dcefab54e5c2",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  },
+  {
+    "view_id": "table/f045c03591fc4ce2bf8c6abb764cbbd5/elev-30_az180",
+    "dataset": "objaverse",
+    "category": "table",
+    "source_id": "table",
+    "model_id": "f045c03591fc4ce2bf8c6abb764cbbd5",
+    "prompt": "a table",
+    "elevation_deg": -30,
+    "azimuth_deg": 180,
+    "rgb_path": "data/renders/table/f045c03591fc4ce2bf8c6abb764cbbd5/elev-30_az180_rgb.png",
+    "depth_path": "data/renders/table/f045c03591fc4ce2bf8c6abb764cbbd5/elev-30_az180_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      0,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 626597,
+    "gt_visible_fraction_of_best_view": 1.0,
+    "camera_position": [
+      -2.598076211353316,
+      -1.4999999999999998,
+      3.181725716174721e-16
+    ],
+    "camera_rotation_wxyz": [
+      -0.6830127018922194,
+      -0.18301270189221935,
+      0.6830127018922193,
+      -0.18301270189221927
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7900910377502441,
+    "false_category": "cabinet",
+    "instance_key": "table/f045c03591fc4ce2bf8c6abb764cbbd5",
+    "selection_strategy": "false_positive_seed",
+    "seed_model": "groundingdino"
+  }
+]

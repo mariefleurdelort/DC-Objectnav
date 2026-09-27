@@ -1,0 +1,14 @@
+name: vps-yoloworld
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - ultralytics>=8.3.0        # ships YOLO-World / YOLOE + set_classes() API
+      - fastapi
+      - "uvicorn[standard]"
+      - pillow
+      - numpy<2
+      - python-multipart

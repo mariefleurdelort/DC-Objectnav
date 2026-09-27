@@ -1,0 +1,17 @@
+name: vps-orchestrator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - requests
+      - pyyaml
+      - pandas
+      - pillow
+      - tqdm
+      - matplotlib   # orchestrator/framing_heatmap.py
+# Deliberately has no torch/CV deps: the orchestrator only ever talks HTTP to the
+# 4 model servers and reads/writes the manifest. Keeping it dependency-free from
+# the model stacks means it can never be broken by a model-server env change.

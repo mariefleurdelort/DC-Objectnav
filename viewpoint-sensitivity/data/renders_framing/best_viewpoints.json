@@ -1,0 +1,82 @@
+[
+  {
+    "view_id": "bathtub/0849e24b30184cd78220783b8c185a8f/elev-30_az300",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "0849e24b30184cd78220783b8c185a8f",
+    "prompt": "a bathtub",
+    "elevation_deg": -30,
+    "azimuth_deg": 300,
+    "rgb_path": "data/renders/bathtub/0849e24b30184cd78220783b8c185a8f/elev-30_az300_rgb.png",
+    "depth_path": "data/renders/bathtub/0849e24b30184cd78220783b8c185a8f/elev-30_az300_depth.npy",
+    "gt_bbox_xyxy": [
+      0,
+      309,
+      1023,
+      1023
+    ],
+    "gt_pixel_count": 581960,
+    "gt_visible_fraction_of_best_view": 0.5550003051757812,
+    "camera_position": [
+      1.2990381056766582,
+      -1.4999999999999998,
+      -2.25
+    ],
+    "camera_rotation_wxyz": [
+      0.25000000000000006,
+      0.0669872981077807,
+      0.9330127018922189,
+      -0.25000000000000006
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.8721839785575867,
+    "instance_key": "bathtub/0849e24b30184cd78220783b8c185a8f",
+    "selection_strategy": "best_true_viewpoint"
+  },
+  {
+    "view_id": "bathtub/1751e91968704b43a0dda2eb53a5fb75/elev+60_az060",
+    "dataset": "objaverse",
+    "category": "bathtub",
+    "source_id": "bathtub",
+    "model_id": "1751e91968704b43a0dda2eb53a5fb75",
+    "prompt": "a bathtub",
+    "elevation_deg": 60,
+    "azimuth_deg": 60,
+    "rgb_path": "data/renders/bathtub/1751e91968704b43a0dda2eb53a5fb75/elev+60_az060_rgb.png",
+    "depth_path": "data/renders/bathtub/1751e91968704b43a0dda2eb53a5fb75/elev+60_az060_depth.npy",
+    "gt_bbox_xyxy": [
+      267,
+      561,
+      733,
+      1023
+    ],
+    "gt_pixel_count": 131387,
+    "gt_visible_fraction_of_best_view": 0.9219752150786633,
+    "camera_position": [
+      0.7500000000000004,
+      2.598076211353316,
+      1.2990381056766582
+    ],
+    "camera_rotation_wxyz": [
+      0.8365163037378078,
+      -0.4829629131445342,
+      0.22414386804201328,
+      0.12940952255126037
+    ],
+    "object_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "orbit_radius_m": 3.0,
+    "best_score": 0.7807115912437439,
+    "instance_key": "bathtub/1751e91968704b43a0dda2eb53a5fb75",
+    "selection_strategy": "best_true_viewpoint"
+  }
+]

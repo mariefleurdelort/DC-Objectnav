@@ -1,0 +1,19 @@
+name: vps-owlv2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # torch via pip, not conda -- see server_groundingdino.yml for why
+      # (mixed pytorch/nvidia/conda-forge channels hit ClobberErrors on shared
+      # C-library file paths like jpeg vs. libjpeg-turbo).
+      - torch
+      - torchvision
+      - transformers>=4.40.0   # Owlv2ForObjectDetection + Owlv2Processor
+      - fastapi
+      - "uvicorn[standard]"
+      - pillow
+      - numpy<2
+      - python-multipart

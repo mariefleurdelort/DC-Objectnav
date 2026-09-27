@@ -1,0 +1,818 @@
+{
+  "chair": [
+    {
+      "uid": "304253851afd493d958fc8e256c189df",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-089/304253851afd493d958fc8e256c189df.glb"
+    },
+    {
+      "uid": "8a4a3a90bc104f11b82cedd9b4e5ab6b",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-107/8a4a3a90bc104f11b82cedd9b4e5ab6b.glb"
+    },
+    {
+      "uid": "fab9443d48e24fbfa309187df78d58e6",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-040/fab9443d48e24fbfa309187df78d58e6.glb"
+    },
+    {
+      "uid": "ad0b974411d94ec2bd2bd62b701018bc",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-113/ad0b974411d94ec2bd2bd62b701018bc.glb"
+    },
+    {
+      "uid": "d9a81a38147440c8a2ac92a26d62d895",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-013/d9a81a38147440c8a2ac92a26d62d895.glb"
+    },
+    {
+      "uid": "82822706425d40f89d4bbdc63a8ec821",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-120/82822706425d40f89d4bbdc63a8ec821.glb"
+    },
+    {
+      "uid": "3df6e89550b747a79458f197889607ce",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-004/3df6e89550b747a79458f197889607ce.glb"
+    },
+    {
+      "uid": "99ef536b8f174b9496516bed69368f46",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-071/99ef536b8f174b9496516bed69368f46.glb"
+    },
+    {
+      "uid": "99fc178ecc0943ae81454a3735e2eb5f",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-024/99fc178ecc0943ae81454a3735e2eb5f.glb"
+    },
+    {
+      "uid": "9a07e1a9a4bb4d268926a8111bda8c26",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-037/9a07e1a9a4bb4d268926a8111bda8c26.glb"
+    },
+    {
+      "uid": "c5d80712ee2c4741a5f059530e523a7c",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-012/c5d80712ee2c4741a5f059530e523a7c.glb"
+    },
+    {
+      "uid": "8084e9dae0614831bb9724c61e94741a",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-027/8084e9dae0614831bb9724c61e94741a.glb"
+    },
+    {
+      "uid": "c5f031081be8441d8ad4a070af67602d",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-037/c5f031081be8441d8ad4a070af67602d.glb"
+    },
+    {
+      "uid": "c5f49f97856c461a8192fb950ce23540",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-087/c5f49f97856c461a8192fb950ce23540.glb"
+    },
+    {
+      "uid": "f341308cee4a42668fc7433a64b95a5f",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-065/f341308cee4a42668fc7433a64b95a5f.glb"
+    },
+    {
+      "uid": "909e1134b61c442ba60d7d2747fe2209",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-038/909e1134b61c442ba60d7d2747fe2209.glb"
+    },
+    {
+      "uid": "63f071b5c74341fcb4106c8975725f12",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-066/63f071b5c74341fcb4106c8975725f12.glb"
+    },
+    {
+      "uid": "83c7586454d24b82ab7fa697efd4b9af",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-041/83c7586454d24b82ab7fa697efd4b9af.glb"
+    },
+    {
+      "uid": "19b2c1893f084653ab226cc3faf27c96",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-014/19b2c1893f084653ab226cc3faf27c96.glb"
+    },
+    {
+      "uid": "1d7a66437c954638b69bbeefa774c4b2",
+      "lvis_key": "chair",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-073/1d7a66437c954638b69bbeefa774c4b2.glb"
+    }
+  ],
+  "table": [
+    {
+      "uid": "a0d133b0871e46bbb454d0dd58e3ac7c",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-080/a0d133b0871e46bbb454d0dd58e3ac7c.glb"
+    },
+    {
+      "uid": "77ec465b45574d12bf527a26ece473e8",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-027/77ec465b45574d12bf527a26ece473e8.glb"
+    },
+    {
+      "uid": "cee1570d79fb4114a8709fc1d08a05ac",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-131/cee1570d79fb4114a8709fc1d08a05ac.glb"
+    },
+    {
+      "uid": "3623d7ff740e4b969539008999eebcf3",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-140/3623d7ff740e4b969539008999eebcf3.glb"
+    },
+    {
+      "uid": "d42f2c22796d45e0aa2ded45b8e89b41",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-050/d42f2c22796d45e0aa2ded45b8e89b41.glb"
+    },
+    {
+      "uid": "a6ca57363110496cae1826dc7f97992f",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-033/a6ca57363110496cae1826dc7f97992f.glb"
+    },
+    {
+      "uid": "4d7f3c58a09c4a899e68ad837edd2b6b",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-030/4d7f3c58a09c4a899e68ad837edd2b6b.glb"
+    },
+    {
+      "uid": "0061cdbbceef476a98025f10e19f5d13",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-000/0061cdbbceef476a98025f10e19f5d13.glb"
+    },
+    {
+      "uid": "72ea9b9996e147ef8400a213e9346c5d",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-051/72ea9b9996e147ef8400a213e9346c5d.glb"
+    },
+    {
+      "uid": "6d459af223cb46c8a78923a19538c5c0",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-113/6d459af223cb46c8a78923a19538c5c0.glb"
+    },
+    {
+      "uid": "5a9c7c1899c84a8e87fb3930132cf478",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-092/5a9c7c1899c84a8e87fb3930132cf478.glb"
+    },
+    {
+      "uid": "0fd1d0546f8e422b97a4fd5cfe959d2e",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-014/0fd1d0546f8e422b97a4fd5cfe959d2e.glb"
+    },
+    {
+      "uid": "ac5b149431eb46b593fc9e9601379b2c",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-013/ac5b149431eb46b593fc9e9601379b2c.glb"
+    },
+    {
+      "uid": "d1a772d68cef4db0ac72958c86ed99e7",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-065/d1a772d68cef4db0ac72958c86ed99e7.glb"
+    },
+    {
+      "uid": "53bf56e597114c22bafed8c41c1fdc4a",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-115/53bf56e597114c22bafed8c41c1fdc4a.glb"
+    },
+    {
+      "uid": "f045c03591fc4ce2bf8c6abb764cbbd5",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-052/f045c03591fc4ce2bf8c6abb764cbbd5.glb"
+    },
+    {
+      "uid": "2568b63db4c9410a863efe11467e6851",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-014/2568b63db4c9410a863efe11467e6851.glb"
+    },
+    {
+      "uid": "40fe46cdc4ea4c20a436f6e508d6819f",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-098/40fe46cdc4ea4c20a436f6e508d6819f.glb"
+    },
+    {
+      "uid": "908d57cd384c4f7986741724bac5a005",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-146/908d57cd384c4f7986741724bac5a005.glb"
+    },
+    {
+      "uid": "db9344bf45ca434fbdf4dcefab54e5c2",
+      "lvis_key": "table",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-116/db9344bf45ca434fbdf4dcefab54e5c2.glb"
+    }
+  ],
+  "sofa": [
+    {
+      "uid": "1a6a02daf9a84b108e437f75fdcab2f7",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-013/1a6a02daf9a84b108e437f75fdcab2f7.glb"
+    },
+    {
+      "uid": "ef3832963ab24d129ec88fd4cac4818f",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-013/ef3832963ab24d129ec88fd4cac4818f.glb"
+    },
+    {
+      "uid": "a0d66f10a850469c9cb04c3cecc62a05",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-116/a0d66f10a850469c9cb04c3cecc62a05.glb"
+    },
+    {
+      "uid": "06024979a503424f99b23e00bba766d1",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-035/06024979a503424f99b23e00bba766d1.glb"
+    },
+    {
+      "uid": "f8def3c5f656454c935fe3d626ed9fab",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-116/f8def3c5f656454c935fe3d626ed9fab.glb"
+    },
+    {
+      "uid": "2aef33f2add148a7af1cadfeea487dd0",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-101/2aef33f2add148a7af1cadfeea487dd0.glb"
+    },
+    {
+      "uid": "4c9549644f6b477d991f16a26e442935",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-103/4c9549644f6b477d991f16a26e442935.glb"
+    },
+    {
+      "uid": "ef3630e58a3e432db2745cc4207a425b",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-092/ef3630e58a3e432db2745cc4207a425b.glb"
+    },
+    {
+      "uid": "e868e007bacf425cb0b3df2b44397bf6",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-105/e868e007bacf425cb0b3df2b44397bf6.glb"
+    },
+    {
+      "uid": "736e3ea67480426da4013dbca5fb8d20",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-004/736e3ea67480426da4013dbca5fb8d20.glb"
+    },
+    {
+      "uid": "d90e4353ae7047e0b4f37abc8bc58468",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-072/d90e4353ae7047e0b4f37abc8bc58468.glb"
+    },
+    {
+      "uid": "42da0122f2134a189767d0911b401c1c",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-091/42da0122f2134a189767d0911b401c1c.glb"
+    },
+    {
+      "uid": "b7f5c725a61b4bd6a28d80e3c453d373",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-120/b7f5c725a61b4bd6a28d80e3c453d373.glb"
+    },
+    {
+      "uid": "1582bd8176654bb98871b8c20ae94a72",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-034/1582bd8176654bb98871b8c20ae94a72.glb"
+    },
+    {
+      "uid": "d210ff8277ae4fbfb3334ede70614b06",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-144/d210ff8277ae4fbfb3334ede70614b06.glb"
+    },
+    {
+      "uid": "18d738a49a2c474281a2675eb35de9b9",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-034/18d738a49a2c474281a2675eb35de9b9.glb"
+    },
+    {
+      "uid": "46e87a7edb4f4c3ea685ff3a88a325c5",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-139/46e87a7edb4f4c3ea685ff3a88a325c5.glb"
+    },
+    {
+      "uid": "5979a6cd55854243abbd5554d309f073",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-040/5979a6cd55854243abbd5554d309f073.glb"
+    },
+    {
+      "uid": "e8a03b14310c40239365f166d325d671",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-145/e8a03b14310c40239365f166d325d671.glb"
+    },
+    {
+      "uid": "ca63db1db205476fa6f54e1603b7d15d",
+      "lvis_key": "sofa",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-142/ca63db1db205476fa6f54e1603b7d15d.glb"
+    }
+  ],
+  "cabinet": [
+    {
+      "uid": "b1a6eed00f1246d9b8f8f08003c59362",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-130/b1a6eed00f1246d9b8f8f08003c59362.glb"
+    },
+    {
+      "uid": "b7e25d2b684747c08e90b8cf446bdb43",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-120/b7e25d2b684747c08e90b8cf446bdb43.glb"
+    },
+    {
+      "uid": "1bf163160fa34a2bac8c9c6218675478",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-110/1bf163160fa34a2bac8c9c6218675478.glb"
+    },
+    {
+      "uid": "0fc4281624ec4fdfa8cb8476b6b939bb",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-073/0fc4281624ec4fdfa8cb8476b6b939bb.glb"
+    },
+    {
+      "uid": "79dab0ecc4dc49d9b41d86c62871c5ca",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-011/79dab0ecc4dc49d9b41d86c62871c5ca.glb"
+    },
+    {
+      "uid": "9df575f5d85945129e4c73248b2cbbcf",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-097/9df575f5d85945129e4c73248b2cbbcf.glb"
+    },
+    {
+      "uid": "64edd65e1ec7492ebb7c1a8b0cb1f5eb",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-067/64edd65e1ec7492ebb7c1a8b0cb1f5eb.glb"
+    },
+    {
+      "uid": "2554c38364d0432dba69bf721fb14e5e",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-021/2554c38364d0432dba69bf721fb14e5e.glb"
+    },
+    {
+      "uid": "f0ba5dbf90134d39bb1839770f4e88c9",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-068/f0ba5dbf90134d39bb1839770f4e88c9.glb"
+    },
+    {
+      "uid": "79a619a8e522469d9aed2f426cda3d86",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-027/79a619a8e522469d9aed2f426cda3d86.glb"
+    },
+    {
+      "uid": "18c9781b883846fc9eaab6b2cfa8a654",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-157/18c9781b883846fc9eaab6b2cfa8a654.glb"
+    },
+    {
+      "uid": "82e38b32baed40d080454474595e82f3",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-112/82e38b32baed40d080454474595e82f3.glb"
+    },
+    {
+      "uid": "de9d6291c2a145c79485f2ac0cdaf43d",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-135/de9d6291c2a145c79485f2ac0cdaf43d.glb"
+    },
+    {
+      "uid": "4b1eeac388e641b9a6b975c32cf41439",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-078/4b1eeac388e641b9a6b975c32cf41439.glb"
+    },
+    {
+      "uid": "a9ed7b1e55824b37b7e5eabdba6545ff",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-152/a9ed7b1e55824b37b7e5eabdba6545ff.glb"
+    },
+    {
+      "uid": "cfbcb02c981e4a6c92b6c86fb5ced91d",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-040/cfbcb02c981e4a6c92b6c86fb5ced91d.glb"
+    },
+    {
+      "uid": "dc1615bd22ea472ea732bdfdbfa2cae4",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-098/dc1615bd22ea472ea732bdfdbfa2cae4.glb"
+    },
+    {
+      "uid": "ade4d25315af4126b34b472817c9d079",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-066/ade4d25315af4126b34b472817c9d079.glb"
+    },
+    {
+      "uid": "c20c815f51f24e2e8b7a3213c1b73051",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-036/c20c815f51f24e2e8b7a3213c1b73051.glb"
+    },
+    {
+      "uid": "98dc3a40ca4743f29ca31acf6da5d31f",
+      "lvis_key": "cabinet",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-065/98dc3a40ca4743f29ca31acf6da5d31f.glb"
+    }
+  ],
+  "bed": [
+    {
+      "uid": "dc3024aa5e234f4299641f072558b9a8",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-075/dc3024aa5e234f4299641f072558b9a8.glb"
+    },
+    {
+      "uid": "ef4fef24c990461986a96f5462c5248d",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-145/ef4fef24c990461986a96f5462c5248d.glb"
+    },
+    {
+      "uid": "b547d81073b64d3e97200fd3ae9a74af",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-021/b547d81073b64d3e97200fd3ae9a74af.glb"
+    },
+    {
+      "uid": "0cb0a6704c8a4fbd967039998a9d76ac",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-016/0cb0a6704c8a4fbd967039998a9d76ac.glb"
+    },
+    {
+      "uid": "7f1392ba478242d7a2093930b213e954",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-112/7f1392ba478242d7a2093930b213e954.glb"
+    },
+    {
+      "uid": "5d3a99865ac84d8a8bf06b263aa5bb55",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-026/5d3a99865ac84d8a8bf06b263aa5bb55.glb"
+    },
+    {
+      "uid": "dda2613eb5c04527a325a3b0bce9f79c",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-138/dda2613eb5c04527a325a3b0bce9f79c.glb"
+    },
+    {
+      "uid": "2c23a943c53048a3a7991d68ed3cf069",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-085/2c23a943c53048a3a7991d68ed3cf069.glb"
+    },
+    {
+      "uid": "3ed408980a9b4f9396a7f7c48ec50aa4",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-038/3ed408980a9b4f9396a7f7c48ec50aa4.glb"
+    },
+    {
+      "uid": "0972c48a7e4548bca80975a47a823bab",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-042/0972c48a7e4548bca80975a47a823bab.glb"
+    },
+    {
+      "uid": "d7fcaa3e8c844418a38b721c325bb2af",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-000/d7fcaa3e8c844418a38b721c325bb2af.glb"
+    },
+    {
+      "uid": "5dbfe3c5798445a5bdff4efca0b943a2",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-107/5dbfe3c5798445a5bdff4efca0b943a2.glb"
+    },
+    {
+      "uid": "7f4b851ded5645e3b3c381769752a4c0",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-123/7f4b851ded5645e3b3c381769752a4c0.glb"
+    },
+    {
+      "uid": "0034c300f743460c8c84bce3d81ff604",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-000/0034c300f743460c8c84bce3d81ff604.glb"
+    },
+    {
+      "uid": "322ba3a159a845c7b7642467e23fcc2d",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-115/322ba3a159a845c7b7642467e23fcc2d.glb"
+    },
+    {
+      "uid": "c017f22cb89f449995d054ba1d1ddd25",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-135/c017f22cb89f449995d054ba1d1ddd25.glb"
+    },
+    {
+      "uid": "0776052b361b4002aba142e6ec6bd01e",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-068/0776052b361b4002aba142e6ec6bd01e.glb"
+    },
+    {
+      "uid": "0a5652c16e1a4575903dfc1696382502",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-064/0a5652c16e1a4575903dfc1696382502.glb"
+    },
+    {
+      "uid": "ef7e34822e60420ca3a3a6d4a4509a95",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-065/ef7e34822e60420ca3a3a6d4a4509a95.glb"
+    },
+    {
+      "uid": "9eefcf9a6fed458990b59f63a2870d9e",
+      "lvis_key": "bed",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-069/9eefcf9a6fed458990b59f63a2870d9e.glb"
+    }
+  ],
+  "bookshelf": [
+    {
+      "uid": "51ac88b15a2548638b9490f78cd9b30e",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-071/51ac88b15a2548638b9490f78cd9b30e.glb"
+    },
+    {
+      "uid": "a4112060b9aa43a8af876f922f962cce",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-054/a4112060b9aa43a8af876f922f962cce.glb"
+    },
+    {
+      "uid": "51d928b33e5549898cc86cbdaf966d83",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-047/51d928b33e5549898cc86cbdaf966d83.glb"
+    },
+    {
+      "uid": "b3a5f407f6aa4aaaabdf1e84380c95da",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-045/b3a5f407f6aa4aaaabdf1e84380c95da.glb"
+    },
+    {
+      "uid": "9f6ec1995c3f4b0bbd3a990033890f3c",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-045/9f6ec1995c3f4b0bbd3a990033890f3c.glb"
+    },
+    {
+      "uid": "76cd51452a734f209d52c259ff39d1e4",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-086/76cd51452a734f209d52c259ff39d1e4.glb"
+    },
+    {
+      "uid": "26643059f5fa453f94ab4f4badb6b704",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-100/26643059f5fa453f94ab4f4badb6b704.glb"
+    },
+    {
+      "uid": "22f7121cab3a4d1eba0dd05db5ad9642",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-030/22f7121cab3a4d1eba0dd05db5ad9642.glb"
+    },
+    {
+      "uid": "7a545709aa98429a9b30f812f70193f7",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-036/7a545709aa98429a9b30f812f70193f7.glb"
+    },
+    {
+      "uid": "636b75352a134e07b26992c44383014e",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-151/636b75352a134e07b26992c44383014e.glb"
+    },
+    {
+      "uid": "244a639e6ece4777b1ca836e40ffe3be",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-151/244a639e6ece4777b1ca836e40ffe3be.glb"
+    },
+    {
+      "uid": "ce421f10e46d415198d5d19c5bd265f2",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-027/ce421f10e46d415198d5d19c5bd265f2.glb"
+    },
+    {
+      "uid": "aa9a7f23471a4bb6b461d5240c2bf1a7",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-094/aa9a7f23471a4bb6b461d5240c2bf1a7.glb"
+    },
+    {
+      "uid": "3d42390fa27748f6818a85182595a69c",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-144/3d42390fa27748f6818a85182595a69c.glb"
+    },
+    {
+      "uid": "d8dc05000c26495793203d0323bca8cb",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-044/d8dc05000c26495793203d0323bca8cb.glb"
+    },
+    {
+      "uid": "2acda3ed2f9046129897f0f1e36092bd",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-140/2acda3ed2f9046129897f0f1e36092bd.glb"
+    },
+    {
+      "uid": "cf1c9dcafe0846329c10dc26a0182145",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-137/cf1c9dcafe0846329c10dc26a0182145.glb"
+    },
+    {
+      "uid": "2b808687faa541dcb5a1987cea250c73",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-011/2b808687faa541dcb5a1987cea250c73.glb"
+    },
+    {
+      "uid": "9c8a9e27bac14685a3c177056bf420b9",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-124/9c8a9e27bac14685a3c177056bf420b9.glb"
+    },
+    {
+      "uid": "018add783a674cf7ac92a4c52291477a",
+      "lvis_key": "bookcase",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-000/018add783a674cf7ac92a4c52291477a.glb"
+    }
+  ],
+  "lamp": [
+    {
+      "uid": "f93be18847144f1fbd87930d2070cb71",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-053/f93be18847144f1fbd87930d2070cb71.glb"
+    },
+    {
+      "uid": "77774d22076940aa8484e053bb14947a",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-062/77774d22076940aa8484e053bb14947a.glb"
+    },
+    {
+      "uid": "317dac94ec404bdbaa6d41a85e04f51c",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-078/317dac94ec404bdbaa6d41a85e04f51c.glb"
+    },
+    {
+      "uid": "3f4c5e992fef4eb1bad58e576ce197a6",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-039/3f4c5e992fef4eb1bad58e576ce197a6.glb"
+    },
+    {
+      "uid": "70aed3dc12274120809c97ee26e78fdb",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-158/70aed3dc12274120809c97ee26e78fdb.glb"
+    },
+    {
+      "uid": "4d18ba843ae24b94a5ffc77717256c8c",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-003/4d18ba843ae24b94a5ffc77717256c8c.glb"
+    },
+    {
+      "uid": "03e706cd42504955b08379f45633c9ef",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-000/03e706cd42504955b08379f45633c9ef.glb"
+    },
+    {
+      "uid": "4a0f306ba95144fda533b329818d0680",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-080/4a0f306ba95144fda533b329818d0680.glb"
+    },
+    {
+      "uid": "596ed6a565d145af857952064bcce708",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-020/596ed6a565d145af857952064bcce708.glb"
+    },
+    {
+      "uid": "1829bc2edec44901a2f7032fe2c5090f",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-050/1829bc2edec44901a2f7032fe2c5090f.glb"
+    },
+    {
+      "uid": "d7169cb8a6014252abf05c8a6576ec4f",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-046/d7169cb8a6014252abf05c8a6576ec4f.glb"
+    },
+    {
+      "uid": "0f26f15559b5421cba32468fb1b84878",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-044/0f26f15559b5421cba32468fb1b84878.glb"
+    },
+    {
+      "uid": "8b51a94040254d5d923a32b203d94a47",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-141/8b51a94040254d5d923a32b203d94a47.glb"
+    },
+    {
+      "uid": "2e0bc4dfa796479f8766a252ca11cffe",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-102/2e0bc4dfa796479f8766a252ca11cffe.glb"
+    },
+    {
+      "uid": "fae0a272f36846f2b2e80b8c318ebc0b",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-071/fae0a272f36846f2b2e80b8c318ebc0b.glb"
+    },
+    {
+      "uid": "4dff23e7a6d04f53a3dff42fd319e181",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-098/4dff23e7a6d04f53a3dff42fd319e181.glb"
+    },
+    {
+      "uid": "46b4b4f592c54f04ae524d656f1e1d2d",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-094/46b4b4f592c54f04ae524d656f1e1d2d.glb"
+    },
+    {
+      "uid": "2919081a8ffe42dc8f21b552d7a24546",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-129/2919081a8ffe42dc8f21b552d7a24546.glb"
+    },
+    {
+      "uid": "cfd477d07e5443f28bcf6b72a5370a52",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-067/cfd477d07e5443f28bcf6b72a5370a52.glb"
+    },
+    {
+      "uid": "e1ebf58bb90d4ea6b2a9643bfef9ecf8",
+      "lvis_key": "lamp",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-091/e1ebf58bb90d4ea6b2a9643bfef9ecf8.glb"
+    }
+  ],
+  "bathtub": [
+    {
+      "uid": "cf373495a56049f6be1692ca6463aa2a",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-106/cf373495a56049f6be1692ca6463aa2a.glb"
+    },
+    {
+      "uid": "385c09d2ebb2483d96a78918c665db51",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-102/385c09d2ebb2483d96a78918c665db51.glb"
+    },
+    {
+      "uid": "dcd691724f6b4d29a6d16def24d14e6e",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-112/dcd691724f6b4d29a6d16def24d14e6e.glb"
+    },
+    {
+      "uid": "1751e91968704b43a0dda2eb53a5fb75",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-076/1751e91968704b43a0dda2eb53a5fb75.glb"
+    },
+    {
+      "uid": "f1b05ddf1b634481903e353d41b6a654",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-141/f1b05ddf1b634481903e353d41b6a654.glb"
+    },
+    {
+      "uid": "800d3c5569b94abfa2da7976504d589d",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-151/800d3c5569b94abfa2da7976504d589d.glb"
+    },
+    {
+      "uid": "50ad43bae77448149a89d7f547ee958d",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-050/50ad43bae77448149a89d7f547ee958d.glb"
+    },
+    {
+      "uid": "6c6a1f5757b34f7485133a91bb85cabe",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-028/6c6a1f5757b34f7485133a91bb85cabe.glb"
+    },
+    {
+      "uid": "0849e24b30184cd78220783b8c185a8f",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-056/0849e24b30184cd78220783b8c185a8f.glb"
+    },
+    {
+      "uid": "804fa46335874949938b6dfb55d17820",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-076/804fa46335874949938b6dfb55d17820.glb"
+    },
+    {
+      "uid": "75f663417e874f24b864348a5c9c3e68",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-067/75f663417e874f24b864348a5c9c3e68.glb"
+    },
+    {
+      "uid": "6441ba6422b74be0ba70003107ecacd7",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-078/6441ba6422b74be0ba70003107ecacd7.glb"
+    },
+    {
+      "uid": "84d5cdc68a674e12958f41500e988502",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-109/84d5cdc68a674e12958f41500e988502.glb"
+    },
+    {
+      "uid": "674b6c07743e4f569d4b745949d1a0f1",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-137/674b6c07743e4f569d4b745949d1a0f1.glb"
+    },
+    {
+      "uid": "f05a25da4b2c4e8d889db888cd3b2efe",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-066/f05a25da4b2c4e8d889db888cd3b2efe.glb"
+    },
+    {
+      "uid": "2f1706233a3248cf9a74586fc2e7120c",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-052/2f1706233a3248cf9a74586fc2e7120c.glb"
+    },
+    {
+      "uid": "ikcAlbZ2YXxyKWW3r4iOMRW9qR2",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-117/ikcAlbZ2YXxyKWW3r4iOMRW9qR2.glb"
+    },
+    {
+      "uid": "a0f2a58ef4484ea1bbd6d2ddad0a0979",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-148/a0f2a58ef4484ea1bbd6d2ddad0a0979.glb"
+    },
+    {
+      "uid": "fd612e2ea8e94d80ac3b8097eb2e5bbe",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-058/fd612e2ea8e94d80ac3b8097eb2e5bbe.glb"
+    },
+    {
+      "uid": "948411a1c6d0453e96faa3dfe32936a0",
+      "lvis_key": "bathtub",
+      "glb_path": "/home/marie/.objaverse/hf-objaverse-v1/glbs/000-124/948411a1c6d0453e96faa3dfe32936a0.glb"
+    }
+  ]
+}
