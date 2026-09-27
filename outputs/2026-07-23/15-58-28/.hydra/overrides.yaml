@@ -1,6 +1,0 @@
-- habitat_baselines.evaluate=True
-- habitat_baselines.test_episode_count=-1
-- habitat.dataset.data_path=data/datasets/objectnav/gibson/v1.1/val/Markleeville_full.json.gz
-- habitat.dataset.content_scenes=[Markleeville]
-- habitat_baselines.num_environments=1
-- habitat.environment.iterator_options.shuffle=false

@@ -1,4 +1,0 @@
-- habitat_baselines.evaluate=True
-- habitat_baselines.test_episode_count=15
-- habitat_baselines.num_environments=1
-- habitat.dataset.content_scenes=[Collierville]
