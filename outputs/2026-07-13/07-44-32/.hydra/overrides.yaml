@@ -1,0 +1,5 @@
+- habitat_baselines.evaluate=True
+- habitat_baselines.test_episode_count=-1
+- habitat.dataset.data_path=data/datasets/objectnav/gibson/dcon_subset/v1.1_sub10/val/content_fixed/Darden_debug.json.gz
+- habitat.dataset.content_scenes=[Darden]
+- habitat_baselines.num_environments=1

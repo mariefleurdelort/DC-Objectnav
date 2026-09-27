@@ -80,8 +80,8 @@ CHANGES TO FILES:
     - center[1] → center.y
 
 #setting up Matterport and downloading the right files to the data folder
-  MATTERPORT_TOKEN_ID=<FILL IN FROM YOUR ACCOUNT INFO IN MATTERPORT> --> id: 8ab9d07f0668d58e
-  MATTERPORT_TOKEN_SECRET=<FILL IN FROM YOUR ACCOUNT INFO IN MATTERPORT> --> secret: 34d3ec82c4ba9e927664a29080844ece
+  MATTERPORT_TOKEN_ID=<FILL IN FROM YOUR ACCOUNT INFO IN MATTERPORT> 
+  MATTERPORT_TOKEN_SECRET=<FILL IN FROM YOUR ACCOUNT INFO IN MATTERPORT>
   DATA_DIR=</path/to/vlfm/data>
   HM3D_OBJECTNAV=https://dl.fbaipublicfiles.com/habitat/data/datasets/objectnav/hm3d/v1/objectnav_hm3d_v1.zip
 

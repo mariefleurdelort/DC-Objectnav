@@ -1,0 +1,2 @@
+- habitat_baselines.test_episode_count=1
+- habitat.simulator.type=HabitatSim-v0
