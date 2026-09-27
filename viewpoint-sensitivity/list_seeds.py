@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-"""Human-readable dump of every seed viewpoint for every model's false-positive
+"""Readable dump of every seed viewpoint for every model's false-positive
 offset-grid experiment: which object, which angle, what it was confused for,
 how confident, and the path to the literal seed image (centered, no offset --
-the exact frame where the model was already fooled before any XY sweep)."""
+the exact frame where the model was fooled before any XY sweep)."""
 import json
 
 MODELS = ["owlv2", "yoloworld", "sam3", "groundingdino"]

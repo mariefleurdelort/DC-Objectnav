@@ -1,19 +1,6 @@
 #!/usr/bin/env python
 """At which viewing ANGLES (elevation/azimuth -- not frame position) does each
-model hallucinate a visually-confusable wrong category most? Uses the
-existing false-positive inference log over the MAIN dataset -- no new
-rendering or inference needed, this is a different axis from the offset-grid
-(corner-sensitivity) experiment.
-
-All 4 models are plotted as subplots of ONE combined figure, sharing the same
-elevation x azimuth grid and the same 0-1 color scale, specifically so you can
-visually compare whether there's a common angle where models hallucinate more
--- a shared axis/scale is the point, not an accident.
-
-Run inside vps-orchestrator:
-    python orchestrator/false_positive_angle_heatmap.py
-    python orchestrator/false_positive_angle_heatmap.py --value-field relabeled_true_object
-"""
+model hallucinate a visually-confusable wrong category most. HEATMAPS"""
 import argparse
 import json
 from pathlib import Path

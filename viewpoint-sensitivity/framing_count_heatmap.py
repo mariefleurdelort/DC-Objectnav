@@ -1,11 +1,7 @@
 #!/usr/bin/env python
-"""Raw COUNT (not rate/fraction) of false positives per XY offset-grid cell,
-per model -- how many instances actually triggered a false positive at each
-frame position, pooling all of that model's seeded instances together.
+#Raw COUNT (not rate/fraction) of false positives per XY offset-grid cell, per model.
+#How many instances actually triggered a false positive at each frame position, pooling all of that model's seeded instances together.
 
-Distinct from framing_heatmap.py's false_positive_rate heatmap, which divides
-by the number of instances (a fraction 0-1). This is the raw numerator.
-"""
 import json
 from pathlib import Path
 

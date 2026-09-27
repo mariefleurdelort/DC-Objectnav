@@ -1,17 +1,6 @@
 #!/usr/bin/env python
-"""For each (model, category), how angle-locked is the false-positive seed set?
-Reads directly from data/renders_framing_falsepositive/<model>/best_viewpoints.json
--- the same file the earlier bookshelf/cabinet observation (OWLv2: all 4 bookshelf
-seeds at elev=30,azim=90) came from -- and generalizes it across every category
-and model instead of eyeballing one example.
+# CHecks for each (model, category), how angle-locked the false-positive seed set is
 
-n_distinct_angles == n_instances means every object failed at a different angle
-(scattered, no shared viewpoint). n_distinct_angles == 1 means every single
-instance of that category failed at the exact same angle (fully angle-locked).
-mode_frac is the fraction of instances sharing the single most common angle --
-the single clearest number for "is there usually a common failing viewpoint
-for this category."
-"""
 import json
 from collections import Counter
 

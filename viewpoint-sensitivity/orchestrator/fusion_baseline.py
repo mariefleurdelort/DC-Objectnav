@@ -1,21 +1,11 @@
 #!/usr/bin/env python
-"""Step 4: naive multi-view fusion baseline.
-
+"""Naive multi-view fusion baseline:
 For each model, compares:
   - the best single fixed viewpoint's detection rate (the (elevation, azimuth)
     that performs best on its own, evaluated across all object instances), vs.
   - the fused detection rate: an instance counts as "detected" if it was
     correctly detected from AT LEAST ONE of its sampled viewpoints (naive
     OR-fusion across elevation x azimuth).
-
-The whole point of this baseline is to show the fused rate is meaningfully
-higher than any single fixed viewpoint could achieve alone -- i.e. that
-viewpoint choice matters enough to motivate active/multi-view perception.
-
-Run inside vps-orchestrator, after orchestrator/run_inference.py has produced
-data/renders/inference_log.jsonl:
-    conda activate vps-orchestrator
-    python orchestrator/fusion_baseline.py
 """
 import argparse
 import json

@@ -1,30 +1,9 @@
 #!/usr/bin/env python
 """Builds XY-offset confidence + correctness heatmaps from the framing-grid
-inference log -- visualizes whether detection confidence collapses as an
-object moves from the center of frame toward a corner/edge.
-
-Works for both the true-positive and false-positive offset-grid datasets --
-point --manifest/--inference-log/--value-field at whichever one you want.
-
-True-positive (default), success = "correct" (IoU>=0.5 against real ground truth):
-    python rendering/render_framing_grid.py [--limit N]
-    python orchestrator/run_inference.py --manifest data/renders_framing/framing_manifest.jsonl \\
-        --output data/renders_framing/framing_inference_log.jsonl
-    python orchestrator/framing_heatmap.py
-
-False-positive, "success" = "false_positive" (any detection at all -- the model
-being fooled is the bad outcome here, opposite polarity from "correct"):
-    python rendering/render_framing_grid.py --strategy false --false-inference-log ... [--limit N]
-    python orchestrator/run_inference.py --false-positive \\
-        --manifest data/renders_framing_falsepositive/framing_manifest.jsonl \\
-        --output data/renders_framing_falsepositive/framing_inference_log.jsonl
-    python orchestrator/framing_heatmap.py \\
-        --manifest data/renders_framing_falsepositive/framing_manifest.jsonl \\
-        --inference-log data/renders_framing_falsepositive/framing_inference_log.jsonl \\
-        --value-field false_positive
-
-Add --per-instance for one extra heatmap per (model, instance), not just the
-per-model aggregate.
+inference log
+- True-positive (default), success = "correct" (IoU>=0.5 against real ground truth)
+- False-positive, "success" = "false_positive" (any detection at all -- the model
+being fooled is the bad outcome here, opposite polarity from "correct")
 """
 import argparse
 import json
@@ -85,9 +64,7 @@ def plot_heatmap(pivot: pd.DataFrame, title: str, out_path: Path, value_label: s
 
 def build_pivots(df_subset: pd.DataFrame, value_field: str):
     # dropna=False: keep every (y, x) grid cell even if every instance had
-    # zero detections there -- pandas' default silently drops whole rows/columns
-    # that are all-NaN, which hides real structure (e.g. an entire x value
-    # where nothing was ever detected) instead of showing it as missing data.
+    # zero detections there
     conf_pivot = df_subset.pivot_table(index="offset_y_deg", columns="offset_x_deg", values="best_score",
                                         aggfunc="mean", dropna=False)
     success_pivot = df_subset.pivot_table(index="offset_y_deg", columns="offset_x_deg", values=value_field,

@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# Launches all 4 model servers, each in its own conda env and on its own port
-# (see orchestrator/ports.yaml), as background processes logging to ../logs/.
-#
+# Launches all 4 model servers, each in its own conda env and on its own port as background processes logging to ../logs/.
 # Usage:
 #   ./orchestrator/launch_servers.sh start
 #   ./orchestrator/launch_servers.sh stop

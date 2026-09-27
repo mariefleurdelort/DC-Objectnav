@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 """One-time migration: adds iou_with_true_object/relabeled_true_object to an
-existing false-positive inference log that predates those fields (from before
-run_inference.py --false-positive computed them natively). Pure data join --
-no new model calls, uses the manifest's existing gt_bbox_xyxy for the TRUE
-object at each view_id.
+existing false-positive inference log that predates those fields"""
 
-    python orchestrator/enrich_false_positive_log.py \\
-        --log data/renders/false_positive_inference_log.jsonl \\
-        --manifest data/renders/manifest.jsonl
-"""
 import argparse
 import json
 from pathlib import Path

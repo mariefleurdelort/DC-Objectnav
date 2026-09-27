@@ -1,18 +1,7 @@
 #!/usr/bin/env python
 """Pick Objaverse (LVIS-annotated) UIDs for each of our target categories and
-download them, writing data/objaverse/category_uid_map.json for
-objaverse_objects.list_objaverse_models() to read at render time.
+download them"""
 
-Run inside vps-render (or anywhere with `pip install objaverse` -- it needs no
-habitat-sim, only network access):
-    conda activate vps-render
-    python rendering/download_objaverse.py --dry-run   # show matched LVIS keys + counts, no download
-    python rendering/download_objaverse.py              # actually download
-
-Objaverse needs no HF login/license -- unlike ShapeNet's gated dataset, this
-works right now. The actual .glb bytes land in objaverse's own cache dir
-(~/.objaverse/hf-objaverse-v1/glbs/...), not under this repo's data/.
-"""
 import argparse
 import json
 import multiprocessing

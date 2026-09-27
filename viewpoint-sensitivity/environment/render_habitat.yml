@@ -8,7 +8,7 @@ dependencies:
   - cmake=3.14.0
   - habitat-sim=0.3.*
   - withbullet    # physics/rigid-object support -- a separate meta-package, NOT a build string
-  - headless      # drop this line if you have a display attached (e.g. local desktop Linux/macOS)
+  - headless      
   - pip
   - pip:
       - numpy<2
@@ -17,17 +17,3 @@ dependencies:
       - tqdm
       - huggingface_hub   # scripts/download_shapenet.sh
       - objaverse         # scripts/download_objaverse.sh -- no login needed, unlike ShapeNet
-# Notes:
-# - `withbullet` and `headless` must be listed as their OWN dependency entries
-#   (not appended to the habitat-sim line as `habitat-sim=0.3.* withbullet`) --
-#   conda parses a single "name version build" string per entry, so tacking
-#   `withbullet` onto habitat-sim's line makes conda look for a build literally
-#   named "withbullet", which doesn't exist and fails to solve.
-# - The aihabitat channel's stable builds are Python 3.9 only on linux-64 (as of
-#   early 2026); Python 3.10+ needs the `aihabitat-nightly` channel instead if
-#   you must move off 3.9.
-# - We intentionally do NOT install habitat-lab here. We only need the low-level
-#   habitat_sim API (rigid object + sensor management), which habitat-sim ships
-#   on its own. Pulling in habitat-lab adds gym/RL deps we don't need and that
-#   can conflict with the model-server envs if ever shared (they won't be, but
-#   keep it minimal).

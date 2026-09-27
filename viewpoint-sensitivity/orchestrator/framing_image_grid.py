@@ -1,27 +1,6 @@
 #!/usr/bin/env python
 """Builds a 12x12 grid of the actual rendered RGB thumbnails per instance,
-laid out in the same XY positions as framing_heatmap.py's heatmaps -- so each
-heatmap has a matching "what did the object actually look like" image, the
-same spirit as the reference paper's left-panel thumbnail grid.
-
-Works for both true-positive and false-positive data -- see
-framing_heatmap.py's docstring for the "correct" vs "false_positive" field
-meanings (opposite polarity: for false-positive data, green means the model
-WAS fooled, not that it did well).
-
-Run inside vps-orchestrator (only needs PIL, already a dep), after
-render_framing_grid.py + run_inference.py have produced images + a log:
-    python orchestrator/framing_image_grid.py --limit 3              # quick preview, no border
-    python orchestrator/framing_image_grid.py --limit 3 --model groundingdino  # + green/red border
-    python orchestrator/framing_image_grid.py                        # all instances, no border
-    python orchestrator/framing_image_grid.py --model groundingdino  # all instances, bordered
-
-For false-positive data:
-    python orchestrator/framing_image_grid.py --model groundingdino \\
-        --manifest data/renders_framing_falsepositive/framing_manifest.jsonl \\
-        --inference-log data/renders_framing_falsepositive/framing_inference_log.jsonl \\
-        --value-field false_positive
-"""
+laid out in the same XY positions as framing_heatmap.py's heatmaps"""
 import argparse
 import json
 from pathlib import Path

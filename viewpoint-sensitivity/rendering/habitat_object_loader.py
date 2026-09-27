@@ -1,9 +1,6 @@
 """Dataset-agnostic habitat-sim helpers: load a single object (from any glb
 path) as the only rigid body on a bare stage, read its world-space AABB, and
-remove it again. Shared by rendering/shapenet_objects.py and
-rendering/objaverse_objects.py -- neither dataset backend needs anything
-habitat-specific beyond a `model_id` (unique string) and a `glb_path`.
-"""
+remove it again"""
 import numpy as np
 import quaternion  # numpy-quaternion, pulled in transitively by habitat-sim
 from habitat_sim.physics import MotionType
@@ -68,8 +65,6 @@ def object_world_aabb(rigid_obj):
 
 def remove_object(sim, rigid_obj, model):
     # Only the rigid object instance is removed. Its template is left registered
-    # (keyed by the model_id, which is unique per model) -- template removal
-    # APIs vary across habitat-sim releases, and leaking a template registry
-    # entry across one render run is harmless.
+    # (keyed by the model_id, which is unique per model)
     rigid_obj_mgr = sim.get_rigid_object_manager()
     rigid_obj_mgr.remove_object_by_handle(rigid_obj.handle)

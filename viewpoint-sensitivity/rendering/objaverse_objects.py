@@ -1,19 +1,6 @@
 """Enumerate Objaverse (LVIS-annotated subset) models for rendering, as an
-alternative to ShapeNet while ShapeNet's gated-license approval is pending.
+alternative to ShapeNet while ShapeNet's gated-license approval is pending."""
 
-Objaverse's LVIS category keys don't follow a clean, guessable naming scheme
-(e.g. a compound category is one key like "sofa/couch/lounge", others are a
-single word like "chair"), so rather than hardcoding guessed key strings we
-fuzzy-match our own category -> target-word list (config.OBJAVERSE_CATEGORY_KEYWORDS)
-against whatever keys objaverse.load_lvis_annotations() actually returns.
-
-Unlike ShapeNet, the actual .glb bytes are NOT stored under this repo's data/
-dir -- the `objaverse` pip package caches them under ~/.objaverse/hf-objaverse-v1/
-(its own hardcoded location, shared across any project on this machine that
-uses it). What we DO keep in data/objaverse/ is just category_uid_map.json,
-a small manifest recording which UIDs we picked per category and where
-objaverse.load_objects() said their glb ended up -- see download_objaverse.py.
-"""
 import json
 from dataclasses import dataclass
 from pathlib import Path

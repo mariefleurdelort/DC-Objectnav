@@ -1,36 +1,7 @@
 #!/usr/bin/env python
 """Render the controlled multi-view dataset with habitat-sim: each object
-(ShapeNet or Objaverse, per config.DATASET_SOURCE), alone on a bare stage,
-viewed from a fixed elevation x azimuth grid.
+alone on a bare stage, viewed from a fixed elevation x azimuth grid."""
 
-Run inside the vps-render conda env:
-    conda activate vps-render
-    python rendering/render_multiview.py            # render everything found for config.DATASET_SOURCE
-    python rendering/render_multiview.py --dry-run   # just list models/views, render nothing
-
-For each model x elevation x azimuth combination, this:
-  1. loads the model as the only rigid object on an empty ("NONE") stage,
-  2. positions a camera on a sphere around the object's AABB center,
-  3. renders RGB + depth + instance-semantic,
-  4. keeps the view only if the object's visible pixel count is at least
-     MIN_VISIBLE_FRACTION of the best (least-occluded/least-foreshortened) view
-     of that same model across all sampled azimuths/elevations,
-  5. writes the RGB (and depth) to disk and appends one row to
-     data/renders/manifest.jsonl describing exactly what was rendered.
-
-The manifest is the "dataset on disk" artifact that steps 2-4 of the
-sensitivity analysis (fixed prompts/threshold, per-model inference, fusion
-baseline) will read alongside the rendered images.
-
-WHY EACH MODEL RUNS IN ITS OWN SUBPROCESS: Objaverse's Sketchfab-sourced glbs
-are inconsistent quality, and a malformed one can trigger a native abort
-(SIGABRT) inside habitat-sim's Magnum glTF importer during mesh compile --
-this happens at object-LOAD time, before any Python code runs, so it can't be
-caught with try/except and would otherwise kill the whole run. `main()` (no
---worker flag) is a thin dispatcher that launches `--worker` on itself once
-per model; a worker crashing just means that one model's rows never made it
-into the manifest, logged and skipped, while the dispatcher moves on.
-"""
 import argparse
 import json
 import math

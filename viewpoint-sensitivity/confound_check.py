@@ -1,16 +1,14 @@
 #!/usr/bin/env python
 """Checks whether the false-positive offset-grid's corner falloff is a genuine
-recognition effect or just the object physically leaving the frame (HFOV=90deg,
-offsets go to +-40deg -- close to the 45deg half-FOV edge, so this is a real
-possibility, not a hypothetical).
+recognition effect or just the object physically leaving the frame 
 
 For each model, buckets views by radial distance from the seed (0,0) and
 compares mean gt_pixel_count (how much of the object is actually visible)
 against mean false_positive_rate and mean confidence in the same bucket.
 If pixel count collapses together with false_positive_rate at the corners,
 the corner falloff is confounded by frame-exit. If false_positive_rate drops
-while pixel count stays high, that's a genuine viewpoint/recognition effect.
-"""
+while pixel count stays high, that's a genuine viewpoint/recognition effect."""
+
 import json
 import sys
 

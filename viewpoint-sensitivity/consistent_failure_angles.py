@@ -1,18 +1,8 @@
 #!/usr/bin/env python
 """Pools ALL categories/objects together per model (main sphere sweep,
 data/renders/false_positive_inference_log.jsonl) to find whether there's a
-consistently bad elevation/azimuth region -- i.e. "is there a direction I
-could always move the camera to reduce false positives, as a general policy,
-not just for one object."
+consistently bad elevation/azimuth region"""
 
-Elevation is camera height relative to world 'up' -- physically absolute,
-comparable across every object regardless of how its mesh was authored.
-Azimuth 0deg is defined per-object as that mesh's own 'canonical front'
-(config.py) -- for Objaverse (community-uploaded, no guaranteed consistent
-front convention across authors) pooling azimuth across DIFFERENT objects may
-mix incompatible reference frames, so azimuth results here are secondary --
-elevation is the trustworthy, transferable axis.
-"""
 import json
 
 import pandas as pd

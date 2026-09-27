@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 """One-off smoke test against a single running model server — useful for
-validating each server works before wiring up the full step 3 inference loop.
-
-    conda activate vps-orchestrator
-    python orchestrator/detect_client.py --model yoloworld \\
-        --image data/renders/replica_cad/apt_0/chair/12/elev+00_az000_rgb.png \\
-        --prompt "a chair" --threshold 0.3
-"""
+validating each server works before wiring up the full step 3 inference loop."""
 import argparse
 import json
 from pathlib import Path

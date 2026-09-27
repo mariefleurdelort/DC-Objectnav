@@ -1,13 +1,6 @@
 """Viewpoint selection: deciding WHICH (eye, rotation, orbit_radius) to use as
-the fixed base camera pose for an offset-grid sweep. Kept separate from
-rendering/camera_offset.py (which only knows how to apply an xy offset to a
-*given* viewpoint) so new selection strategies can be added without touching
-the offset/rendering code at all.
+the fixed base camera pose for an offset-grid sweep."""
 
-Every selector returns a list of dicts shaped like a manifest.jsonl row --
-at minimum: category, model_id, camera_position, object_center, orbit_radius_m,
-plus whatever provenance fields explain *why* that viewpoint was chosen.
-"""
 import json
 
 import config as cfg
@@ -44,22 +37,7 @@ def select_false_positive_seed_viewpoints(false_prompt_inference_log, model: str
     """For ONE model, among views where THAT model's own inference actually
     returned false_positive=True (a real, confirmed miscategorization -- not
     an averaged confidence across models), pick the highest-confidence
-    (elevation, azimuth) per instance. These are the model's own genuine
-    failure points -- "it already found the alleged [wrong] object here" --
-    used to seed an offset-grid sweep testing whether shifting/tilting away
-    from that exact failure corrects the model (does false_positive go away,
-    does correct on the real category come back) or makes it worse.
-
-    Instances this model never false-positived on are simply absent from the
-    result -- there's nothing to investigate for them. Different models will
-    generally get different seeds for "the same" instance, since they fail
-    (or don't) at different viewpoints -- that's why the offset-grid render
-    for --strategy false is per-model, not shared across models the way
-    --strategy true's is.
-
-    `false_prompt_inference_log` is the path to the log produced by
-    orchestrator/run_inference.py --false-positive over the main manifest.
-    """
+    (elevation, azimuth) per instance."""
     import pandas as pd
 
     inf = pd.DataFrame([json.loads(l) for l in open(false_prompt_inference_log)])

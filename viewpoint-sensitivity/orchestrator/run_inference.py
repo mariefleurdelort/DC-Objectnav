@@ -1,37 +1,6 @@
 #!/usr/bin/env python
-"""Step 3: for each rendered view x each of the 4 model servers, run /detect
-and log the result to a results manifest.
-
-Two distinct, non-interchangeable notions of "success" live in this file --
-see the top-level README section "What 'success' means" for the full
-explanation. In short:
-  - Normal mode (default): the view's real category is prompted, and success
-    ("correct") means the model's top detection has IoU >= threshold against
-    the manifest's real ground-truth box. This measures whether the model
-    correctly recognizes what's actually there.
-  - --false-positive mode: a *wrong* category (config.FALSE_CATEGORY_MAP) is
-    prompted instead -- there is no ground-truth box for that category, so
-    there is no "correct". Instead we log "false_positive": whether the model
-    returned *any* detection at all for something that isn't in the image.
-    Here, the model returning a detection is the bad outcome, the opposite
-    polarity from "correct" -- which is exactly why this uses a different
-    field name instead of overloading "correct" with an inverted meaning.
-    We also log "iou_with_true_object"/"relabeled_true_object": the manifest
-    still has the TRUE object's real ground-truth box, so a false-positive
-    detection can be checked against it -- did the model land on the actual
-    object and just call it the wrong name (genuine visual confusion, IoU
-    high), or fabricate a box somewhere unrelated to anything really in the
-    frame (a different, more concerning failure mode, IoU low)?
-
-Run inside the vps-orchestrator env, after launch_servers.sh start:
-    conda activate vps-orchestrator
-    python orchestrator/run_inference.py
-    python orchestrator/run_inference.py --false-positive --manifest data/renders/manifest.jsonl \\
-        --output data/renders/false_positive_inference_log.jsonl
-
-Resumable: re-running skips (view_id, model) pairs already present in the
-output file, so an interrupted run (server crash, network blip) can just be
-restarted.
+"""Run /detect and log the result to a results manifest.
+Re-running skips (view_id, model) pairs already present in the output file, so an interrupted run (server crash, network blip) can just be restarted.
 """
 import argparse
 import json

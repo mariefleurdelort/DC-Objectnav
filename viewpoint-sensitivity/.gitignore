@@ -1,0 +1,10 @@
+data/shapenet/
+data/objaverse/
+data/renders/
+data/renders_framing/
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+*.pt
+*.pth

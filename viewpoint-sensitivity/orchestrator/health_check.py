@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 """Sanity-check that step 1's infrastructure is fully wired: all 4 model
 servers reachable, and (optionally) the render manifest is present and
-non-empty. Run inside the vps-orchestrator env after launch_servers.sh start.
-
-    conda activate vps-orchestrator
-    python orchestrator/health_check.py
+non-empty
 """
 import sys
 from pathlib import Path

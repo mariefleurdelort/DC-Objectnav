@@ -6,16 +6,10 @@ dependencies:
   - python=3.10
   - pip
   - pip:
-      # torch via pip, not conda -- see server_groundingdino.yml for why
-      # (mixed pytorch/nvidia/conda-forge channels hit ClobberErrors on shared
-      # C-library file paths like jpeg vs. libjpeg-turbo).
+      # torch via pip, not conda
       - torch
       - torchvision
-      # SAM 3 (facebook/sam3, released Nov 2025) landed in transformers as
-      # Sam3Model / Sam3Processor. It requires a recent transformers -- pin the
-      # exact version once you confirm it on the release page; falling back to
-      # `pip install git+https://github.com/huggingface/transformers.git` if
-      # `Sam3Model` isn't importable from the pinned release.
+      # SAM 3 (facebook/sam3, released Nov 2025) landed in transformers as Sam3Model / Sam3Processor
       - transformers>=4.57.0
       - fastapi
       - "uvicorn[standard]"

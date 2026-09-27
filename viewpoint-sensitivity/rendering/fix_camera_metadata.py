@@ -1,14 +1,7 @@
 #!/usr/bin/env python
-"""One-off patch for manifest.jsonl rows rendered before the stale-loop-variable
-fix in render_multiview.py: recomputes the correct camera_position and
-camera_rotation_wxyz for every row from its already-correct object_center,
+"""Recomputes the correct camera_position and camera_rotation_wxyz for every row from its already-correct object_center,
 orbit_radius_m, elevation_deg, and azimuth_deg (a pure deterministic
-function -- no re-rendering needed, the images themselves were never wrong).
-
-Run inside vps-render (needs the `quaternion` package):
-    conda activate vps-render
-    python rendering/fix_camera_metadata.py
-"""
+function"""
 import json
 
 import numpy as np

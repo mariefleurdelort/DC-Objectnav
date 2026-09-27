@@ -1,37 +1,6 @@
 #!/usr/bin/env python
-"""Renders an offset grid for a list of selected viewpoints (see
-rendering/viewpoint_selection.py for how those are chosen -- this script
-doesn't care whether they came from the true-positive or false-positive
-selector, it just needs eye/rotation/orbit_radius per entry).
+"""Renders an offset grid for a list of selected viewpoints"""
 
-For each entry, the camera is translated across a fixed 12x12 XY grid
-(rendering/camera_offset.py) -- position moves, orientation never changes --
-so the object drifts from center toward each frame edge/corner via pure
-parallax, not by the camera turning to track it.
-
-Two strategies, writing to separate output directories so they never collide:
-    --strategy true   (default) seed viewpoint = each instance's best REAL
-        detection confidence, from data/renders/inference_log.jsonl. Output:
-        data/renders_framing/
-    --strategy false --seed-model <model>   seed viewpoint = a genuine,
-        confirmed false-positive from THAT SPECIFIC model (not an average
-        across models -- different models fail on different instances at
-        different viewpoints, so this is per-model) -- see
-        viewpoint_selection.py:select_false_positive_seed_viewpoints().
-        Output: data/renders_framing_falsepositive/<model>/  (one instance
-        may get a different render per model, since the seed differs)
-
-Run inside vps-render, after the main render_multiview.py + orchestrator/
-run_inference.py (and, for --strategy false, a --false-positive inference
-pass over the main manifest) have already produced their logs:
-    conda activate vps-render
-    python rendering/render_framing_grid.py --limit 3                      # pilot, true-positive seed
-    python rendering/render_framing_grid.py --strategy false --seed-model groundingdino --limit 3 \\
-        --false-inference-log data/renders/false_positive_inference_log.jsonl  # pilot, false-positive seed
-    python rendering/render_framing_grid.py                                 # full, true-positive seed
-
-Same subprocess-per-instance crash isolation as render_multiview.py.
-"""
 import argparse
 import json
 import subprocess

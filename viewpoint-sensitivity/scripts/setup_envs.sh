@@ -6,10 +6,7 @@
 #   vps-sam3            /
 #   vps-owlv2          /
 #   vps-orchestrator  - thin env that only talks HTTP to the servers above
-#
-# Usage:
-#   ./scripts/setup_envs.sh            # create all envs
-#   ./scripts/setup_envs.sh render     # create just one (name after the .yml stem)
+
 set -euo pipefail
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."

@@ -1,6 +1,5 @@
 # Fixed env-name/port map for the 4 isolated model servers.
-# The orchestrator (step 3/4) reads this to know where to send /detect calls;
-# launch_servers.sh reads it to know what to start.
+
 servers:
   yoloworld:
     conda_env: vps-yoloworld
