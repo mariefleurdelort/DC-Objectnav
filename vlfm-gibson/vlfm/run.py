@@ -1,7 +1,6 @@
 # Copyright (c) 2023 Boston Dynamics AI Institute LLC. All rights reserved.
 
 import os
-import sys
 
 # The following imports require habitat to be installed, and despite not being used by
 # this script itself, will register several classes and make them discoverable by Hydra.
@@ -38,9 +37,8 @@ register_hydra_plugin(HabitatConfigPlugin)
 @hydra.main(
     version_base=None,
     config_path="../config",
-    config_name="experiments/vlfm_objectnav_gibson",
+    config_name="experiments/vlfm_objectnav_hm3d",
 )
-
 def main(cfg: DictConfig) -> None:
     assert os.path.isdir("data"), "Missing 'data/' directory!"
     if not os.path.isfile("data/dummy_policy.pth"):

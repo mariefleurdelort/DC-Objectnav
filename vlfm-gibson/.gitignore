@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pip and dependency caches
 cache/
 rescued_cache/
@@ -21,3 +22,19 @@ data/
 vlfm/data/
 GroundingDINO/
 vlfm/GroundingDINO/
+=======
+# Ignore embedded git repositories
+gsplat/
+habitat-lab/
+.vscode/
+.ckpt
+.pth
+.pt
+
+# Ignore output directories
+output/
+outputs/
+SAM_models/vlfm/traced_model.pt
+vlfm/traced_model.pt
+vlfm/
+>>>>>>> f6b9887a5c85b26102384bf3896752390cf1adf5

@@ -7,4 +7,4 @@ split: val
 scenes_dir: data/scene_datasets
 content_scenes:
 - '*'
-data_path: data/datasets/objectnav/gibson/v1.1/{split}/{split}.json.gz
+data_path: data/datasets/objectnav/gibson/dcon_subset/v1.1_sub10/{split}/{split}.json.gz

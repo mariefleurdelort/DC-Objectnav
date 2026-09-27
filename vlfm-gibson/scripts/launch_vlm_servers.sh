@@ -1,3 +1,4 @@
+export PYTHONPATH="/workspace/vlfm:$PYTHONPATH"
 #!/usr/bin/env bash
 # Copyright [2023] Boston Dynamics AI Institute, Inc.
 

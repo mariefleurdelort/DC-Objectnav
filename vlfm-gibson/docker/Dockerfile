@@ -22,18 +22,11 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -
     rm /tmp/miniconda.sh && \
     conda clean -afy
 
-#RUN conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main && \
-#    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r 
-
-# # Create environment (Removed "conda tos" unless you are sure you need it)
-# RUN conda config --add channels conda-forge && \
-#     conda config --add channels defaults && \
-#     conda create -n DCON python=3.9 cmake=3.14.0 -y && \
-#     echo "conda activate DCON" >> ~/.bashrc
-
 RUN conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main && \
-    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r && \
-    conda config --add channels conda-forge && \
+    conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r 
+
+# Create environment (Removed "conda tos" unless you are sure you need it)
+RUN conda config --add channels conda-forge && \
     conda config --add channels defaults && \
     conda create -n DCON python=3.9 cmake=3.14.0 -y && \
     echo "conda activate DCON" >> ~/.bashrc
@@ -65,7 +58,7 @@ RUN git clone --branch v0.2.4 https://github.com/facebookresearch/habitat-sim.gi
     python setup.py install --headless --bullet
 
 # 5. Habitat-Lab
-RUN git clone --branch stable https://github.com/facebookresearch/habitat-lab.git /workspace/habitat-lab && \
+RUN git clone --branch v0.2.4 https://github.com/facebookresearch/habitat-lab.git /workspace/habitat-lab && \
     pip install -e /workspace/habitat-lab/habitat-lab && \
     pip install -e /workspace/habitat-lab/habitat-baselines
 
@@ -85,6 +78,12 @@ WORKDIR /workspace
 ENV __GLX_VENDOR_LIBRARY_NAME=nvidia
 ENV NVIDIA_DRIVER_CAPABILITIES=all
 ENV EGL_PLATFORM=surfaceless
+ENV HABITAT_ENV_DEBUG=1
+ENV MAGNUM_LOG=quiet
+ENV HABITAT_SIM_LOG=quiet
+
+ENV PYTHONPATH="/workspace/vlfm:${PYTHONPATH:-}"
+WORKDIR /workspace/vlfm
 
 # --- VLFM SYSTEM DEPENDENCIES ---
 RUN apt-get update && apt-get install --no-install-recommends -qy \
@@ -93,7 +92,6 @@ RUN apt-get update && apt-get install --no-install-recommends -qy \
     gnupg \
     ca-certificates \
     git \
-    tmux \
     software-properties-common \
     build-essential \
     libgl1-mesa-dev \
@@ -107,27 +105,24 @@ RUN apt-get update && apt-get install --no-install-recommends -qy \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean all
 
-# Adapt A: Explicitly use the Conda environment's pip binary
-RUN /opt/conda/envs/DCON/bin/pip install \
-    flask>=2.3.2 \
-    seaborn>=0.12.2 \
-    open3d>=0.17.0 \
-    transformers==4.26.0 \
-    six>=1.16.0 \
-    contexttimer decord einops>=0.4.1 fairscale==0.4.4 ftfy iopath \
-    omegaconf opencv-python-headless==4.5.5.64 opendatasets packaging \
-    plotly pycocoevalcap pycocotools python-magic scikit-image \
-    sentencepiece streamlit timm==0.4.12 webdataset wheel
+# Install the required Python packages
+RUN pip install "thinc<8.3.0" "spacy<3.8.0" && \
+    pip install torch>=1.10.1 \
+        flask>=2.3.2 \
+        seaborn>=0.12.2 \
+        open3d>=0.17.0 \
+        transformers==4.26.0 \
+        salesforce-lavis>=1.0.2 \
+        six>=1.16.0
 
-RUN /opt/conda/envs/DCON/bin/pip install --no-deps salesforce-lavis==1.0.2
+ENV CMAKE_ARGS="-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
 
-# Adapt A: Explicitly use the Conda environment's pip binary for Git repos
-RUN /opt/conda/envs/DCON/bin/pip install \
-                git+https://github.com/naokiyokoyama/frontier_exploration.git \
+RUN pip install git+https://github.com/naokiyokoyama/frontier_exploration.git \
                 git+https://github.com/ChaoningZhang/MobileSAM.git \
                 git+https://github.com/naokiyokoyama/depth_camera_filtering \
+                git+https://github.com/facebookresearch/habitat-sim.git@v0.2.4 \
                 git+https://github.com/naokiyokoyama/bd_spot_wrapper.git
 
-RUN /opt/conda/envs/DCON/bin/pip install --no-build-isolation git+https://github.com/IDEA-Research/GroundingDINO.git
+RUN pip install --no-build-isolation git+https://github.com/IDEA-Research/GroundingDINO.git
 
 CMD ["/bin/bash"]

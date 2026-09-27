@@ -1,7 +1,5 @@
 # Copyright (c) 2023 Boston Dynamics AI Institute LLC. All rights reserved.
 
-from lavis.models import load_model_and_preprocess
-
 from typing import Any, Optional
 
 import numpy as np

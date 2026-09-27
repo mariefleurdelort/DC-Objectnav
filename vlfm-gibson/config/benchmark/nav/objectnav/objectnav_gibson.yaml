@@ -26,7 +26,7 @@ habitat:
             height: 480
             hfov: 79
             min_depth: 0.5
-            max_depth: 5.0
+            max_depth: 7.0
             position: [0, 0.88, 0]
         height: 0.88
         radius: 0.18
