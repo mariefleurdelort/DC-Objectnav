@@ -12,14 +12,18 @@ DATASET_SOURCE = "objaverse"
 # category keys (see rendering/objaverse_objects.py:find_matching_lvis_keys).
 # LVIS uses "bookcase" rather than "bookshelf", hence the mismatch there.
 OBJAVERSE_CATEGORY_KEYWORDS = {
-    "chair": ["chair"],
-    "table": ["table"],
-    "sofa": ["sofa", "couch"],
-    "cabinet": ["cabinet"],
     "bed": ["bed"],
-    "bookshelf": ["bookcase"],
+    "bench": ["bench"],
+    "bookcase": ["bookcase"],
+    "cabinet": ["cabinet"],
+    "chair": ["chair"],
+    "desk": ["desk"],
     "lamp": ["lamp"],
-    "bathtub": ["bathtub"],
+    "sofa": ["sofa", "couch"],
+    "stool": ["stool"],
+    "table": ["table"],
+    "toilet": ["toilet"],
+    "vase": ["vase"],
 }
 
 CATEGORIES = list(OBJAVERSE_CATEGORY_KEYWORDS.keys())
@@ -27,14 +31,18 @@ CATEGORIES = list(OBJAVERSE_CATEGORY_KEYWORDS.keys())
 # One fixed text prompt per category, reused identically across every model and
 # every view (this is what makes elevation the only thing being varied).
 CATEGORY_PROMPTS = {
-    "chair": "a chair",
-    "table": "a table",
-    "sofa": "a sofa",
-    "cabinet": "a cabinet",
     "bed": "a bed",
-    "bookshelf": "a bookshelf",
+    "bench": "a bench",
+    "bookcase": "a bookcase",
+    "cabinet": "a cabinet",
+    "chair": "a chair",
+    "desk": "a desk",
     "lamp": "a lamp",
-    "bathtub": "a bathtub",
+    "sofa": "a sofa",
+    "stool": "a stool",
+    "table": "a table",
+    "toilet": "a toilet",
+    "vase": "a vase",
 }
 
 # How many model instances to sample per category
@@ -62,14 +70,18 @@ HFOV_DEG = 90
 # it in the false-positive experiment. Picked by hand for plausible visual similarity; where no strong
 # match exists among our 8 categories (table, lamp, bathtub)
 FALSE_CATEGORY_MAP = {
-    "chair": "sofa",
-    "sofa": "chair",
-    "cabinet": "bookshelf",
-    "bookshelf": "cabinet",
     "bed": "sofa",
-    "table": "cabinet",
-    "lamp": "bookshelf",
-    "bathtub": "bed",
+    "bench": "sofa",
+    "bookcase": "cabinet",
+    "cabinet": "bookcase",
+    "chair": "stool",
+    "desk": "cabinet",
+    "lamp": "vase",
+    "sofa": "bed",
+    "stool": "chair",
+    "table": "bench",
+    "toilet": "chair",
+    "vase": "lamp",
 }
 assert set(FALSE_CATEGORY_MAP.keys()) == set(CATEGORIES), "FALSE_CATEGORY_MAP must cover every category"
 

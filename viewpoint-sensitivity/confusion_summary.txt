@@ -1,0 +1,37 @@
+
+=== main: 38560 target / 38560 non-target queries (1:1.0) ===
+        model   TP   FP   FN   TN  precision  recall    f1   fpr    mcc  f1_presence        f1_ci95  n_instances
+groundingdino 8444 9631 1196    9      0.467   0.876 0.609 0.999 -0.254        0.666 [0.596, 0.623]          155
+        owlv2 1396   82 8244 9558      0.945   0.145 0.251 0.009  0.256        0.273 [0.200, 0.303]          155
+         sam3 3565  928 6075 8712      0.793   0.370 0.504 0.096  0.324        0.547 [0.448, 0.560]          155
+    yoloworld  699  479 8941 9161      0.593   0.073 0.129 0.050  0.048        0.138 [0.099, 0.162]          155
+  mislocalized target hits (counted as FN): groundingdino=1186, owlv2=139, sam3=411, yoloworld=49
+  FPs whose box sits on the real object: groundingdino=8634, owlv2=74, sam3=821, yoloworld=437
+  mean F1 by elevation (deg):
+elevation (deg)   -60   -30    0     30    60    90
+model                                              
+groundingdino    0.60  0.60  0.58  0.62  0.63  0.61
+owlv2            0.15  0.35  0.43  0.30  0.11  0.07
+sam3             0.44  0.52  0.60  0.58  0.42  0.41
+yoloworld        0.05  0.16  0.29  0.14  0.02  0.03
+  [xy] no true-prompt log for grids ['groundingdino', 'owlv2', 'sam3', 'yoloworld']; generate with (vps-orchestrator):
+    python orchestrator/run_inference.py --models groundingdino owlv2 sam3 yoloworld \
+        --manifest data/renders_framing_falsepositive/groundingdino/framing_manifest.jsonl \
+        --output data/renders_framing_falsepositive/groundingdino/framing_true_inference_log.jsonl
+    python orchestrator/run_inference.py --models groundingdino owlv2 sam3 yoloworld \
+        --manifest data/renders_framing_falsepositive/owlv2/framing_manifest.jsonl \
+        --output data/renders_framing_falsepositive/owlv2/framing_true_inference_log.jsonl
+    python orchestrator/run_inference.py --models groundingdino owlv2 sam3 yoloworld \
+        --manifest data/renders_framing_falsepositive/sam3/framing_manifest.jsonl \
+        --output data/renders_framing_falsepositive/sam3/framing_true_inference_log.jsonl
+    python orchestrator/run_inference.py --models groundingdino owlv2 sam3 yoloworld \
+        --manifest data/renders_framing_falsepositive/yoloworld/framing_manifest.jsonl \
+        --output data/renders_framing_falsepositive/yoloworld/framing_true_inference_log.jsonl
+    (to compare models like-for-like, also re-run the --false-positive pass with all models on each grid; the images are already rendered)
+
+[xy] logs not found, skipped
+
+[bench] logs not found, skipped
+
+wrote /home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/analysis_confusion/
+note: precision depends on the target:non-target ratio printed per experiment, so compare precision only within an experiment; recall, FPR and MCC are ratio-independent.

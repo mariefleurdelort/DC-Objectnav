@@ -1,0 +1,17 @@
+experiment,model,image_id,model_id,true_category,query_category,is_target,detected,iou,score,g1,g2,rgb_path
+main,clip,bathtub/cf373495a56049f6be1692ca6463aa2a/elev+60_az120,cf373495a56049f6be1692ca6463aa2a,bathtub,bathtub,True,False,0.0,,60,120,data/renders/bathtub/cf373495a56049f6be1692ca6463aa2a/elev+60_az120_rgb.png
+main,clip,cabinet/64edd65e1ec7492ebb7c1a8b0cb1f5eb/elev-60_az120,64edd65e1ec7492ebb7c1a8b0cb1f5eb,cabinet,cabinet,True,False,0.0,,-60,120,data/renders/cabinet/64edd65e1ec7492ebb7c1a8b0cb1f5eb/elev-60_az120_rgb.png
+main,clip,table/a0d133b0871e46bbb454d0dd58e3ac7c/elev+90_az330,a0d133b0871e46bbb454d0dd58e3ac7c,table,table,True,False,0.0,,90,330,data/renders/table/a0d133b0871e46bbb454d0dd58e3ac7c/elev+90_az330_rgb.png
+main,clip,chair/83c7586454d24b82ab7fa697efd4b9af/elev+30_az180,83c7586454d24b82ab7fa697efd4b9af,chair,chair,True,False,0.0,,30,180,data/renders/chair/83c7586454d24b82ab7fa697efd4b9af/elev+30_az180_rgb.png
+main,clip,lamp/1829bc2edec44901a2f7032fe2c5090f/elev+90_az270,1829bc2edec44901a2f7032fe2c5090f,lamp,lamp,True,False,0.0,,90,270,data/renders/lamp/1829bc2edec44901a2f7032fe2c5090f/elev+90_az270_rgb.png
+main,clip,bed/0cb0a6704c8a4fbd967039998a9d76ac/elev+0_az240,0cb0a6704c8a4fbd967039998a9d76ac,bed,bed,True,False,0.0,,0,240,data/renders/bed/0cb0a6704c8a4fbd967039998a9d76ac/elev+0_az240_rgb.png
+main,clip,sofa/2aef33f2add148a7af1cadfeea487dd0/elev+30_az270,2aef33f2add148a7af1cadfeea487dd0,sofa,sofa,True,False,0.0,,30,270,data/renders/sofa/2aef33f2add148a7af1cadfeea487dd0/elev+30_az270_rgb.png
+main,clip,lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev-60_az180,3f4c5e992fef4eb1bad58e576ce197a6,lamp,lamp,True,False,0.0,,-60,180,data/renders/lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev-60_az180_rgb.png
+main,clip,lamp/fae0a272f36846f2b2e80b8c318ebc0b/elev+0_az210,fae0a272f36846f2b2e80b8c318ebc0b,lamp,lamp,True,False,0.0,,0,210,data/renders/lamp/fae0a272f36846f2b2e80b8c318ebc0b/elev+0_az210_rgb.png
+main,clip,bed/c017f22cb89f449995d054ba1d1ddd25/elev+90_az120,c017f22cb89f449995d054ba1d1ddd25,bed,bed,True,False,0.0,,90,120,data/renders/bed/c017f22cb89f449995d054ba1d1ddd25/elev+90_az120_rgb.png
+main,clip,chair/304253851afd493d958fc8e256c189df/elev+60_az090,304253851afd493d958fc8e256c189df,chair,chair,True,False,0.0,,60,90,data/renders/chair/304253851afd493d958fc8e256c189df/elev+60_az090_rgb.png
+main,clip,cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev+30_az150,cfbcb02c981e4a6c92b6c86fb5ced91d,cabinet,cabinet,True,False,0.0,,30,150,data/renders/cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev+30_az150_rgb.png
+main,clip,table/72ea9b9996e147ef8400a213e9346c5d/elev+90_az030,72ea9b9996e147ef8400a213e9346c5d,table,table,True,False,0.0,,90,30,data/renders/table/72ea9b9996e147ef8400a213e9346c5d/elev+90_az030_rgb.png
+main,clip,bed/0776052b361b4002aba142e6ec6bd01e/elev+90_az150,0776052b361b4002aba142e6ec6bd01e,bed,bed,True,False,0.0,,90,150,data/renders/bed/0776052b361b4002aba142e6ec6bd01e/elev+90_az150_rgb.png
+main,clip,sofa/b7f5c725a61b4bd6a28d80e3c453d373/elev+30_az090,b7f5c725a61b4bd6a28d80e3c453d373,sofa,sofa,True,False,0.0,,30,90,data/renders/sofa/b7f5c725a61b4bd6a28d80e3c453d373/elev+30_az090_rgb.png
+main,clip,lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev-60_az240,3f4c5e992fef4eb1bad58e576ce197a6,lamp,lamp,True,False,0.0,,-60,240,data/renders/lamp/3f4c5e992fef4eb1bad58e576ce197a6/elev-60_az240_rgb.png

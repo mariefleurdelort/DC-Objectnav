@@ -1,0 +1,127 @@
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:198: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(parts, ignore_index=True), ("Y offset (deg)", "X offset (deg)")
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+  [main/true] dropping 96 of 67575 rows with inference errors
+      clip: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+      gemini: 95 errors, e.g. ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_
+  [main/false] dropping 2 of 67480 rows with inference errors
+      clip: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+      rex_omni: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+
+=== main: 67479 target / 67478 non-target queries (1:1.0) ===
+          model   TP   FP   FN   TN  precision  recall    f1   fpr    mcc  f1_presence        f1_ci95  n_instances
+  groundingdino 8444 9631 1196    9      0.467   0.876 0.609 0.999 -0.254        0.666 [0.595, 0.622]          155
+          owlv2 1396   82 8244 9558      0.945   0.145 0.251 0.009  0.256        0.273 [0.202, 0.303]          155
+           sam3 3565  928 6075 8712      0.793   0.370 0.504 0.096  0.324        0.547 [0.442, 0.564]          155
+      yoloworld  699  479 8941 9161      0.593   0.073 0.129 0.050  0.048        0.138 [0.100, 0.160]          155
+locate_anything 5401 2612 4239 7028      0.674   0.560 0.612 0.271  0.294        0.646 [0.574, 0.650]          155
+       rex_omni 7712 7883 1928 1756      0.495   0.800 0.611 0.818 -0.023        0.665 [0.593, 0.627]          155
+           clip 1635  786 8004 8853      0.675   0.170 0.271 0.082  0.133        0.613 [0.220, 0.327]          155
+  mislocalized target hits (counted as FN): groundingdino=1186, owlv2=139, sam3=411, yoloworld=49, locate_anything=438, rex_omni=1011, clip=2968
+  FPs whose box sits on the real object: groundingdino=8634, owlv2=74, sam3=821, yoloworld=437, locate_anything=2450, rex_omni=6966, clip=289
+  mean F1 by elevation (deg):
+elevation (deg)   -60   -30    0     30    60    90
+model                                              
+groundingdino    0.60  0.60  0.58  0.62  0.63  0.61
+owlv2            0.15  0.35  0.43  0.30  0.11  0.07
+sam3             0.44  0.52  0.60  0.58  0.42  0.41
+yoloworld        0.05  0.16  0.29  0.14  0.02  0.03
+locate_anything  0.60  0.65  0.67  0.66  0.52  0.56
+rex_omni         0.60  0.62  0.61  0.62  0.61  0.61
+clip             0.24  0.32  0.35  0.26  0.23  0.21
+  best-F1 threshold per model (within the logged range):
+          model  score_threshold  precision  recall    f1   fpr    mcc
+           clip            0.300      0.675   0.170 0.271 0.082  0.133
+  groundingdino            0.300      0.467   0.876 0.609 0.999 -0.254
+locate_anything            0.300      0.674   0.560 0.612 0.271  0.294
+          owlv2            0.300      0.945   0.145 0.251 0.009  0.256
+       rex_omni            0.300      0.495   0.800 0.611 0.818 -0.023
+           sam3            0.300      0.793   0.370 0.504 0.096  0.324
+      yoloworld            0.300      0.593   0.073 0.129 0.050  0.048
+  [xy/groundingdino/true] dropping 89280 of 89280 rows with inference errors
+      groundingdino: 22320 errors, e.g. HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /detect (Caused by NewConnectionError('<urllib3.connection.H
+      owlv2: 22320 errors, e.g. HTTPConnectionPool(host='localhost', port=8003): Max retries exceeded with url: /detect (Caused by NewConnectionError('<urllib3.connection.H
+      sam3: 22320 errors, e.g. HTTPConnectionPool(host='localhost', port=8004): Max retries exceeded with url: /detect (Caused by NewConnectionError('<urllib3.connection.H
+      yoloworld: 22320 errors, e.g. HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /detect (Caused by NewConnectionError('<urllib3.connection.H
+  [xy/groundingdino/true] WARNING: EVERY row is an error (servers not running? wrong env?). Fix the cause, then re-run that inference pass.
+  [xy/owlv2/true] dropping 1022 of 1022 rows with inference errors
+      groundingdino: 256 errors, e.g. 500 Server Error: Internal Server Error for url: http://localhost:8002/detect
+      owlv2: 256 errors, e.g. 500 Server Error: Internal Server Error for url: http://localhost:8003/detect
+      sam3: 255 errors, e.g. 500 Server Error: Internal Server Error for url: http://localhost:8004/detect
+      yoloworld: 255 errors, e.g. 500 Server Error: Internal Server Error for url: http://localhost:8001/detect
+  [xy/owlv2/true] WARNING: EVERY row is an error (servers not running? wrong env?). Fix the cause, then re-run that inference pass.
+  [xy] no true-prompt log for grids ['sam3', 'yoloworld']. Generate them (images are already rendered):
+   # the 4 server models (vps-orchestrator, servers running):
+    python orchestrator/run_inference.py --models groundingdino owlv2 sam3 yoloworld \
+        --manifest v1/data/renders_framing_falsepositive/sam3/framing_manifest.jsonl \
+        --output v1/data/renders_framing_falsepositive/sam3/framing_true_inference_log.jsonl
+    python orchestrator/run_inference.py --models groundingdino owlv2 sam3 yoloworld \
+        --manifest v1/data/renders_framing_falsepositive/yoloworld/framing_manifest.jsonl \
+        --output v1/data/renders_framing_falsepositive/yoloworld/framing_true_inference_log.jsonl
+   # the large VLMs (each in its own env), right word then wrong word:
+    python run_vlm_inference.py --model locate_anything --manifest v1/data/renders_framing_falsepositive/sam3/framing_manifest.jsonl
+    python run_vlm_inference.py --model locate_anything --manifest v1/data/renders_framing_falsepositive/sam3/framing_manifest.jsonl --false-positive --false-map v1
+    python run_vlm_inference.py --model locate_anything --manifest v1/data/renders_framing_falsepositive/yoloworld/framing_manifest.jsonl
+    python run_vlm_inference.py --model locate_anything --manifest v1/data/renders_framing_falsepositive/yoloworld/framing_manifest.jsonl --false-positive --false-map v1
+    (repeat the VLM lines with --model rex_omni / gemini / gpt; to compare the server models like-for-like, also re-run their --false-positive pass with all 4 models on each grid)
+
+  [xy] WARNING: incomplete logs, so recall/F1/MCC are NOT meaningful for:
+     no right-word (target) results: ['groundingdino', 'owlv2']  -> TP/FN missing, recall & F1 undefined
+
+=== xy: 0 target / 24768 non-target queries (1:24768.0) ===
+        model  TP    FP  FN   TN  precision  recall    f1   fpr  mcc  f1_presence        f1_ci95  n_instances
+groundingdino   0 22269   0   51      0.000     NaN 0.000 0.998  NaN        0.000 [0.000, 0.000]          155
+        owlv2   0   557   0 1891      0.000     NaN 0.000 0.228  NaN        0.000 [0.000, 0.000]           17
+  mislocalized target hits (counted as FN): groundingdino=0, owlv2=0
+  FPs whose box sits on the real object: groundingdino=19504, owlv2=520
+  mean F1 by Y offset (deg):
+Y offset (deg)  -40.0  -32.7  -25.5  -18.2  -10.9  -3.6    3.6    10.9   18.2   25.5   32.7   40.0
+model                                                                                             
+groundingdino     0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0
+owlv2             0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    NaN
+  best-F1 threshold per model (within the logged range):
+        model  score_threshold  precision  recall    f1   fpr  mcc
+groundingdino            0.300      0.000     NaN 0.000 0.998  NaN
+        owlv2            0.300      0.000     NaN 0.000 0.228  NaN
+  [bench] dropping 23983 of 94499 rows with inference errors
+      groundingdino: 2988 errors, e.g. HTTPConnectionPool(host='localhost', port=8002): Max retries exceeded with url: /detect (Caused by NewConnectionError("HTTPConnection(host='
+      owlv2: 2988 errors, e.g. HTTPConnectionPool(host='localhost', port=8003): Max retries exceeded with url: /detect (Caused by NewConnectionError("HTTPConnection(host='
+      sam3: 15019 errors, e.g. 500 Server Error: Internal Server Error for url: http://localhost:8004/detect
+      yoloworld: 2988 errors, e.g. HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /detect (Caused by NewConnectionError("HTTPConnection(host='
+  ignoring 918 non-target queries on ambiguous pairs [('desk', 'table')]
+
+=== bench: 5138 target / 64460 non-target queries (1:12.5) ===
+          model  TP    FP  FN    TN  precision  recall    f1   fpr    mcc  f1_presence        f1_ci95  n_instances
+  groundingdino 815 11009  46     7      0.069   0.947 0.128 0.999 -0.205        0.135 [0.109, 0.144]           33
+          owlv2 132   150 729 10867      0.468   0.153 0.231 0.014  0.238        0.234 [0.142, 0.313]           33
+      yoloworld  78   297 783 10720      0.208   0.091 0.126 0.027  0.094        0.129 [0.076, 0.173]           33
+locate_anything 697  3107 395 10636      0.183   0.638 0.285 0.226  0.247        0.293 [0.234, 0.327]           40
+       rex_omni 352  2929  19   995      0.107   0.949 0.193 0.746  0.134        0.200 [0.180, 0.208]           12
+           clip 140   765 952 12978      0.155   0.128 0.140 0.056  0.079        0.398 [0.077, 0.216]           40
+  mislocalized target hits (counted as FN): groundingdino=43, owlv2=2, yoloworld=2, locate_anything=24, rex_omni=14, clip=321
+  FPs whose box sits on the real object: groundingdino=10084, owlv2=118, yoloworld=251, locate_anything=2871, rex_omni=2646, clip=320
+  mean F1 by elevation (deg):
+elevation (deg)   -60   -30    0     30    60    90
+model                                              
+groundingdino    0.14  0.12  0.13  0.13  0.13  0.12
+owlv2            0.12  0.28  0.44  0.29  0.06  0.07
+yoloworld        0.03  0.17  0.26  0.12  0.02  0.00
+locate_anything  0.29  0.31  0.37  0.31  0.22  0.22
+rex_omni         0.18  0.19  0.22  0.20  0.19  0.18
+clip             0.10  0.17  0.16  0.15  0.13  0.13
+  best-F1 threshold per model (within the logged range):
+          model  score_threshold  precision  recall    f1   fpr   mcc
+           clip            0.300      0.155   0.128 0.140 0.056 0.079
+  groundingdino            0.900      0.104   0.358 0.161 0.240 0.070
+locate_anything            0.300      0.183   0.638 0.285 0.226 0.247
+          owlv2            0.300      0.468   0.153 0.231 0.014 0.238
+       rex_omni            0.300      0.107   0.949 0.193 0.746 0.134
+      yoloworld            0.300      0.208   0.091 0.126 0.027 0.094
+
+wrote v1/analysis_confusion/
+note: precision depends on the target:non-target ratio printed per experiment, so compare precision only within an experiment; recall, FPR and MCC are ratio-independent.

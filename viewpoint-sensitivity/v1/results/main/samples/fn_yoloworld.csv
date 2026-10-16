@@ -1,0 +1,17 @@
+experiment,model,image_id,model_id,true_category,query_category,is_target,detected,iou,score,g1,g2,rgb_path
+main,yoloworld,sofa/5979a6cd55854243abbd5554d309f073/elev+60_az300,5979a6cd55854243abbd5554d309f073,sofa,sofa,True,False,0.0,,60,300,data/renders/sofa/5979a6cd55854243abbd5554d309f073/elev+60_az300_rgb.png
+main,yoloworld,cabinet/b7e25d2b684747c08e90b8cf446bdb43/elev+0_az090,b7e25d2b684747c08e90b8cf446bdb43,cabinet,cabinet,True,False,0.0,,0,90,data/renders/cabinet/b7e25d2b684747c08e90b8cf446bdb43/elev+0_az090_rgb.png
+main,yoloworld,chair/19b2c1893f084653ab226cc3faf27c96/elev+30_az210,19b2c1893f084653ab226cc3faf27c96,chair,chair,True,False,0.0,,30,210,data/renders/chair/19b2c1893f084653ab226cc3faf27c96/elev+30_az210_rgb.png
+main,yoloworld,bathtub/0849e24b30184cd78220783b8c185a8f/elev-30_az120,0849e24b30184cd78220783b8c185a8f,bathtub,bathtub,True,False,0.0,,-30,120,data/renders/bathtub/0849e24b30184cd78220783b8c185a8f/elev-30_az120_rgb.png
+main,yoloworld,bookshelf/2b808687faa541dcb5a1987cea250c73/elev+60_az120,2b808687faa541dcb5a1987cea250c73,bookshelf,bookshelf,True,False,0.0,,60,120,data/renders/bookshelf/2b808687faa541dcb5a1987cea250c73/elev+60_az120_rgb.png
+main,yoloworld,chair/c5f49f97856c461a8192fb950ce23540/elev+60_az330,c5f49f97856c461a8192fb950ce23540,chair,chair,True,False,0.0,,60,330,data/renders/chair/c5f49f97856c461a8192fb950ce23540/elev+60_az330_rgb.png
+main,yoloworld,lamp/317dac94ec404bdbaa6d41a85e04f51c/elev+90_az090,317dac94ec404bdbaa6d41a85e04f51c,lamp,lamp,True,False,0.0,,90,90,data/renders/lamp/317dac94ec404bdbaa6d41a85e04f51c/elev+90_az090_rgb.png
+main,yoloworld,bathtub/fd612e2ea8e94d80ac3b8097eb2e5bbe/elev+60_az030,fd612e2ea8e94d80ac3b8097eb2e5bbe,bathtub,bathtub,True,False,0.0,,60,30,data/renders/bathtub/fd612e2ea8e94d80ac3b8097eb2e5bbe/elev+60_az030_rgb.png
+main,yoloworld,cabinet/f0ba5dbf90134d39bb1839770f4e88c9/elev-60_az150,f0ba5dbf90134d39bb1839770f4e88c9,cabinet,cabinet,True,False,0.0,,-60,150,data/renders/cabinet/f0ba5dbf90134d39bb1839770f4e88c9/elev-60_az150_rgb.png
+main,yoloworld,sofa/e8a03b14310c40239365f166d325d671/elev+0_az090,e8a03b14310c40239365f166d325d671,sofa,sofa,True,False,0.0,,0,90,data/renders/sofa/e8a03b14310c40239365f166d325d671/elev+0_az090_rgb.png
+main,yoloworld,cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev-60_az090,cfbcb02c981e4a6c92b6c86fb5ced91d,cabinet,cabinet,True,False,0.0,,-60,90,data/renders/cabinet/cfbcb02c981e4a6c92b6c86fb5ced91d/elev-60_az090_rgb.png
+main,yoloworld,table/cee1570d79fb4114a8709fc1d08a05ac/elev+0_az210,cee1570d79fb4114a8709fc1d08a05ac,table,table,True,False,0.0,,0,210,data/renders/table/cee1570d79fb4114a8709fc1d08a05ac/elev+0_az210_rgb.png
+main,yoloworld,bed/ef7e34822e60420ca3a3a6d4a4509a95/elev+90_az270,ef7e34822e60420ca3a3a6d4a4509a95,bed,bed,True,False,0.0,,90,270,data/renders/bed/ef7e34822e60420ca3a3a6d4a4509a95/elev+90_az270_rgb.png
+main,yoloworld,lamp/1829bc2edec44901a2f7032fe2c5090f/elev+60_az120,1829bc2edec44901a2f7032fe2c5090f,lamp,lamp,True,False,0.0,,60,120,data/renders/lamp/1829bc2edec44901a2f7032fe2c5090f/elev+60_az120_rgb.png
+main,yoloworld,lamp/77774d22076940aa8484e053bb14947a/elev+90_az000,77774d22076940aa8484e053bb14947a,lamp,lamp,True,False,0.0,,90,0,data/renders/lamp/77774d22076940aa8484e053bb14947a/elev+90_az000_rgb.png
+main,yoloworld,table/db9344bf45ca434fbdf4dcefab54e5c2/elev-30_az180,db9344bf45ca434fbdf4dcefab54e5c2,table,table,True,False,0.0,,-30,180,data/renders/table/db9344bf45ca434fbdf4dcefab54e5c2/elev-30_az180_rgb.png

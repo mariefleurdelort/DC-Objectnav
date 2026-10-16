@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrrrrrrrrr}
+\toprule
+Model & Images & Precision & Recall & F1 [95\% CI] & FPR & FNR & F0.5 (FP-weighted) & MCC & F1 (box) & F1 range over elev. & Worst elev. & FPR range & Worst FPR elev. \\
+\midrule
+CLIP & 1092 & 0.376 & 0.422 & 0.398 [0.302, 0.490] & 5.6\% & 57.8\% & 0.384 & 0.348 & n/a & 0.150 & 60° & 1.5\% & 90° \\
+YOLO-World & 1094 & 0.210 & 0.076 & 0.111 [0.070, 0.151] & 2.3\% & 92.4\% & 0.155 & 0.086 & 0.109 & 0.249 & 90° & 4.3\% & 0° \\
+OWLv2 & 1094 & 0.478 & 0.127 & 0.201 [0.119, 0.282] & 1.1\% & 87.3\% & 0.308 & 0.219 & 0.197 & 0.352 & 60° & 1.0\% & 0° \\
+LocateAnything & 1092 & 0.188 & 0.660 & 0.293 [0.249, 0.338] & 22.6\% & 34.0\% & 0.220 & 0.259 & 0.285 & 0.144 & 60° & 9.8\% & 90° \\
+Rex-Omni & 1092 & 0.096 & 0.924 & 0.173 [0.150, 0.194] & 69.5\% & 7.6\% & 0.116 & 0.132 & 0.162 & 0.025 & 60° & 10.5\% & -60° \\
+\bottomrule
+\end{tabular}
+\caption{Presence-scored detection on the 12-word benchmark (every image asked every word); right word: TP/FN, wrong word: FP/TN. F1 CI: bootstrap over object instances. Ranges: max minus min across camera elevations.}
+\end{table}

@@ -1,0 +1,63 @@
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+  [main/true] dropping 96 of 67575 rows with inference errors
+      clip: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+      gemini: 95 errors, e.g. ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_
+  [main/false] dropping 2 of 67480 rows with inference errors
+      clip: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+      rex_omni: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+
+Presence-scored detection on the viewpoint sweep (1 right + 1 wrong word per image); right word: TP/FN, wrong word: FP/TN
+         Model  Images Precision Recall          F1 [95% CI]   FPR   FNR   MCC F1 (box) F1 range over elev. Worst elev. FPR range
+          SAM3    9640     0.811  0.412 0.547 [0.492, 0.600]  9.6% 58.8% 0.363    0.504               0.188         60°      9.2%
+          CLIP    9639     0.854  0.478 0.613 [0.562, 0.655]  8.2% 52.2% 0.441      n/a               0.226         60°      2.2%
+    YOLO-World    9640     0.610  0.078 0.138 [0.108, 0.168]  5.0% 92.2% 0.057    0.129               0.292         60°     12.1%
+         OWLv2    9640     0.949  0.159 0.273 [0.221, 0.322]  0.9% 84.1% 0.272    0.251               0.375         90°      1.7%
+LocateAnything    9640     0.691  0.606 0.646 [0.608, 0.682] 27.1% 39.4% 0.337    0.612               0.160         60°     14.1%
+      Rex-Omni    9640     0.525  0.905 0.665 [0.649, 0.678] 81.8%  9.5% 0.126    0.611               0.041         90°      5.6%
+
+F1 by camera elevation:
+elevation         -60    -30     0      30     60     90
+model                                                   
+SAM3            0.461  0.557  0.640  0.633  0.452  0.487
+CLIP            0.570  0.679  0.736  0.626  0.510  0.515
+YOLO-World      0.059  0.183  0.313  0.141  0.021  0.028
+OWLv2           0.160  0.360  0.472  0.327  0.125  0.097
+LocateAnything  0.626  0.681  0.710  0.688  0.550  0.595
+Rex-Omni        0.664  0.675  0.684  0.675  0.645  0.643
+
+wrote v1/results/main/ (results_table.csv/.md/.tex, per_elevation.csv/.md, viewpoint_sensitivity.png)
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/confusion_metrics.py:85: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(dfs, ignore_index=True) if dfs else None
+  [main/true] dropping 96 of 67575 rows with inference errors
+      clip: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+      gemini: 95 errors, e.g. ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_
+  [main/false] dropping 2 of 67480 rows with inference errors
+      clip: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+      rex_omni: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+
+How many false positives a different viewpoint fixes (main, strict = FP gone AND object still found [presence])
+         Model  False positives Persistent (no view fixes) Fixed ≤30° (strict) Fixed ≤60° (strict) Fixed ≤90° (strict) Random 30° move fixes Fixed ≤90° (loose)
+ GroundingDINO             9631                       100%                  0%                  0%                  1%                    0%                 2%
+         OWLv2               82                         0%                 56%                 85%                 99%                   25%               100%
+          SAM3              928                        21%                 26%                 50%                 58%                   14%                97%
+    YOLO-World              479                         0%                 19%                 40%                 58%                    8%               100%
+LocateAnything             2612                        36%                 30%                 62%                 73%                   18%                95%
+      Rex-Omni             7883                        88%                 14%                 37%                 48%                    7%                63%
+          CLIP              786                         0%                 35%                 74%                 90%                   19%               100%
+
+% of false positives fixed within 60° (strict), by elevation where the failure happened:
+elevation        -60   -30    0     30     60    90
+CLIP            80.0  74.0  77.0  85.0   83.0  50.0
+GroundingDINO    1.0   1.0   0.0   0.0    0.0   0.0
+LocateAnything  66.0  55.0  53.0  64.0   73.0  65.0
+OWLv2           43.0  88.0  81.0  96.0  100.0   NaN
+Rex-Omni        31.0  30.0  30.0  42.0   46.0  41.0
+SAM3            43.0  53.0  39.0  55.0   75.0  50.0
+YOLO-World      38.0  44.0  36.0  50.0   50.0  25.0
+
+wrote v1/results/fp_resolution_main*.csv/.md/.png

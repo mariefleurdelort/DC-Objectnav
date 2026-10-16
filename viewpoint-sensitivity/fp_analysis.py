@@ -309,6 +309,25 @@ def part4_rotation(main, framing, out):
         fig.tight_layout()
         fig.savefig(out / f"4_rotation_{m}.png", dpi=150)
         plt.close(fig)
+    # one heatmap per false-positive seed viewpoint: 
+    # 1 = still a false positive after orbiting (d_az, d_el) away from that seed,
+    # 0 = the model self-corrected
+    seed_dir = out / "4_rotation_per_seed"
+    keys = ["model", "category", "model_id", "base_elevation_deg", "base_azimuth_deg"]
+    n = 0
+    for (m, cat, mid, be, ba), d in rel.groupby(keys):
+        piv = d.pivot_table(index="d_elevation_deg", columns="d_azimuth_deg",
+                            values="false_positive", aggfunc="max").astype(float)
+        fig, ax = plt.subplots(figsize=(7, 3.6))
+        heatmap(ax, piv, f"{m} | {cat} {mid[:8]} | seed elev {be:.0f}, az {ba:.0f} "
+                         f"| FP at {int(d['false_positive'].sum())}/{len(d)} views",
+                vmax=1, xlabel="azimuth change from seed (deg)", ylabel="elevation change from seed (deg)")
+        (seed_dir / m).mkdir(parents=True, exist_ok=True)
+        fig.tight_layout()
+        fig.savefig(seed_dir / m / f"{cat}_{mid[:8]}_e{be:.0f}_a{ba:.0f}.png", dpi=120)
+        plt.close(fig)
+        n += 1
+    print(f"  wrote {n} per-seed rotation heatmaps to {seed_dir}/<model>/")
     return pooled
 
 def main():

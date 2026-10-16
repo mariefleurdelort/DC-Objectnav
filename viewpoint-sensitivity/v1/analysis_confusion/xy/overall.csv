@@ -1,0 +1,3 @@
+model,TP,FP,FN,TN,mislocalized,FP_on_object,TP_presence,FN_presence,precision,recall,f1,specificity,fpr,balanced_acc,mcc,precision_presence,recall_presence,f1_presence,n_instances,precision_ci95,recall_ci95,f1_ci95
+groundingdino,0,22269,0,51,0,19504,0,0,0.0,,0.0,0.00228494623655914,0.9977150537634408,,,0.0,,0.0,155,"[0.000, 0.000]","[nan, nan]","[0.000, 0.000]"
+owlv2,0,557,0,1891,0,520,0,0,0.0,,0.0,0.7724673202614379,0.22753267973856206,,,0.0,,0.0,17,"[0.000, 0.000]","[nan, nan]","[0.000, 0.000]"

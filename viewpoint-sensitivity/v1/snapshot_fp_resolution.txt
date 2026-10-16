@@ -1,0 +1,24 @@
+  [main/true] dropping 95 of 57935 rows with inference errors
+      gemini: 95 errors, e.g. ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_
+  [main/false] dropping 1 of 53757 rows with inference errors
+      rex_omni: 1 errors, e.g. UnidentifiedImageError: cannot identify image file '/home/marie/projects/DC-ObjectNav/viewpoint-sensitivity/data/renders/chair/fab9443d48e24
+
+How many false positives a different viewpoint fixes (main, strict = FP gone AND object still found [presence])
+         Model  False positives Persistent (no view fixes) Fixed ≤30° (strict) Fixed ≤60° (strict) Fixed ≤90° (strict) Random 30° move fixes Fixed ≤90° (loose)
+ GroundingDINO             9631                       100%                  0%                  0%                  1%                    0%                 2%
+         OWLv2               82                         0%                 56%                 85%                 99%                   25%               100%
+          SAM3              928                        21%                 26%                 50%                 58%                   14%                97%
+    YOLO-World              479                         0%                 19%                 40%                 58%                    8%               100%
+LocateAnything             2612                        36%                 30%                 62%                 73%                   18%                95%
+      Rex-Omni             4766                        92%                 15%                 43%                 57%                    6%                67%
+
+% of false positives fixed within 60° (strict), by elevation where the failure happened:
+elevation        -60   -30    0     30     60    90
+GroundingDINO    1.0   1.0   0.0   0.0    0.0   0.0
+LocateAnything  66.0  55.0  53.0  64.0   73.0  65.0
+OWLv2           43.0  88.0  81.0  96.0  100.0   NaN
+Rex-Omni        35.0  34.0  32.0  50.0   54.0  51.0
+SAM3            43.0  53.0  39.0  55.0   75.0  50.0
+YOLO-World      38.0  44.0  36.0  50.0   50.0  25.0
+
+wrote v1/results/fp_resolution_main*.csv/.md/.png

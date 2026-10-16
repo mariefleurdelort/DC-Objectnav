@@ -1,0 +1,11 @@
+experiment,model,image_id,model_id,true_category,query_category,is_target,detected,iou,score,g1,g2,rgb_path
+main,groundingdino,table/0fd1d0546f8e422b97a4fd5cfe959d2e/elev-60_az330,0fd1d0546f8e422b97a4fd5cfe959d2e,table,table,True,False,0.0,,-60,330,data/renders/table/0fd1d0546f8e422b97a4fd5cfe959d2e/elev-60_az330_rgb.png
+main,groundingdino,bathtub/50ad43bae77448149a89d7f547ee958d/elev+30_az120,50ad43bae77448149a89d7f547ee958d,bathtub,bathtub,True,False,0.0,,30,120,data/renders/bathtub/50ad43bae77448149a89d7f547ee958d/elev+30_az120_rgb.png
+main,groundingdino,bed/dc3024aa5e234f4299641f072558b9a8/elev-30_az060,dc3024aa5e234f4299641f072558b9a8,bed,bed,True,False,0.0,,-30,60,data/renders/bed/dc3024aa5e234f4299641f072558b9a8/elev-30_az060_rgb.png
+main,groundingdino,bathtub/50ad43bae77448149a89d7f547ee958d/elev+30_az180,50ad43bae77448149a89d7f547ee958d,bathtub,bathtub,True,False,0.0,,30,180,data/renders/bathtub/50ad43bae77448149a89d7f547ee958d/elev+30_az180_rgb.png
+main,groundingdino,table/72ea9b9996e147ef8400a213e9346c5d/elev-60_az000,72ea9b9996e147ef8400a213e9346c5d,table,table,True,False,0.0,,-60,0,data/renders/table/72ea9b9996e147ef8400a213e9346c5d/elev-60_az000_rgb.png
+main,groundingdino,bed/dc3024aa5e234f4299641f072558b9a8/elev+0_az060,dc3024aa5e234f4299641f072558b9a8,bed,bed,True,False,0.0,,0,60,data/renders/bed/dc3024aa5e234f4299641f072558b9a8/elev+0_az060_rgb.png
+main,groundingdino,lamp/317dac94ec404bdbaa6d41a85e04f51c/elev-30_az270,317dac94ec404bdbaa6d41a85e04f51c,lamp,lamp,True,False,0.0,,-30,270,data/renders/lamp/317dac94ec404bdbaa6d41a85e04f51c/elev-30_az270_rgb.png
+main,groundingdino,cabinet/82e38b32baed40d080454474595e82f3/elev-30_az150,82e38b32baed40d080454474595e82f3,cabinet,cabinet,True,False,0.0,,-30,150,data/renders/cabinet/82e38b32baed40d080454474595e82f3/elev-30_az150_rgb.png
+main,groundingdino,chair/99ef536b8f174b9496516bed69368f46/elev+0_az330,99ef536b8f174b9496516bed69368f46,chair,chair,True,False,0.0,,0,330,data/renders/chair/99ef536b8f174b9496516bed69368f46/elev+0_az330_rgb.png
+main,groundingdino,bed/dc3024aa5e234f4299641f072558b9a8/elev-30_az120,dc3024aa5e234f4299641f072558b9a8,bed,bed,True,False,0.0,,-30,120,data/renders/bed/dc3024aa5e234f4299641f072558b9a8/elev-30_az120_rgb.png

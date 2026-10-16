@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+Model & Images & Precision & Recall & F1 [95\% CI] & FPR & FNR & MCC & F1 (box) & F1 range over elev. & Worst elev. & FPR range \\
+\midrule
+SAM3 & 9640 & 0.811 & 0.412 & 0.547 [0.492, 0.600] & 9.6\% & 58.8\% & 0.363 & 0.504 & 0.188 & 60° & 9.2\% \\
+YOLO-World & 9640 & 0.610 & 0.078 & 0.138 [0.108, 0.168] & 5.0\% & 92.2\% & 0.057 & 0.129 & 0.292 & 60° & 12.1\% \\
+OWLv2 & 9640 & 0.949 & 0.159 & 0.273 [0.221, 0.322] & 0.9\% & 84.1\% & 0.272 & 0.251 & 0.375 & 90° & 1.7\% \\
+LocateAnything & 9640 & 0.691 & 0.606 & 0.646 [0.608, 0.682] & 27.1\% & 39.4\% & 0.337 & 0.612 & 0.160 & 60° & 14.1\% \\
+Rex-Omni & 6197 & 1.000 & 0.945 & 0.972 [0.958, 0.983] & n/a & 5.5\% & n/a & 0.920 & 0.044 & 60° & n/a \\
+\bottomrule
+\end{tabular}
+\caption{Presence-scored detection on the viewpoint sweep (right word: TP/FN; wrong word: FP/TN). F1 CI: bootstrap over object instances. Ranges: max minus min across camera elevations.}
+\end{table}
